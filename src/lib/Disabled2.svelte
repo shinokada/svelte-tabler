@@ -1,9 +1,26 @@
-<script>export let size="16"; export let color="currentColor";export let ariaLabel="disabled 2" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <desc>Download more icon variants from https://tabler-icons.io/i/disabled-2</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <circle cx="17" cy="6" r="2" />
-  <path d="M9 11a5 5 0 1 0 3.95 7.95" />
-  <path d="M19 20l-4 -5h-4l3 -5l-4 -3l-4 1" />
+<script>
+	export let size = '16';
+	export let color = 'currentColor';
+	export let ariaLabel = 'disabled 2';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	class={$$props.class}
+	width={size}
+	height={size}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 24 24"
+	stroke-width="2"
+	stroke={color}
+	fill="none"
+	stroke-linecap="round"
+	stroke-linejoin="round"
+>
+	<desc>Download more icon variants from https://tabler-icons.io/i/disabled-2</desc>
+	<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+	<circle cx="17" cy="6" r="2" />
+	<path d="M9 11a5 5 0 1 0 3.95 7.95" />
+	<path d="M19 20l-4 -5h-4l3 -5l-4 -3l-4 1" />
 </svg>
-
-

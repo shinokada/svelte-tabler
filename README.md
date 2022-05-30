@@ -26,7 +26,8 @@ npm i -D svelte-tabler
 
 ## REPL
 
-[Demo](https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=3.48.0)
+- [Demo 1](https://svelte.dev/repl/55ccaffe3d414235a6bb554ffd98f4bc?version=3.48.0)
+- [Demo 2](https://svelte.dev/repl/b63ed92a79a047bdb2017fac63624130?version=3.48.0)
 
 ## Usages
 
@@ -35,15 +36,13 @@ In a svelte file:
 ```html
 <script>
 	import {
-		BankFillBUILDINGS,
-		MailDownloadFillBUSINESS,
-		InboxUnarchiveLineBUSINESS
+		Folders,
+		GitMerge,
 	} from 'svelte-tabler';
 </script>
 
-<BankFillBUILDINGS />
-<MailDownloadFillBUSINESS />
-<InboxUnarchiveLineBUSINESS />
+<Folders />
+<GitMerge />
 ```
 
 ## Size
@@ -51,9 +50,8 @@ In a svelte file:
 Use the `size` prop to change the size of icons.
 
 ```html
-<BankFillBUILDINGS size="40" />
-<MailDownloadFillBUSINESS size="40" />
-<InboxUnarchiveLineBUSINESS size="40" />
+<Folders size="40" />
+<GitMerge size="40" />
 ```
 
 ## CSS HEX Colors
@@ -61,9 +59,8 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<BankFillBUILDINGS color="#c61515" />
-<MailDownloadFillBUSINESS color="#3759e5" />
-<InboxUnarchiveLineBUSINESS color="#3fe537" />
+<Folders color="#c61515" />
+<GitMerge color="#3759e5" />
 ```
 
 ## CSS framworks suport
@@ -73,13 +70,13 @@ Use the `class` prop to change size, colors and add additional css.
 Tailwind CSS example:
 
 ```html
-<BankFillBUILDINGS class="h-24 w-24 text-blue-700 mr-4" />
+<Folders class="h-24 w-24 text-blue-700 mr-4" />
 ```
 
 Bootstrap examples:
 
 ```html
-<BankFillBUILDINGS class="position-absolute top-0 px-1" />
+<Folders class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -89,16 +86,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<BankFillBUILDINGS class="text-blue-700 dark:text-red-500" />
+<Folders class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `BankFillBUILDINGS` has `aria-label="bank fill buildings"`.
+All icons have aria-label. For example `FolderMinus` has `aria-label="folder minux"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<BankFillBUILDINGS ariaLabel="bank buildings svg icon" />
+<FolderMinus ariaLabel="folder minux svg icon" />
 ```
 
 ## Passing down other attributes
@@ -106,31 +103,31 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 You can pass other attibutes as well.
 
 ```html
-<BankFillBUILDINGS tabindex="0" />
+<FolderMinus tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
 <script>
-	import { BankFillBUILDINGS } from 'svelte-tabler';
+	import { FolderMinus } from 'svelte-tabler';
 </script>
 
-<svelte:component this="{BankFillBUILDINGS}" />
+<svelte:component this="{FolderMinus}" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-	import { BankFillBUILDINGS } from 'svelte-tabler';
+	import { FolderMinus } from 'svelte-tabler';
 	import { onMount } from 'svelte';
 	const props = {
 		size: '50',
 		color: '#ff0000'
 	};
 	onMount(() => {
-		const icon = new BankFillBUILDINGS({ target: document.body, props });
+		const icon = new FolderMinus({ target: document.body, props });
 	});
 </script>
 ```
@@ -144,19 +141,19 @@ Use `import * as Icon from 'svelte-tabler`.
 	import * as Icon from 'svelte-tabler';
 </script>
 
-<Icon.BankFillBUILDINGS />
-<Icon.MailDownloadFillBUSINESS />
+<Icon.FolderMinus />
+<Icon.GitMerge />
 
 <h1>Size</h1>
-<Icon.BankFillBUILDINGS size="30" />
-<Icon.MailDownloadFillBUSINESS size="40" />
+<Icon.FolderMinus size="30" />
+<Icon.GitMerge size="40" />
 
 <h1>CSS HEX color</h1>
-<Icon.BankFillBUILDINGS color="#c61515" size="40" />
+<Icon.GitMerge color="#c61515" size="40" />
 
 <h1>Tailwind CSS</h1>
-<Icon.BankFillBUILDINGS class="text-blue-500" />
-<Icon.MailDownloadFillBUSINESS class="text-pink-700" />
+<Icon.FolderMinus class="text-blue-500" />
+<Icon.GitMerge class="text-pink-700" />
 ```
 
 ## Other icons

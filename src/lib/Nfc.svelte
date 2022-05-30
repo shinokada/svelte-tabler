@@ -1,9 +1,26 @@
-<script>export let size="16"; export let color="currentColor";export let ariaLabel="nfc" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <desc>Download more icon variants from https://tabler-icons.io/i/nfc</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M11 20a3 3 0 0 1 -3 -3v-11l5 5" />
-  <path d="M13 4a3 3 0 0 1 3 3v11l-5 -5" />
-  <rect x="4" y="4" width="16" height="16" rx="3" />
+<script>
+	export let size = '16';
+	export let color = 'currentColor';
+	export let ariaLabel = 'nfc';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	class={$$props.class}
+	width={size}
+	height={size}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 24 24"
+	stroke-width="2"
+	stroke={color}
+	fill="none"
+	stroke-linecap="round"
+	stroke-linejoin="round"
+>
+	<desc>Download more icon variants from https://tabler-icons.io/i/nfc</desc>
+	<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+	<path d="M11 20a3 3 0 0 1 -3 -3v-11l5 5" />
+	<path d="M13 4a3 3 0 0 1 3 3v11l-5 -5" />
+	<rect x="4" y="4" width="16" height="16" rx="3" />
 </svg>
-
-
