@@ -1,27 +1,27 @@
 <script>
-	export let size = '16';
-	export let color = 'currentColor';
-	export let ariaLabel = 'mood suprised';
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'mood suprised';
 </script>
 
 <svg
-	xmlns="http://www.w3.org/2000/svg"
-	class={$$props.class}
-	width={size}
-	height={size}
-	{...$$restProps}
-	aria-label={ariaLabel}
-	viewBox="0 0 24 24"
-	stroke-width="2"
-	stroke={color}
-	fill="none"
-	stroke-linecap="round"
-	stroke-linejoin="round"
+  xmlns="http://www.w3.org/2000/svg"
+  class={$$props.class}
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  viewBox="0 0 24 24"
+  stroke-width="2"
+  stroke={color}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
 >
-	<desc>Download more icon variants from https://tabler-icons.io/i/mood-suprised</desc>
-	<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-	<circle cx="12" cy="12" r="9" />
-	<line x1="9" y1="9" x2="9.01" y2="9" />
-	<line x1="15" y1="9" x2="15.01" y2="9" />
-	<circle cx="12" cy="15" r="2" />
+  <desc>Download more icon variants from https://tabler-icons.io/i/mood-suprised</desc>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <circle cx="12" cy="12" r="9" />
+  <line x1="9" y1="9" x2="9.01" y2="9" />
+  <line x1="15" y1="9" x2="15.01" y2="9" />
+  <circle cx="12" cy="15" r="2" />
 </svg>

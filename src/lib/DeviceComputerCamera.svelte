@@ -1,26 +1,26 @@
 <script>
-	export let size = '16';
-	export let color = 'currentColor';
-	export let ariaLabel = 'device computer camera';
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'device computer camera';
 </script>
 
 <svg
-	xmlns="http://www.w3.org/2000/svg"
-	class={$$props.class}
-	width={size}
-	height={size}
-	{...$$restProps}
-	aria-label={ariaLabel}
-	viewBox="0 0 24 24"
-	stroke-width="2"
-	stroke={color}
-	fill="none"
-	stroke-linecap="round"
-	stroke-linejoin="round"
+  xmlns="http://www.w3.org/2000/svg"
+  class={$$props.class}
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  viewBox="0 0 24 24"
+  stroke-width="2"
+  stroke={color}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
 >
-	<desc>Download more icon variants from https://tabler-icons.io/i/device-computer-camera</desc>
-	<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-	<circle cx="12" cy="10" r="7" />
-	<circle cx="12" cy="10" r="3" />
-	<path d="M8 16l-2.091 3.486a1 1 0 0 0 .857 1.514h10.468a1 1 0 0 0 .857 -1.514l-2.091 -3.486" />
+  <desc>Download more icon variants from https://tabler-icons.io/i/device-computer-camera</desc>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <circle cx="12" cy="10" r="7" />
+  <circle cx="12" cy="10" r="3" />
+  <path d="M8 16l-2.091 3.486a1 1 0 0 0 .857 1.514h10.468a1 1 0 0 0 .857 -1.514l-2.091 -3.486" />
 </svg>

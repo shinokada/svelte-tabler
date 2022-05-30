@@ -1,25 +1,25 @@
 <script>
-	export let size = '16';
-	export let color = 'currentColor';
-	export let ariaLabel = 'number 0';
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'number 0';
 </script>
 
 <svg
-	xmlns="http://www.w3.org/2000/svg"
-	class={$$props.class}
-	width={size}
-	height={size}
-	{...$$restProps}
-	aria-label={ariaLabel}
-	viewBox="0 0 24 24"
-	stroke-width="2"
-	stroke={color}
-	fill="none"
-	stroke-linecap="round"
-	stroke-linejoin="round"
+  xmlns="http://www.w3.org/2000/svg"
+  class={$$props.class}
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  viewBox="0 0 24 24"
+  stroke-width="2"
+  stroke={color}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
 >
-	<desc>Download more icon variants from https://tabler-icons.io/i/number-0</desc>
-	<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-	<path d="M16 16v-8" />
-	<path d="M12 20a4 4 0 0 0 4 -4v-8a4 4 0 1 0 -8 0v8a4 4 0 0 0 4 4z" />
+  <desc>Download more icon variants from https://tabler-icons.io/i/number-0</desc>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M16 16v-8" />
+  <path d="M12 20a4 4 0 0 0 4 -4v-8a4 4 0 1 0 -8 0v8a4 4 0 0 0 4 4z" />
 </svg>

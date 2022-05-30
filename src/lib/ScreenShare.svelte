@@ -1,29 +1,29 @@
 <script>
-	export let size = '16';
-	export let color = 'currentColor';
-	export let ariaLabel = 'screen share';
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'screen share';
 </script>
 
 <svg
-	xmlns="http://www.w3.org/2000/svg"
-	class={$$props.class}
-	width={size}
-	height={size}
-	{...$$restProps}
-	aria-label={ariaLabel}
-	viewBox="0 0 24 24"
-	stroke-width="2"
-	stroke={color}
-	fill="none"
-	stroke-linecap="round"
-	stroke-linejoin="round"
+  xmlns="http://www.w3.org/2000/svg"
+  class={$$props.class}
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  viewBox="0 0 24 24"
+  stroke-width="2"
+  stroke={color}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
 >
-	<desc>Download more icon variants from https://tabler-icons.io/i/screen-share</desc>
-	<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-	<path d="M21 12v3a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h9" />
-	<line x1="7" y1="20" x2="17" y2="20" />
-	<line x1="9" y1="16" x2="9" y2="20" />
-	<line x1="15" y1="16" x2="15" y2="20" />
-	<path d="M17 4h4v4" />
-	<path d="M16 9l5 -5" />
+  <desc>Download more icon variants from https://tabler-icons.io/i/screen-share</desc>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M21 12v3a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h9" />
+  <line x1="7" y1="20" x2="17" y2="20" />
+  <line x1="9" y1="16" x2="9" y2="20" />
+  <line x1="15" y1="16" x2="15" y2="20" />
+  <path d="M17 4h4v4" />
+  <path d="M16 9l5 -5" />
 </svg>

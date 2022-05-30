@@ -1,27 +1,27 @@
 <script>
-	export let size = '16';
-	export let color = 'currentColor';
-	export let ariaLabel = 'zodiac gemini';
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'zodiac gemini';
 </script>
 
 <svg
-	xmlns="http://www.w3.org/2000/svg"
-	class={$$props.class}
-	width={size}
-	height={size}
-	{...$$restProps}
-	aria-label={ariaLabel}
-	viewBox="0 0 24 24"
-	stroke-width="2"
-	stroke={color}
-	fill="none"
-	stroke-linecap="round"
-	stroke-linejoin="round"
+  xmlns="http://www.w3.org/2000/svg"
+  class={$$props.class}
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  viewBox="0 0 24 24"
+  stroke-width="2"
+  stroke={color}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
 >
-	<desc>Download more icon variants from https://tabler-icons.io/i/zodiac-gemini</desc>
-	<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-	<path d="M3 3a21 21 0 0 0 18 0" />
-	<path d="M3 21a21 21 0 0 1 18 0" />
-	<line x1="7" y1="4.5" x2="7" y2="19.5" />
-	<line x1="17" y1="4.5" x2="17" y2="19.5" />
+  <desc>Download more icon variants from https://tabler-icons.io/i/zodiac-gemini</desc>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M3 3a21 21 0 0 0 18 0" />
+  <path d="M3 21a21 21 0 0 1 18 0" />
+  <line x1="7" y1="4.5" x2="7" y2="19.5" />
+  <line x1="17" y1="4.5" x2="17" y2="19.5" />
 </svg>

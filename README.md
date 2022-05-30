@@ -35,7 +35,7 @@ In a svelte file:
 
 ```html
 <script>
-	import { Folders, GitMerge } from 'svelte-tabler';
+  import { Folders, GitMerge } from 'svelte-tabler';
 </script>
 
 <Folders />
@@ -105,7 +105,7 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-	import { FolderMinus } from 'svelte-tabler';
+  import { FolderMinus } from 'svelte-tabler';
 </script>
 
 <svelte:component this="{FolderMinus}" />
@@ -115,15 +115,15 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-	import { FolderMinus } from 'svelte-tabler';
-	import { onMount } from 'svelte';
-	const props = {
-		size: '50',
-		color: '#ff0000'
-	};
-	onMount(() => {
-		const icon = new FolderMinus({ target: document.body, props });
-	});
+  import { FolderMinus } from 'svelte-tabler';
+  import { onMount } from 'svelte';
+  const props = {
+    size: '50',
+    color: '#ff0000'
+  };
+  onMount(() => {
+    const icon = new FolderMinus({ target: document.body, props });
+  });
 </script>
 ```
 
@@ -133,7 +133,7 @@ Use `import * as Icon from 'svelte-tabler`.
 
 ```html
 <script>
-	import * as Icon from 'svelte-tabler';
+  import * as Icon from 'svelte-tabler';
 </script>
 
 <Icon.FolderMinus />
