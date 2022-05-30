@@ -1,4 +1,4 @@
-<script>export let size="16"; export let color="currentColor";export let ariaLabel="mug off" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="mug off" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
   <desc>Download more icon variants from https://tabler-icons.io/i/mug-off</desc>
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M9 5h5.917a1.08 1.08 0 0 1 1.083 1.077v5.923m-.167 3.88a4.33 4.33 0 0 1 -4.166 3.12h-4.334c-2.393 0 -4.333 -1.929 -4.333 -4.308v-8.615a1.08 1.08 0 0 1 1.083 -1.077h.917" />

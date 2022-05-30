@@ -1,4 +1,4 @@
-<script>export let size="16"; export let color="currentColor";export let ariaLabel="tools kitchen 2 off" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="tools kitchen 2 off" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
   <desc>Download more icon variants from https://tabler-icons.io/i/tools-kitchen-2-off</desc>
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M14.386 10.409c.53 -2.28 1.766 -4.692 4.614 -7.409v12m-4 0h-1c-.002 -.313 -.002 -.627 .002 -.941" />
