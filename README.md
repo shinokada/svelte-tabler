@@ -35,10 +35,7 @@ In a svelte file:
 
 ```html
 <script>
-	import {
-		Folders,
-		GitMerge,
-	} from 'svelte-tabler';
+	import { Folders, GitMerge } from 'svelte-tabler';
 </script>
 
 <Folders />
@@ -50,8 +47,7 @@ In a svelte file:
 Use the `size` prop to change the size of icons.
 
 ```html
-<Folders size="40" />
-<GitMerge size="40" />
+<Folders size="40" /> <GitMerge size="40" />
 ```
 
 ## CSS HEX Colors
@@ -59,8 +55,7 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<Folders color="#c61515" />
-<GitMerge color="#3759e5" />
+<Folders color="#c61515" /> <GitMerge color="#3759e5" />
 ```
 
 ## CSS framworks suport
