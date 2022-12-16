@@ -1,7 +1,15 @@
-# Svelte-Tabler
+<h1 align="center">Svelte-Tabler</h1>
 
-[![npm version](https://badgen.net/npm/v/svelte-tabler)](https://www.npmjs.com/package/svelte-tabler)
-[![license](https://badgen.net/npm/license/svelte-tabler)](https://github.com/shinokada/svelte-tabler/blob/main/LICENSE)
+<p align="center">
+<a href="https://shinokada.github.io/svelte-tabler/">Svelte-Tabler</a>
+</p>
+
+<p align="center">
+<a href="https://www.npmjs.com/package/svelte-tabler" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-tabler" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-tabler" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-tabler" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-tabler.svg" alt="npm"></a>
+</p>
 
 1970+ SVG [Tabler Icons](https://github.com/tabler/tabler-icons) components for Svelte. Svelte-Tabler support major CSS frameworks using the `class` props.
 
@@ -14,9 +22,6 @@
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-tabler/main/static/images/tabler6.webp" />
 </p>
 
-## Icon name list
-
-[Icon list](https://github.com/shinokada/svelte-tabler/blob/main/icon-list.md)
 
 ## Installation
 
@@ -24,10 +29,14 @@
 npm i -D svelte-tabler
 ```
 
+## Icon name list
+
+[Icon list](https://github.com/shinokada/svelte-tabler/blob/main/icon-list.md)
+
 ## REPL
 
-- [Demo 1](https://svelte.dev/repl/55ccaffe3d414235a6bb554ffd98f4bc?version=3.48.0)
-- [Demo 2](https://svelte.dev/repl/b63ed92a79a047bdb2017fac63624130?version=3.48.0)
+- [Demo 1](https://svelte.dev/repl/55ccaffe3d414235a6bb554ffd98f4bc)
+- [Demo 2](https://svelte.dev/repl/b63ed92a79a047bdb2017fac63624130)
 
 ## Usages
 
