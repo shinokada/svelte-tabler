@@ -8,7 +8,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-tabler/issues",
-  "homepage": "https://github.com/shinokada/svelte-tabler",
+  "homepage": "https://shinokada.github.io/svelte-tabler",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",

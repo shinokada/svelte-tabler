@@ -22,7 +22,6 @@
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-tabler/main/static/images/tabler6.webp" />
 </p>
 
-
 ## Installation
 
 ```sh
