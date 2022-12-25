@@ -1,7 +1,7 @@
 <h1 align="center">Svelte-Tabler</h1>
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-tabler/">Svelte-Tabler</a>
+<a href="https://svelte-tabler.codewithshin.com/">Svelte-Tabler</a>
 </p>
 
 <p align="center">
