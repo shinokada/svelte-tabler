@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.8](https://github.com/shinokada/svelte-tabler/compare/v0.1.7...v0.1.8) (2023-02-01)
 
-
 ### Features
 
-* add pwa ([b946df7](https://github.com/shinokada/svelte-tabler/commit/b946df7800c96a183f608ef0b0d2766e3199c87f))
+- add pwa ([b946df7](https://github.com/shinokada/svelte-tabler/commit/b946df7800c96a183f608ef0b0d2766e3199c87f))
 
 ### [0.1.7](https://github.com/shinokada/svelte-tabler/compare/v0.1.6...v0.1.7) (2022-12-25)
 

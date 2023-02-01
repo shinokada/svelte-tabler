@@ -7,5 +7,3 @@
 ## Back to Home
 
 [Back to Home](/)
-
-
