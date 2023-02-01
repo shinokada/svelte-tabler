@@ -1978,3 +1978,7 @@
 - ZoomOutArea
 - ZoomPan
 - ZoomQuestion
+
+## Back to Home
+
+[Back to Home](/)

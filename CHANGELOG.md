@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.7](https://github.com/shinokada/svelte-tabler/compare/v0.1.6...v0.1.7) (2022-12-25)
 
-
 ### Bug Fixes
 
-* url updates ([24016b6](https://github.com/shinokada/svelte-tabler/commit/24016b6ef4df905af1eee330355076079daccaf7))
+- url updates ([24016b6](https://github.com/shinokada/svelte-tabler/commit/24016b6ef4df905af1eee330355076079daccaf7))
 
 ### [0.1.6](https://github.com/shinokada/svelte-tabler/compare/v0.1.5...v0.1.6) (2022-12-16)
 

@@ -1,10 +1,11 @@
-<h1 align="center">Svelte-Tabler</h1>
+<h1 align="center">Svelte Tabler</h1>
 
 <p align="center">
 <a href="https://svelte-tabler.codewithshin.com/">Svelte-Tabler</a>
 </p>
 
 <p align="center">
+<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"><img src="https://img.shields.io/badge/PWA-enabled-brightgreen" alt="PWA Shield"></a>
 <a href="https://www.npmjs.com/package/svelte-tabler" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-tabler" alt="npm"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
 <a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-tabler" alt="License"></a>
@@ -14,12 +15,7 @@
 1970+ SVG [Tabler Icons](https://github.com/tabler/tabler-icons) components for Svelte. Svelte-Tabler support major CSS frameworks using the `class` props.
 
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-tabler/main/static/images/tabler1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-tabler/main/static/images/tabler2.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-tabler/main/static/images/tabler3.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-tabler/main/static/images/tabler4.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-tabler/main/static/images/tabler5.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-tabler/main/static/images/tabler6.webp" />
+<img width="650" src="/static/images/tabler-optimized-650-1050.png" />
 </p>
 
 ## Installation
@@ -28,9 +24,13 @@
 npm i -D svelte-tabler
 ```
 
-## Icon name list
+## Icon names
 
-[Icon list](https://github.com/shinokada/svelte-tabler/blob/main/icon-list.md)
+[Icon list](/icon-list.md)
+
+## Icon images
+
+[Icon images](/icon-images.md)
 
 ## REPL
 
@@ -162,3 +162,10 @@ Use `import * as Icon from 'svelte-tabler`.
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+
+## PWA: Fast & Offline
+
+This website can be downloaded and installed on your device for offline access as a Progressive Web App.
+
+To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and looking for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install".
+
