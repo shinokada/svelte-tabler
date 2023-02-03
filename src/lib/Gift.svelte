@@ -1,27 +1,9 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'gift';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/gift</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <rect x="3" y="8" width="18" height="4" rx="1" />
-  <line x1="12" y1="8" x2="12" y2="21" />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="gift" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 8m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+  <path d="M12 8l0 13" />
   <path d="M19 12v7a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-7" />
   <path d="M7.5 8a2.5 2.5 0 0 1 0 -5a4.8 8 0 0 1 4.5 5a4.8 8 0 0 1 4.5 -5a2.5 2.5 0 0 1 0 5" />
 </svg>
+
+

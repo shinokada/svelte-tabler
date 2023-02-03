@@ -1,27 +1,9 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'notes';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/notes</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <rect x="5" y="3" width="14" height="18" rx="2" />
-  <line x1="9" y1="7" x2="15" y2="7" />
-  <line x1="9" y1="11" x2="15" y2="11" />
-  <line x1="9" y1="15" x2="13" y2="15" />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="notes" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+  <path d="M9 7l6 0" />
+  <path d="M9 11l6 0" />
+  <path d="M9 15l4 0" />
 </svg>
+
+

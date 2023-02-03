@@ -1,27 +1,9 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'switch horizontal';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/switch-horizontal</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <polyline points="16 3 20 7 16 11" />
-  <line x1="10" y1="7" x2="20" y2="7" />
-  <polyline points="8 13 4 17 8 21" />
-  <line x1="4" y1="17" x2="13" y2="17" />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="switch horizontal" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M16 3l4 4l-4 4" />
+  <path d="M10 7l10 0" />
+  <path d="M8 13l-4 4l4 4" />
+  <path d="M4 17l9 0" />
 </svg>
+
+

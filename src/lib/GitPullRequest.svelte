@@ -1,29 +1,11 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'git pull request';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/git-pull-request</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <circle cx="6" cy="18" r="2" />
-  <circle cx="6" cy="6" r="2" />
-  <circle cx="18" cy="18" r="2" />
-  <line x1="6" y1="8" x2="6" y2="16" />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="git pull request" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M6 8l0 8" />
   <path d="M11 6h5a2 2 0 0 1 2 2v8" />
-  <polyline points="14 9 11 6 14 3" />
+  <path d="M14 9l-3 -3l3 -3" />
 </svg>
+
+

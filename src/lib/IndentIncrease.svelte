@@ -1,27 +1,9 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'indent increase';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/indent-increase</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <line x1="20" y1="6" x2="9" y2="6" />
-  <line x1="20" y1="12" x2="13" y2="12" />
-  <line x1="20" y1="18" x2="9" y2="18" />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="indent increase" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 6l-11 0" />
+  <path d="M20 12l-7 0" />
+  <path d="M20 18l-11 0" />
   <path d="M4 8l4 4l-4 4" />
 </svg>
+
+

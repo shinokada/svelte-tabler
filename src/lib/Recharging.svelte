@@ -1,25 +1,5 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'recharging';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/recharging</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="recharging" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M7.038 4.5a9 9 0 0 0 -2.495 2.47" />
   <path d="M3.186 10.209a9 9 0 0 0 0 3.508" />
   <path d="M4.5 16.962a9 9 0 0 0 2.47 2.495" />
@@ -31,3 +11,5 @@
   <path d="M12 8l-2 4h4l-2 4" />
   <path d="M12 21a9 9 0 0 0 0 -18" />
 </svg>
+
+

@@ -1,32 +1,14 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'brightness down';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/brightness-down</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <circle cx="12" cy="12" r="3" />
-  <line x1="12" y1="5" x2="12" y2="5.01" />
-  <line x1="17" y1="7" x2="17" y2="7.01" />
-  <line x1="19" y1="12" x2="19" y2="12.01" />
-  <line x1="17" y1="17" x2="17" y2="17.01" />
-  <line x1="12" y1="19" x2="12" y2="19.01" />
-  <line x1="7" y1="17" x2="7" y2="17.01" />
-  <line x1="5" y1="12" x2="5" y2="12.01" />
-  <line x1="7" y1="7" x2="7" y2="7.01" />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="brightness down" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M12 5l0 .01" />
+  <path d="M17 7l0 .01" />
+  <path d="M19 12l0 .01" />
+  <path d="M17 17l0 .01" />
+  <path d="M12 19l0 .01" />
+  <path d="M7 17l0 .01" />
+  <path d="M5 12l0 .01" />
+  <path d="M7 7l0 .01" />
 </svg>
+
+

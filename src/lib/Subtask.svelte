@@ -1,28 +1,10 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'subtask';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/subtask</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <line x1="6" y1="9" x2="12" y2="9" />
-  <line x1="4" y1="5" x2="8" y2="5" />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="subtask" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M6 9l6 0" />
+  <path d="M4 5l4 0" />
   <path d="M6 5v11a1 1 0 0 0 1 1h5" />
-  <rect x="12" y="7" width="8" height="4" rx="1" />
-  <rect x="12" y="15" width="8" height="4" rx="1" />
+  <path d="M12 7m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+  <path d="M12 15m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
 </svg>
+
+

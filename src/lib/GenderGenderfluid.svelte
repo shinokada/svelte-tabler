@@ -1,30 +1,8 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'gender genderfluid';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/gender-genderfluid</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <g transform="rotate(30 -2.778 22.523)">
-    <circle cx="4.759" cy="6.021" r="4" />
-    <path d="M8.758 6.02v-6" />
-    <path d="M.758 12.02v-6" />
-  </g>
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="gender genderfluid" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M10 15.464a4 4 0 1 0 4 -6.928a4 4 0 0 0 -4 6.928z" />
+  <path d="M15.464 14l3 -5.196" />
+  <path d="M5.536 15.195l3 -5.196" />
   <path d="M12 12h.01" />
   <path d="M9 9l-6 -6" />
   <path d="M5.5 8.5l3 -3" />
@@ -32,3 +10,5 @@
   <path d="M17 20l3 -3" />
   <path d="M3 7v-4h4" />
 </svg>
+
+

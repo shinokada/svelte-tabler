@@ -1,27 +1,9 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'mood empty';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/mood-empty</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <circle cx="12" cy="12" r="9" />
-  <line x1="9" y1="10" x2="9.01" y2="10" />
-  <line x1="15" y1="10" x2="15.01" y2="10" />
-  <line x1="9" y1="15" x2="15" y2="15" />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="mood empty" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M9 10l.01 0" />
+  <path d="M15 10l.01 0" />
+  <path d="M9 15l6 0" />
 </svg>
+
+

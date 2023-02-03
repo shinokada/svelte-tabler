@@ -1,25 +1,5 @@
-<script>
-  export let size = '16';
-  export let color = 'currentColor';
-  export let ariaLabel = 'directions off';
-</script>
-
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  class={$$props.class}
-  width={size}
-  height={size}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 24 24"
-  stroke-width="2"
-  stroke={color}
-  fill="none"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <desc>Download more icon variants from https://tabler-icons.io/i/directions-off</desc>
-  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+<script>export let size="16"; export let color="currentColor";export let ariaLabel="directions off" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M12 21v-4" />
   <path d="M12 13v-1" />
   <path d="M12 5v-2" />
@@ -28,3 +8,5 @@
   <path d="M14 14v3h-8l-2 -2l2 -2h7" />
   <path d="M3 3l18 18" />
 </svg>
+
+
