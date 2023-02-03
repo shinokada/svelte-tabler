@@ -1,5 +1,24 @@
-<script>export let size="16"; export let color="currentColor";export let ariaLabel="abacus off" </script><svg xmlns="http://www.w3.org/2000/svg" class={$$props.class} width={size} height={size}  {...$$restProps} aria-label={ariaLabel} viewBox="0 0 24 24" stroke-width="2" stroke={color} fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+<script>
+  export let size = '16';
+  export let color = 'currentColor';
+  export let ariaLabel = 'abacus off';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  class={$$props.class}
+  width={size}
+  height={size}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  viewBox="0 0 24 24"
+  stroke-width="2"
+  stroke={color}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path d="M5 5v16" />
   <path d="M19 21v-2m0 -4v-12" />
   <path d="M5 7h2m4 0h8" />
@@ -13,5 +32,3 @@
   <path d="M3 21h18" />
   <path d="M3 3l18 18" />
 </svg>
-
-

@@ -5,6 +5,7 @@
     return '#' + n.slice(0, 6);
   };
 </script>
+
 <Icon.A123 size="40" color={random_hex_color_code()} />
 <Icon.A24Hours size="40" color={random_hex_color_code()} />
 <Icon.A2Fa size="40" color={random_hex_color_code()} />
