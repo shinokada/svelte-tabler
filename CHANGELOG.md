@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/shinokada/svelte-tabler/compare/v0.2.1...v0.3.1) (2023-02-22)
+
+
+### Features
+
+* add microsoft webmaster tools meta tag ([312841a](https://github.com/shinokada/svelte-tabler/commit/312841a810c70a839d3db4404610bc8aa63b8a94))
+* new svelte packaging system ([a0c4a6d](https://github.com/shinokada/svelte-tabler/commit/a0c4a6dd887b9a8fd54bc23702911f803cb3680d))
+* new svelte packaging system 2 ([b7f1f6b](https://github.com/shinokada/svelte-tabler/commit/b7f1f6b84cc4775d49849d48977c6a1c3656b283))
+
+
+### Bug Fixes
+
+* update index.html ([0535729](https://github.com/shinokada/svelte-tabler/commit/05357292fcf5a3589f79ba29bae4405c64c8ec17))
+
 ### [0.2.1](https://github.com/shinokada/svelte-tabler/compare/v0.2.0...v0.2.1) (2023-02-03)
 
 ## [0.2.0](https://github.com/shinokada/svelte-tabler/compare/v0.1.9...v0.2.0) (2023-02-03)
