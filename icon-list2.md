@@ -1,5 +1,3 @@
-# Icon list
-
 - A123.svelte
 - A24Hours.svelte
 - A2Fa.svelte
@@ -4158,7 +4156,3 @@
 - ZoomReset.svelte
 - Zzz.svelte
 - ZzzOff.svelte
-
-## Back to Home
-
-[Back to Home](/)
