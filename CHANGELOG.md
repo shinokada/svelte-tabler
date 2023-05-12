@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/shinokada/svelte-tabler/compare/v0.3.2...v0.4.1) (2023-05-12)
+
+
+### Features
+
+* add events ([8be4e59](https://github.com/shinokada/svelte-tabler/commit/8be4e59245590ded0f4b971c0d9cda08204dd6e4))
+* packag.json update ([04e9801](https://github.com/shinokada/svelte-tabler/commit/04e980175002aeb69d5e8c60ede762bd43d7a031))
+
 ### [0.3.2](https://github.com/shinokada/svelte-tabler/compare/v0.3.1...v0.3.2) (2023-03-07)
 
 
