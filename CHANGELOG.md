@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://github.com/shinokada/svelte-tabler/compare/v0.4.1...v0.4.2) (2023-05-31)
+
+
+### Features
+
+* add component docs ([49d9e59](https://github.com/shinokada/svelte-tabler/commit/49d9e59ff7a78508a98edfa52a7e34526818d10a))
+
 ### [0.4.1](https://github.com/shinokada/svelte-tabler/compare/v0.3.2...v0.4.1) (2023-05-12)
 
 ### Features
