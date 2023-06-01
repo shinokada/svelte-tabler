@@ -30,7 +30,7 @@
     "dist"
   ],
   "peerDependencies": {
-    "svelte": "^3.54.0"
+    "svelte": "^3.54.0 || ^4.0.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.33.0",
@@ -670,6 +670,10 @@
     "./Archive.svelte": {
       "types": "./dist/Archive.svelte.d.ts",
       "svelte": "./dist/Archive.svelte"
+    },
+    "./ArchiveFilled.svelte": {
+      "types": "./dist/ArchiveFilled.svelte.d.ts",
+      "svelte": "./dist/ArchiveFilled.svelte"
     },
     "./ArchiveOff.svelte": {
       "types": "./dist/ArchiveOff.svelte.d.ts",
@@ -1407,6 +1411,10 @@
       "types": "./dist/Artboard.svelte.d.ts",
       "svelte": "./dist/Artboard.svelte"
     },
+    "./ArtboardFilled.svelte": {
+      "types": "./dist/ArtboardFilled.svelte.d.ts",
+      "svelte": "./dist/ArtboardFilled.svelte"
+    },
     "./ArtboardOff.svelte": {
       "types": "./dist/ArtboardOff.svelte.d.ts",
       "svelte": "./dist/ArtboardOff.svelte"
@@ -1659,6 +1667,10 @@
       "types": "./dist/Balloon.svelte.d.ts",
       "svelte": "./dist/Balloon.svelte"
     },
+    "./BalloonFilled.svelte": {
+      "types": "./dist/BalloonFilled.svelte.d.ts",
+      "svelte": "./dist/BalloonFilled.svelte"
+    },
     "./BalloonOff.svelte": {
       "types": "./dist/BalloonOff.svelte.d.ts",
       "svelte": "./dist/BalloonOff.svelte"
@@ -1666,6 +1678,10 @@
     "./Ballpen.svelte": {
       "types": "./dist/Ballpen.svelte.d.ts",
       "svelte": "./dist/Ballpen.svelte"
+    },
+    "./BallpenFilled.svelte": {
+      "types": "./dist/BallpenFilled.svelte.d.ts",
+      "svelte": "./dist/BallpenFilled.svelte"
     },
     "./BallpenOff.svelte": {
       "types": "./dist/BallpenOff.svelte.d.ts",
@@ -2099,6 +2115,10 @@
       "types": "./dist/Bomb.svelte.d.ts",
       "svelte": "./dist/Bomb.svelte"
     },
+    "./BombFilled.svelte": {
+      "types": "./dist/BombFilled.svelte.d.ts",
+      "svelte": "./dist/BombFilled.svelte"
+    },
     "./Bone.svelte": {
       "types": "./dist/Bone.svelte.d.ts",
       "svelte": "./dist/Bone.svelte"
@@ -2127,6 +2147,10 @@
       "types": "./dist/BookDownload.svelte.d.ts",
       "svelte": "./dist/BookDownload.svelte"
     },
+    "./BookFilled.svelte": {
+      "types": "./dist/BookFilled.svelte.d.ts",
+      "svelte": "./dist/BookFilled.svelte"
+    },
     "./BookOff.svelte": {
       "types": "./dist/BookOff.svelte.d.ts",
       "svelte": "./dist/BookOff.svelte"
@@ -2142,6 +2166,10 @@
     "./BookmarkEdit.svelte": {
       "types": "./dist/BookmarkEdit.svelte.d.ts",
       "svelte": "./dist/BookmarkEdit.svelte"
+    },
+    "./BookmarkFilled.svelte": {
+      "types": "./dist/BookmarkFilled.svelte.d.ts",
+      "svelte": "./dist/BookmarkFilled.svelte"
     },
     "./BookmarkMinus.svelte": {
       "types": "./dist/BookmarkMinus.svelte.d.ts",
@@ -2239,6 +2267,10 @@
       "types": "./dist/Bottle.svelte.d.ts",
       "svelte": "./dist/Bottle.svelte"
     },
+    "./BottleFilled.svelte": {
+      "types": "./dist/BottleFilled.svelte.d.ts",
+      "svelte": "./dist/BottleFilled.svelte"
+    },
     "./BottleOff.svelte": {
       "types": "./dist/BottleOff.svelte.d.ts",
       "svelte": "./dist/BottleOff.svelte"
@@ -2267,33 +2299,65 @@
       "types": "./dist/BoxAlignBottom.svelte.d.ts",
       "svelte": "./dist/BoxAlignBottom.svelte"
     },
+    "./BoxAlignBottomFilled.svelte": {
+      "types": "./dist/BoxAlignBottomFilled.svelte.d.ts",
+      "svelte": "./dist/BoxAlignBottomFilled.svelte"
+    },
     "./BoxAlignBottomLeft.svelte": {
       "types": "./dist/BoxAlignBottomLeft.svelte.d.ts",
       "svelte": "./dist/BoxAlignBottomLeft.svelte"
+    },
+    "./BoxAlignBottomLeftFilled.svelte": {
+      "types": "./dist/BoxAlignBottomLeftFilled.svelte.d.ts",
+      "svelte": "./dist/BoxAlignBottomLeftFilled.svelte"
     },
     "./BoxAlignBottomRight.svelte": {
       "types": "./dist/BoxAlignBottomRight.svelte.d.ts",
       "svelte": "./dist/BoxAlignBottomRight.svelte"
     },
+    "./BoxAlignBottomRightFilled.svelte": {
+      "types": "./dist/BoxAlignBottomRightFilled.svelte.d.ts",
+      "svelte": "./dist/BoxAlignBottomRightFilled.svelte"
+    },
     "./BoxAlignLeft.svelte": {
       "types": "./dist/BoxAlignLeft.svelte.d.ts",
       "svelte": "./dist/BoxAlignLeft.svelte"
+    },
+    "./BoxAlignLeftFilled.svelte": {
+      "types": "./dist/BoxAlignLeftFilled.svelte.d.ts",
+      "svelte": "./dist/BoxAlignLeftFilled.svelte"
     },
     "./BoxAlignRight.svelte": {
       "types": "./dist/BoxAlignRight.svelte.d.ts",
       "svelte": "./dist/BoxAlignRight.svelte"
     },
+    "./BoxAlignRightFilled.svelte": {
+      "types": "./dist/BoxAlignRightFilled.svelte.d.ts",
+      "svelte": "./dist/BoxAlignRightFilled.svelte"
+    },
     "./BoxAlignTop.svelte": {
       "types": "./dist/BoxAlignTop.svelte.d.ts",
       "svelte": "./dist/BoxAlignTop.svelte"
+    },
+    "./BoxAlignTopFilled.svelte": {
+      "types": "./dist/BoxAlignTopFilled.svelte.d.ts",
+      "svelte": "./dist/BoxAlignTopFilled.svelte"
     },
     "./BoxAlignTopLeft.svelte": {
       "types": "./dist/BoxAlignTopLeft.svelte.d.ts",
       "svelte": "./dist/BoxAlignTopLeft.svelte"
     },
+    "./BoxAlignTopLeftFilled.svelte": {
+      "types": "./dist/BoxAlignTopLeftFilled.svelte.d.ts",
+      "svelte": "./dist/BoxAlignTopLeftFilled.svelte"
+    },
     "./BoxAlignTopRight.svelte": {
       "types": "./dist/BoxAlignTopRight.svelte.d.ts",
       "svelte": "./dist/BoxAlignTopRight.svelte"
+    },
+    "./BoxAlignTopRightFilled.svelte": {
+      "types": "./dist/BoxAlignTopRightFilled.svelte.d.ts",
+      "svelte": "./dist/BoxAlignTopRightFilled.svelte"
     },
     "./BoxMargin.svelte": {
       "types": "./dist/BoxMargin.svelte.d.ts",
@@ -4319,9 +4383,17 @@
       "types": "./dist/CarouselHorizontal.svelte.d.ts",
       "svelte": "./dist/CarouselHorizontal.svelte"
     },
+    "./CarouselHorizontalFilled.svelte": {
+      "types": "./dist/CarouselHorizontalFilled.svelte.d.ts",
+      "svelte": "./dist/CarouselHorizontalFilled.svelte"
+    },
     "./CarouselVertical.svelte": {
       "types": "./dist/CarouselVertical.svelte.d.ts",
       "svelte": "./dist/CarouselVertical.svelte"
+    },
+    "./CarouselVerticalFilled.svelte": {
+      "types": "./dist/CarouselVerticalFilled.svelte.d.ts",
+      "svelte": "./dist/CarouselVerticalFilled.svelte"
     },
     "./Carrot.svelte": {
       "types": "./dist/Carrot.svelte.d.ts",
@@ -5759,6 +5831,10 @@
       "types": "./dist/ConeOff.svelte.d.ts",
       "svelte": "./dist/ConeOff.svelte"
     },
+    "./ConePlus.svelte": {
+      "types": "./dist/ConePlus.svelte.d.ts",
+      "svelte": "./dist/ConePlus.svelte"
+    },
     "./Confetti.svelte": {
       "types": "./dist/Confetti.svelte.d.ts",
       "svelte": "./dist/Confetti.svelte"
@@ -6010,6 +6086,18 @@
     "./Csv.svelte": {
       "types": "./dist/Csv.svelte.d.ts",
       "svelte": "./dist/Csv.svelte"
+    },
+    "./Cube.svelte": {
+      "types": "./dist/Cube.svelte.d.ts",
+      "svelte": "./dist/Cube.svelte"
+    },
+    "./CubeOff.svelte": {
+      "types": "./dist/CubeOff.svelte.d.ts",
+      "svelte": "./dist/CubeOff.svelte"
+    },
+    "./CubePlus.svelte": {
+      "types": "./dist/CubePlus.svelte.d.ts",
+      "svelte": "./dist/CubePlus.svelte"
     },
     "./CubeSend.svelte": {
       "types": "./dist/CubeSend.svelte.d.ts",
@@ -6318,6 +6406,14 @@
     "./Cylinder.svelte": {
       "types": "./dist/Cylinder.svelte.d.ts",
       "svelte": "./dist/Cylinder.svelte"
+    },
+    "./CylinderOff.svelte": {
+      "types": "./dist/CylinderOff.svelte.d.ts",
+      "svelte": "./dist/CylinderOff.svelte"
+    },
+    "./CylinderPlus.svelte": {
+      "types": "./dist/CylinderPlus.svelte.d.ts",
+      "svelte": "./dist/CylinderPlus.svelte"
     },
     "./Dashboard.svelte": {
       "types": "./dist/Dashboard.svelte.d.ts",
@@ -7266,6 +7362,18 @@
     "./DevicesX.svelte": {
       "types": "./dist/DevicesX.svelte.d.ts",
       "svelte": "./dist/DevicesX.svelte"
+    },
+    "./Diabolo.svelte": {
+      "types": "./dist/Diabolo.svelte.d.ts",
+      "svelte": "./dist/Diabolo.svelte"
+    },
+    "./DiaboloOff.svelte": {
+      "types": "./dist/DiaboloOff.svelte.d.ts",
+      "svelte": "./dist/DiaboloOff.svelte"
+    },
+    "./DiaboloPlus.svelte": {
+      "types": "./dist/DiaboloPlus.svelte.d.ts",
+      "svelte": "./dist/DiaboloPlus.svelte"
     },
     "./Dialpad.svelte": {
       "types": "./dist/Dialpad.svelte.d.ts",
@@ -8575,6 +8683,18 @@
       "types": "./dist/FriendsOff.svelte.d.ts",
       "svelte": "./dist/FriendsOff.svelte"
     },
+    "./Frustum.svelte": {
+      "types": "./dist/Frustum.svelte.d.ts",
+      "svelte": "./dist/Frustum.svelte"
+    },
+    "./FrustumOff.svelte": {
+      "types": "./dist/FrustumOff.svelte.d.ts",
+      "svelte": "./dist/FrustumOff.svelte"
+    },
+    "./FrustumPlus.svelte": {
+      "types": "./dist/FrustumPlus.svelte.d.ts",
+      "svelte": "./dist/FrustumPlus.svelte"
+    },
     "./Function.svelte": {
       "types": "./dist/Function.svelte.d.ts",
       "svelte": "./dist/Function.svelte"
@@ -9135,6 +9255,18 @@
       "types": "./dist/HelpTriangleFilled.svelte.d.ts",
       "svelte": "./dist/HelpTriangleFilled.svelte"
     },
+    "./Hemisphere.svelte": {
+      "types": "./dist/Hemisphere.svelte.d.ts",
+      "svelte": "./dist/Hemisphere.svelte"
+    },
+    "./HemisphereOff.svelte": {
+      "types": "./dist/HemisphereOff.svelte.d.ts",
+      "svelte": "./dist/HemisphereOff.svelte"
+    },
+    "./HemispherePlus.svelte": {
+      "types": "./dist/HemispherePlus.svelte.d.ts",
+      "svelte": "./dist/HemispherePlus.svelte"
+    },
     "./Hexagon.svelte": {
       "types": "./dist/Hexagon.svelte.d.ts",
       "svelte": "./dist/Hexagon.svelte"
@@ -9334,6 +9466,30 @@
     "./HexagonOff.svelte": {
       "types": "./dist/HexagonOff.svelte.d.ts",
       "svelte": "./dist/HexagonOff.svelte"
+    },
+    "./HexagonalPrism.svelte": {
+      "types": "./dist/HexagonalPrism.svelte.d.ts",
+      "svelte": "./dist/HexagonalPrism.svelte"
+    },
+    "./HexagonalPrismOff.svelte": {
+      "types": "./dist/HexagonalPrismOff.svelte.d.ts",
+      "svelte": "./dist/HexagonalPrismOff.svelte"
+    },
+    "./HexagonalPrismPlus.svelte": {
+      "types": "./dist/HexagonalPrismPlus.svelte.d.ts",
+      "svelte": "./dist/HexagonalPrismPlus.svelte"
+    },
+    "./HexagonalPyramid.svelte": {
+      "types": "./dist/HexagonalPyramid.svelte.d.ts",
+      "svelte": "./dist/HexagonalPyramid.svelte"
+    },
+    "./HexagonalPyramidOff.svelte": {
+      "types": "./dist/HexagonalPyramidOff.svelte.d.ts",
+      "svelte": "./dist/HexagonalPyramidOff.svelte"
+    },
+    "./HexagonalPyramidPlus.svelte": {
+      "types": "./dist/HexagonalPyramidPlus.svelte.d.ts",
+      "svelte": "./dist/HexagonalPyramidPlus.svelte"
     },
     "./Hexagons.svelte": {
       "types": "./dist/Hexagons.svelte.d.ts",
@@ -9790,6 +9946,18 @@
     "./IroningSteamOff.svelte": {
       "types": "./dist/IroningSteamOff.svelte.d.ts",
       "svelte": "./dist/IroningSteamOff.svelte"
+    },
+    "./IrregularPolyhedron.svelte": {
+      "types": "./dist/IrregularPolyhedron.svelte.d.ts",
+      "svelte": "./dist/IrregularPolyhedron.svelte"
+    },
+    "./IrregularPolyhedronOff.svelte": {
+      "types": "./dist/IrregularPolyhedronOff.svelte.d.ts",
+      "svelte": "./dist/IrregularPolyhedronOff.svelte"
+    },
+    "./IrregularPolyhedronPlus.svelte": {
+      "types": "./dist/IrregularPolyhedronPlus.svelte.d.ts",
+      "svelte": "./dist/IrregularPolyhedronPlus.svelte"
     },
     "./Italic.svelte": {
       "types": "./dist/Italic.svelte.d.ts",
@@ -11887,6 +12055,18 @@
       "types": "./dist/OctagonOff.svelte.d.ts",
       "svelte": "./dist/OctagonOff.svelte"
     },
+    "./Octahedron.svelte": {
+      "types": "./dist/Octahedron.svelte.d.ts",
+      "svelte": "./dist/Octahedron.svelte"
+    },
+    "./OctahedronOff.svelte": {
+      "types": "./dist/OctahedronOff.svelte.d.ts",
+      "svelte": "./dist/OctahedronOff.svelte"
+    },
+    "./OctahedronPlus.svelte": {
+      "types": "./dist/OctahedronPlus.svelte.d.ts",
+      "svelte": "./dist/OctahedronPlus.svelte"
+    },
     "./Old.svelte": {
       "types": "./dist/Old.svelte.d.ts",
       "svelte": "./dist/Old.svelte"
@@ -12767,6 +12947,18 @@
       "types": "./dist/PrinterOff.svelte.d.ts",
       "svelte": "./dist/PrinterOff.svelte"
     },
+    "./Prism.svelte": {
+      "types": "./dist/Prism.svelte.d.ts",
+      "svelte": "./dist/Prism.svelte"
+    },
+    "./PrismOff.svelte": {
+      "types": "./dist/PrismOff.svelte.d.ts",
+      "svelte": "./dist/PrismOff.svelte"
+    },
+    "./PrismPlus.svelte": {
+      "types": "./dist/PrismPlus.svelte.d.ts",
+      "svelte": "./dist/PrismPlus.svelte"
+    },
     "./Prison.svelte": {
       "types": "./dist/Prison.svelte.d.ts",
       "svelte": "./dist/Prison.svelte"
@@ -12838,6 +13030,10 @@
     "./PyramidOff.svelte": {
       "types": "./dist/PyramidOff.svelte.d.ts",
       "svelte": "./dist/PyramidOff.svelte"
+    },
+    "./PyramidPlus.svelte": {
+      "types": "./dist/PyramidPlus.svelte.d.ts",
+      "svelte": "./dist/PyramidPlus.svelte"
     },
     "./Qrcode.svelte": {
       "types": "./dist/Qrcode.svelte.d.ts",
@@ -12990,6 +13186,18 @@
     "./RectangleVerticalFilled.svelte": {
       "types": "./dist/RectangleVerticalFilled.svelte.d.ts",
       "svelte": "./dist/RectangleVerticalFilled.svelte"
+    },
+    "./RectangularPrism.svelte": {
+      "types": "./dist/RectangularPrism.svelte.d.ts",
+      "svelte": "./dist/RectangularPrism.svelte"
+    },
+    "./RectangularPrismOff.svelte": {
+      "types": "./dist/RectangularPrismOff.svelte.d.ts",
+      "svelte": "./dist/RectangularPrismOff.svelte"
+    },
+    "./RectangularPrismPlus.svelte": {
+      "types": "./dist/RectangularPrismPlus.svelte.d.ts",
+      "svelte": "./dist/RectangularPrismPlus.svelte"
     },
     "./Recycle.svelte": {
       "types": "./dist/Recycle.svelte.d.ts",
@@ -14134,6 +14342,18 @@
     "./Speedboat.svelte": {
       "types": "./dist/Speedboat.svelte.d.ts",
       "svelte": "./dist/Speedboat.svelte"
+    },
+    "./Sphere.svelte": {
+      "types": "./dist/Sphere.svelte.d.ts",
+      "svelte": "./dist/Sphere.svelte"
+    },
+    "./SphereOff.svelte": {
+      "types": "./dist/SphereOff.svelte.d.ts",
+      "svelte": "./dist/SphereOff.svelte"
+    },
+    "./SpherePlus.svelte": {
+      "types": "./dist/SpherePlus.svelte.d.ts",
+      "svelte": "./dist/SpherePlus.svelte"
     },
     "./Spider.svelte": {
       "types": "./dist/Spider.svelte.d.ts",
