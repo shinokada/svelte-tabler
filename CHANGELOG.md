@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.3](https://github.com/shinokada/svelte-tabler/compare/v0.4.2...v0.4.3) (2023-06-01)
+
+
+### Features
+
+* add || ^4.0.0 to peerDependencies ([6c9e90d](https://github.com/shinokada/svelte-tabler/commit/6c9e90def11f9c1cc5a7b4d62b1fc5c7bd706de0))
+
 ### [0.4.2](https://github.com/shinokada/svelte-tabler/compare/v0.4.1...v0.4.2) (2023-05-31)
 
 
