@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.4.3](https://github.com/shinokada/svelte-tabler/compare/v0.4.2...v0.4.3) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([6c9e90d](https://github.com/shinokada/svelte-tabler/commit/6c9e90def11f9c1cc5a7b4d62b1fc5c7bd706de0))
+- add || ^4.0.0 to peerDependencies ([6c9e90d](https://github.com/shinokada/svelte-tabler/commit/6c9e90def11f9c1cc5a7b4d62b1fc5c7bd706de0))
 
 ### [0.4.2](https://github.com/shinokada/svelte-tabler/compare/v0.4.1...v0.4.2) (2023-05-31)
 
-
 ### Features
 
-* add component docs ([49d9e59](https://github.com/shinokada/svelte-tabler/commit/49d9e59ff7a78508a98edfa52a7e34526818d10a))
+- add component docs ([49d9e59](https://github.com/shinokada/svelte-tabler/commit/49d9e59ff7a78508a98edfa52a7e34526818d10a))
 
 ### [0.4.1](https://github.com/shinokada/svelte-tabler/compare/v0.3.2...v0.4.1) (2023-05-12)
 

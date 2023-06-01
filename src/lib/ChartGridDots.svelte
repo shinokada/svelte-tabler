@@ -1,5 +1,6 @@
 <script>
   export let size = '16';
+  export let role = 'img';
   export let color = 'currentColor';
   export let ariaLabel = 'chart grid dots';
 </script>
@@ -10,6 +11,7 @@
   width={size}
   height={size}
   {...$$restProps}
+  {role}
   aria-label={ariaLabel}
   on:click
   on:keydown
@@ -53,6 +55,7 @@
 [Go to Document](https://svelte-tabler.codewithshin.com/)
 ## Props
 @prop size = '16';
+@prop role = 'img';
 @prop color = 'currentColor';
 @prop ariaLabel = 'icon file name';
 ## Event
