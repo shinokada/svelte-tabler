@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.4.4](https://github.com/shinokada/svelte-tabler/compare/v0.4.3...v0.4.4) (2023-06-01)
 
-
 ### Features
 
-* add prop role="img" ([d5298d7](https://github.com/shinokada/svelte-tabler/commit/d5298d7e2d05d4317a4eabf26c2293bbd00cafd4))
+- add prop role="img" ([d5298d7](https://github.com/shinokada/svelte-tabler/commit/d5298d7e2d05d4317a4eabf26c2293bbd00cafd4))
 
 ### [0.4.3](https://github.com/shinokada/svelte-tabler/compare/v0.4.2...v0.4.3) (2023-06-01)
 
