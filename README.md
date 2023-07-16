@@ -1,45 +1,37 @@
-<h1 align="center">Svelte Tabler</h1>
+# Svelte Tabler
 
-<p align="center">
-<a href="https://svelte-tabler.codewithshin.com/">Svelte-Tabler</a>
-</p>
-
-<p align="center">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25"></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank"><img src="https://img.shields.io/badge/PWA-enabled-brightgreen" alt="PWA Shield" height="25">
-</a>
+<div class="flex gap-2 my-8">
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor" height="25"></a>
 <a href="https://www.npmjs.com/package/svelte-tabler" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-tabler" alt="npm" height="25"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25"></a>
 <a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-tabler" alt="License" height="25"></a>
 <a href="https://www.npmjs.com/package/svelte-tabler" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-tabler.svg" alt="npm" height="25"></a>
-</p>
+</div>
 
-1970+ SVG [Tabler Icons](https://github.com/tabler/tabler-icons) components for Svelte. Svelte-Tabler support major CSS frameworks using the `class` props.
+1970+ SVG [Tabler Icons](https://github.com/tabler/tabler-icons) components for Svelte. 
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-<p align="center">
-<img width="650" src="/static/images/tabler-optimized-650-1050.png" />
-</p>
+
+## Repo
+
+[GitHub Repo](https://github.com/shinokada/svelte-tabler)
+
+## Original source
+
+[tabler/tabler-icons](https://github.com/tabler/tabler-icons)
+
+## License
+
+[Svelte-Tabler License](https://github.com/shinokada/svelte-tabler/blob/main/LICENSE)
+
+[tabler/tabler-icons LICENSE](https://github.com/tabler/tabler-icons/blob/master/LICENSE)
 
 ## Installation
 
 ```sh
-npm i -D svelte-tabler
+pnpm i -D svelte-tabler
 ```
-
-## Icon names
-
-[Icon list](/icon-list.md)
-
-## Icon images
-
-[Icon images](/icon-images.md)
-
-## REPL
-
-- [Demo 1](https://svelte.dev/repl/55ccaffe3d414235a6bb554ffd98f4bc)
-- [Demo 2](https://svelte.dev/repl/b63ed92a79a047bdb2017fac63624130)
 
 ## Usages
 
@@ -67,8 +59,6 @@ If you need only a few icons from this library in your Svelte app, import them d
 ```
 
 If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-As of March 2023, the `typescript@beta` version is now available:
 
 ```sh
 pnpm i -D typescript@beta
@@ -105,6 +95,12 @@ Use the `size` prop to change the size of icons.
 <Folders size="40" /> <GitMerge size="40" />
 ```
 
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
+
+```html
+<Folders class="shrink-0 h-20 w-20" />
+```
+
 ## CSS HEX Colors
 
 Use the `color` prop to change colors with HEX color code.
@@ -115,7 +111,7 @@ Use the `color` prop to change colors with HEX color code.
 
 ## CSS framworks suport
 
-Use the `class` prop to change size, colors and add additional css.
+You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind CSS example:
 
@@ -230,10 +226,5 @@ Use `import * as Icon from 'svelte-tabler`.
 
 ## Other icons
 
-- [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
 
-## PWA: Fast & Offline
-
-This website can be downloaded and installed on your device for offline access as a Progressive Web App.
-
-To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and looking for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install".

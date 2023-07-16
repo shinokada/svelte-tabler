@@ -14,36 +14,36 @@
   import { MetaTags } from 'svelte-meta-tags';
 
   $: activeUrl = $page.url.pathname;
-  const title = 'Svelte Radix';
+  const title = 'Svelte Tabler';
   let divClass = 'w-full ml-auto lg:block lg:w-auto order-1 lg:order-none';
   let ulClass = 'flex flex-col py-3 my-4 lg:flex-row lg:my-0 text-sm font-medium gap-4 dark:lg:bg-transparent lg:bg-white lg:border-0';
 </script>
 
 <MetaTags
   {title}
-  description="Radix icon set for Svelte"
+  description="Tabler icon set for Svelte"
   openGraph={{
     type: 'website',
-    url: 'https://svelte-radix.vercel.app/',
-    title: 'Svelte Radix',
-    description: 'Radix icon set for Svelte',
+    url: 'https://svelte-tabler.vercel.app/',
+    title: 'Svelte Tabler',
+    description: 'Tabler icon set for Svelte',
     images: [
       {
-        url: 'https://open-graph-vercel.vercel.app/api/svelte-radix',
+        url: 'https://open-graph-vercel.vercel.app/api/svelte-tabler',
         width: 1200,
         height: 630,
-        alt: 'Svelte Radix'
+        alt: 'Svelte Tabler'
       }
     ],
-    site_name: 'Svelte Radix'
+    site_name: 'Svelte Tabler'
   }}
   twitter={{
     handle: '@shinokada',
     cardType: 'summary_large_image',
-    title: 'Svelte Radix',
-    description: 'Radix icon set for Svelte',
-    image: 'https://open-graph-vercel.vercel.app/api/svelte-radix',
-    imageAlt: 'Svelte Radix'
+    title: 'Svelte Tabler',
+    description: 'Tabler icon set for Svelte',
+    image: 'https://open-graph-vercel.vercel.app/api/svelte-tabler',
+    imageAlt: 'Svelte Tabler'
   }}
 />
 
@@ -68,7 +68,7 @@
       <NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/icons'} href="/icons">Icons</NavLi>
       <NavLi
         class="lg:px-2 lg:mb-0"
-        href="https://github.com/shinokada/svelte-radix">GitHub</NavLi
+        href="https://github.com/shinokada/svelte-tabler">GitHub</NavLi
       >
       <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
     </NavUl>
@@ -85,8 +85,8 @@
 <Footer footerType="logo" class="dark:bg-slate-950">
   <div class="sm:flex sm:items-center sm:justify-between">
     <FooterBrand
-      href="https://svelte-radix.vercel.app/"
-      name="Svelte Radix"
+      href="https://svelte-tabler.vercel.app/"
+      name="Svelte Tabler"
       classSpan="text-primary-700 dark:text-primary-500"
     />
     <FooterLinkGroup
@@ -96,7 +96,7 @@
       <FooterLink class="lg:px-2 lg:mb-0" href="/icons">Icons</FooterLink>
       <FooterLink
         class="lg:px-2 lg:mb-0"
-        href="https://github.com/shinokada/svelte-radix">GitHub</FooterLink
+        href="https://github.com/shinokada/svelte-tabler">GitHub</FooterLink
       >
       <FooterLink href="https://svelte-svg-icons.vercel.app/">Icon sets</FooterLink>
     </FooterLinkGroup>
