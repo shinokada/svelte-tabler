@@ -10,7 +10,7 @@
 
 1970+ SVG [Tabler Icons](https://github.com/tabler/tabler-icons) components for Svelte. 
 
-Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
+Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on [the GitHub sponsor](https://github.com/sponsors/shinokada). Your support helps me maintain and improve this package for the benefit of the community.
 
 
 ## Repo
