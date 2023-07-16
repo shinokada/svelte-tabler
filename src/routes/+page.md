@@ -8,10 +8,9 @@
 <a href="https://www.npmjs.com/package/svelte-tabler" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-tabler.svg" alt="npm" height="25"></a>
 </div>
 
-1970+ SVG [Tabler Icons](https://github.com/tabler/tabler-icons) components for Svelte. 
+1970+ SVG [Tabler Icons](https://github.com/tabler/tabler-icons) components for Svelte.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on [the GitHub sponsor](https://github.com/sponsors/shinokada). Your support helps me maintain and improve this package for the benefit of the community.
-
 
 ## Repo
 
@@ -227,4 +226,3 @@ Use `import * as Icon from 'svelte-tabler`.
 ## Other icons
 
 [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
-

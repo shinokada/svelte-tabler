@@ -24,7 +24,7 @@
   $: filteredEntries = Object.entries(Icons).filter(([name, component]) => {
     return name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1;
   });
-  let size="24"
+  let size = '24';
 </script>
 
 <TableSearch
@@ -33,10 +33,10 @@
   bind:inputValue={searchTerm}
   divClass="relative overflow-x-auto"
 >
-<div class="xl:w-1/3 lg:w-2/5 md:w-1/2 sm:w-3/4 w-full p-4">
-  <Label class="text-lg py-4 ">Icon size: {size}</Label>
-  <Range id="range1" min="16" max="50" bind:value={size} />
-</div>
+  <div class="xl:w-1/3 lg:w-2/5 md:w-1/2 sm:w-3/4 w-full p-4">
+    <Label class="text-lg py-4 ">Icon size: {size}</Label>
+    <Range id="range1" min="16" max="50" bind:value={size} />
+  </div>
   <Tabs style="pill" {contentClass} class="p-4">
     <TabItem open>
       <span slot="title" class="text-lg">Mono</span>
@@ -45,7 +45,7 @@
       >
         {#each filteredEntries as [name, component]}
           <div class="flex gap-4 items-center text-lg">
-            <svelte:component this={component} class="shrink-0" bind:size={size}/>
+            <svelte:component this={component} class="shrink-0" bind:size />
             {name}
           </div>
         {/each}
@@ -62,7 +62,7 @@
               this={component}
               color={random_hex_color_code()}
               class="shrink-0"
-              bind:size={size}
+              bind:size
             />
             {name}
           </div>
@@ -76,7 +76,7 @@
       >
         {#each filteredEntries as [name, component]}
           <div class="flex gap-4 items-center text-lg">
-            <svelte:component this={component} class={random_tailwind_color()}  bind:size={size} />
+            <svelte:component this={component} class={random_tailwind_color()} bind:size />
             {name}
           </div>
         {/each}
