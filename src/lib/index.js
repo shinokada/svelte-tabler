@@ -610,7 +610,7 @@ export { default as BrandAlpineJs } from './BrandAlpineJs.svelte';
 export { default as BrandAmazon } from './BrandAmazon.svelte';
 export { default as BrandAmd } from './BrandAmd.svelte';
 export { default as BrandAmigo } from './BrandAmigo.svelte';
-export { default as BrandAmongUs } from './BrandAmongUs.svelte';
+export { default as BrandAmongUs } from './BrandAmongUs-2.svelte';
 export { default as BrandAndroid } from './BrandAndroid.svelte';
 export { default as BrandAngular } from './BrandAngular.svelte';
 export { default as BrandAnsible } from './BrandAnsible.svelte';
