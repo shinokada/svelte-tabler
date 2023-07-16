@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.6](https://github.com/shinokada/svelte-tabler/compare/v0.4.5...v0.4.6) (2023-07-16)
+
+
+### Features
+
+* layout update ([1430c00](https://github.com/shinokada/svelte-tabler/commit/1430c00014894713365eea05cffbfad788393ccf))
+
+
+### Bug Fixes
+
+* BarndAmongUs ([b0dd639](https://github.com/shinokada/svelte-tabler/commit/b0dd63939d5ddaa0f813a1bd7511e555898bd73b))
+
 ### [0.4.5](https://github.com/shinokada/svelte-tabler/compare/v0.4.4...v0.4.5) (2023-06-15)
 
 ### [0.4.4](https://github.com/shinokada/svelte-tabler/compare/v0.4.3...v0.4.4) (2023-06-01)
