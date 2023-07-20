@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.7](https://github.com/shinokada/svelte-tabler/compare/v0.4.6...v0.4.7) (2023-07-20)
+
+
+### Bug Fixes
+
+* homepage update ([4bb69b7](https://github.com/shinokada/svelte-tabler/commit/4bb69b7de19ade595436a93a74f49edc97217fc1))
+* image sizes ([3e1931a](https://github.com/shinokada/svelte-tabler/commit/3e1931a3f4f562971c7e4cd2406f965b99c91225))
+* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([661bcca](https://github.com/shinokada/svelte-tabler/commit/661bcca99947126ebc00f4b077a0f8081e777b4c))
+
 ### [0.4.6](https://github.com/shinokada/svelte-tabler/compare/v0.4.5...v0.4.6) (2023-07-16)
 
 
