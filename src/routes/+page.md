@@ -38,49 +38,21 @@ In a svelte file:
 
 ```html
 <script>
-  import { Folders, GitMerge } from 'svelte-tabler';
+  import { Icon } from 'svelte-tabler';
 </script>
 
-<Folders />
-<GitMerge />
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
-```html
-<script>
-  import Folders from 'svelte-tabler/Folders.svelte';
-</script>
-
-<Folders />
-```
-
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@beta
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="activity" />
 ```
 
 ## Props
 
-- size = '16';
-- role = 'img';
-- color = 'currentColor';
-- ariaLabel = 'icon file name';
+- @prop name;
+- @prop width = "24";
+- @prop height = "24";
+- @prop role = 'img';
+- @prop color = 'currentColor'
+- @prop ariaLabel='icon name'
+- @prop strokeWidth = "2";
 
 ## IDE support
 
@@ -88,16 +60,16 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<Folders size="40" /> <GitMerge size="40" />
+<Icon name="activity" width="100" height="100" />
 ```
 
-If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<Folders class="shrink-0 h-20 w-20" />
+<Icon name="activity" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -105,23 +77,23 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<Folders color="#c61515" /> <GitMerge color="#3759e5" />
+<Icon name="activity" color="#c61515" />
 ```
 
-## CSS framworks suport
+## CSS frameworks suport
 
 You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
 Tailwind CSS example:
 
 ```html
-<Folders class="h-24 w-24 text-blue-700 mr-4" />
+<Icon name="activity" class="text-red-700 inline m-1" />
 ```
 
 Bootstrap examples:
 
 ```html
-<Folders class="position-absolute top-0 px-1" />
+<Icon name="activity" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -131,16 +103,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Folders class="text-blue-700 dark:text-red-500" />
+<Icon name="activity"  class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `FolderMinus` has `aria-label="folder minux"`.
+All icons have aria-label. For example `activity` has `aria-label="activity"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<FolderMinus ariaLabel="folder minux svg icon" />
+<Icon name="activity" ariaLabel="red activity" color="#c61515"/>
 ```
 
 ## Unfocusable icon
@@ -148,7 +120,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<FolderMinus tabindex="-1" />
+<Icon name="activity"  tabindex="-1" />
 ```
 
 ## Events
@@ -170,57 +142,48 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<FolderMinus tabindex="0" />
+<Icon name="activity"  tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { FolderMinus } from 'svelte-tabler';
-</script>
-
-<svelte:component this="{FolderMinus}" />
+<svelte:component this="{Icon}" name="activity" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { FolderMinus } from 'svelte-tabler';
+  import {Icon} from 'svelte-tabler';
   import { onMount } from 'svelte';
   const props = {
+    name: 'activity',
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new FolderMinus({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
 </script>
 ```
 
+
 ## Import all
 
-Use `import * as Icon from 'svelte-tabler`.
+Use `import {Icon, icons} from 'svelte-tabler';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-tabler';
+  import {Icon, icons} from 'svelte-tabler';
 </script>
 
-<Icon.FolderMinus />
-<Icon.GitMerge />
-
-<h1>Size</h1>
-<Icon.FolderMinus size="30" />
-<Icon.GitMerge size="40" />
-
-<h1>CSS HEX color</h1>
-<Icon.GitMerge color="#c61515" size="40" />
-
-<h1>Tailwind CSS</h1>
-<Icon.FolderMinus class="text-blue-500" />
-<Icon.GitMerge class="text-pink-700" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
