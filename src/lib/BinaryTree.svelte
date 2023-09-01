@@ -1,0 +1,52 @@
+<script>
+  export let size = '16';
+  export let role = 'img';
+  export let color = 'currentColor';
+  export let ariaLabel = 'binary tree';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  class={$$props.class}
+  width={size}
+  height={size}
+  {...$$restProps}
+  {role}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  viewBox="0 0 24 24"
+  stroke-width="2"
+  stroke={color}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M6 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M16 4a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M16 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M11 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M21 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M5.058 18.306l2.88 -4.606" />
+  <path d="M10.061 10.303l2.877 -4.604" />
+  <path d="M10.065 13.705l2.876 4.6" />
+  <path d="M15.063 5.7l2.881 4.61" />
+</svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.vercel.app/)
+## Props
+@prop export let size = '16';
+@prop export let role = 'img';
+@prop export let color = 'currentColor';
+@prop export let ariaLabel = 'binary tree';
+-->
