@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.2](https://github.com/shinokada/svelte-tabler/compare/v0.6.1...v0.6.2) (2023-09-01)
 
-
 ### Features
 
-* smaller compiled size and Icon component ([2765e94](https://github.com/shinokada/svelte-tabler/commit/2765e940553fe4c8f8f206ad4dca508d409523fe))
+- smaller compiled size and Icon component ([2765e94](https://github.com/shinokada/svelte-tabler/commit/2765e940553fe4c8f8f206ad4dca508d409523fe))
 
 ### [0.6.1](https://github.com/shinokada/svelte-tabler/compare/v0.5.4...v0.6.1) (2023-09-01)
 
