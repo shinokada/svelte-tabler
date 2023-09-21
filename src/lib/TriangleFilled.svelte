@@ -1,7 +1,10 @@
 <script>
-  export let size = '16';
-  export let role = 'img';
-  export let color = 'currentColor';
+  import { getContext } from 'svelte';
+  const ctx = getContext('iconCtx') ?? {};
+  export let size = ctx.size || '16';
+  export let role = ctx.role || 'img';
+  export let color = ctx.color || 'currentColor';
+  export let strokeWidth = ctx.strokeWidth || '2';
   export let ariaLabel = 'triangle filled';
 </script>
 
@@ -23,7 +26,7 @@
   on:mouseover
   on:mouseout
   viewBox="0 0 24 24"
-  stroke-width="2"
+  stroke-width={strokeWidth}
   stroke={color}
   fill="none"
   stroke-linecap="round"
@@ -31,7 +34,7 @@
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path
-    d="M11.99 1.968c1.023 0 1.97 .521 2.512 1.359l.103 .172l7.1 12.25l.062 .126a3 3 0 0 1 -2.568 4.117l-.199 .008h-14l-.049 -.003l-.112 .002a3 3 0 0 1 -2.268 -1.226l-.109 -.16a3 3 0 0 1 -.32 -2.545l.072 -.194l.06 -.125l7.092 -12.233a3 3 0 0 1 2.625 -1.548z"
+    d="M12 1.67a2.914 2.914 0 0 0 -2.492 1.403l-8.11 13.537a2.914 2.914 0 0 0 2.484 4.385h16.225a2.914 2.914 0 0 0 2.503 -4.371l-8.116 -13.546a2.917 2.917 0 0 0 -2.494 -1.408z"
     stroke-width="0"
     fill="currentColor"
   />
@@ -41,8 +44,9 @@
 @component
 [Go to docs](https://svelte-tabler.vercel.app/)
 ## Props
-@prop export let size = '16';
-@prop export let role = 'img';
-@prop export let color = 'currentColor';
+@prop export let size = ctx.size || '16';
+@prop export let role = ctx.role || 'img';
+@prop export let color = ctx.color || 'currentColor';
+@prop export let strokeWidth = ctx.strokeWidth || '2';
 @prop export let ariaLabel = 'triangle filled';
 -->

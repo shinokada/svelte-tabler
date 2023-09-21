@@ -1,7 +1,10 @@
 <script>
-  export let size = '16';
-  export let role = 'img';
-  export let color = 'currentColor';
+  import { getContext } from 'svelte';
+  const ctx = getContext('iconCtx') ?? {};
+  export let size = ctx.size || '16';
+  export let role = ctx.role || 'img';
+  export let color = ctx.color || 'currentColor';
+  export let strokeWidth = ctx.strokeWidth || '2';
   export let ariaLabel = 'triangle off';
 </script>
 
@@ -23,7 +26,7 @@
   on:mouseover
   on:mouseout
   viewBox="0 0 24 24"
-  stroke-width="2"
+  stroke-width={strokeWidth}
   stroke={color}
   fill="none"
   stroke-linecap="round"
@@ -31,7 +34,7 @@
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
   <path
-    d="M5 19h14m1.986 -2.014a2 2 0 0 0 -.146 -.736l-7.1 -12.25a2 2 0 0 0 -3.5 0l-.825 1.424m-1.467 2.53l-4.808 8.296a2 2 0 0 0 1.75 2.75"
+    d="M7.825 7.83l-5.568 9.295a1.914 1.914 0 0 0 1.636 2.871h16.107m1.998 -1.99a1.913 1.913 0 0 0 -.255 -.88l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0l-1.028 1.718"
   />
   <path d="M3 3l18 18" />
 </svg>
@@ -40,8 +43,9 @@
 @component
 [Go to docs](https://svelte-tabler.vercel.app/)
 ## Props
-@prop export let size = '16';
-@prop export let role = 'img';
-@prop export let color = 'currentColor';
+@prop export let size = ctx.size || '16';
+@prop export let role = ctx.role || 'img';
+@prop export let color = ctx.color || 'currentColor';
+@prop export let strokeWidth = ctx.strokeWidth || '2';
 @prop export let ariaLabel = 'triangle off';
 -->

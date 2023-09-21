@@ -29,7 +29,7 @@
     "gen:compo-data": "svelte-lib-helpers compo-data",
     "copy:package": "svelte-lib-helpers package",
     "lib-helpers": "npm run format && npm run gen:docs && npm run build && npm run gen:exports && npm run copy:package",
-    "package:publish": "standard-version && git push --follow-tags origin main && npm run lib-helpers && npm publish"
+    "package:publish": "standard-version && git push --follow-tags origin main && npm publish"
   },
   "files": [
     "dist"
@@ -387,6 +387,10 @@
       "types": "./dist/AlertCircleFilled.svelte.d.ts",
       "svelte": "./dist/AlertCircleFilled.svelte"
     },
+    "./AlertCircleOff.svelte": {
+      "types": "./dist/AlertCircleOff.svelte.d.ts",
+      "svelte": "./dist/AlertCircleOff.svelte"
+    },
     "./AlertHexagon.svelte": {
       "types": "./dist/AlertHexagon.svelte.d.ts",
       "svelte": "./dist/AlertHexagon.svelte"
@@ -394,6 +398,10 @@
     "./AlertHexagonFilled.svelte": {
       "types": "./dist/AlertHexagonFilled.svelte.d.ts",
       "svelte": "./dist/AlertHexagonFilled.svelte"
+    },
+    "./AlertHexagonOff.svelte": {
+      "types": "./dist/AlertHexagonOff.svelte.d.ts",
+      "svelte": "./dist/AlertHexagonOff.svelte"
     },
     "./AlertOctagon.svelte": {
       "types": "./dist/AlertOctagon.svelte.d.ts",
@@ -406,6 +414,10 @@
     "./AlertSmall.svelte": {
       "types": "./dist/AlertSmall.svelte.d.ts",
       "svelte": "./dist/AlertSmall.svelte"
+    },
+    "./AlertSmallOff.svelte": {
+      "types": "./dist/AlertSmallOff.svelte.d.ts",
+      "svelte": "./dist/AlertSmallOff.svelte"
     },
     "./AlertSquare.svelte": {
       "types": "./dist/AlertSquare.svelte.d.ts",
@@ -423,6 +435,10 @@
       "types": "./dist/AlertSquareRoundedFilled.svelte.d.ts",
       "svelte": "./dist/AlertSquareRoundedFilled.svelte"
     },
+    "./AlertSquareRoundedOff.svelte": {
+      "types": "./dist/AlertSquareRoundedOff.svelte.d.ts",
+      "svelte": "./dist/AlertSquareRoundedOff.svelte"
+    },
     "./AlertTriangle.svelte": {
       "types": "./dist/AlertTriangle.svelte.d.ts",
       "svelte": "./dist/AlertTriangle.svelte"
@@ -430,6 +446,10 @@
     "./AlertTriangleFilled.svelte": {
       "types": "./dist/AlertTriangleFilled.svelte.d.ts",
       "svelte": "./dist/AlertTriangleFilled.svelte"
+    },
+    "./AlertTriangleOff.svelte": {
+      "types": "./dist/AlertTriangleOff.svelte.d.ts",
+      "svelte": "./dist/AlertTriangleOff.svelte"
     },
     "./Alien.svelte": {
       "types": "./dist/Alien.svelte.d.ts",
@@ -3339,6 +3359,10 @@
       "types": "./dist/BrandMedium.svelte.d.ts",
       "svelte": "./dist/BrandMedium.svelte"
     },
+    "./BrandMeetup.svelte": {
+      "types": "./dist/BrandMeetup.svelte.d.ts",
+      "svelte": "./dist/BrandMeetup.svelte"
+    },
     "./BrandMercedes.svelte": {
       "types": "./dist/BrandMercedes.svelte.d.ts",
       "svelte": "./dist/BrandMercedes.svelte"
@@ -4607,6 +4631,10 @@
       "types": "./dist/CarCrash.svelte.d.ts",
       "svelte": "./dist/CarCrash.svelte"
     },
+    "./CarGarage.svelte": {
+      "types": "./dist/CarGarage.svelte.d.ts",
+      "svelte": "./dist/CarGarage.svelte"
+    },
     "./CarOff.svelte": {
       "types": "./dist/CarOff.svelte.d.ts",
       "svelte": "./dist/CarOff.svelte"
@@ -5311,6 +5339,50 @@
       "types": "./dist/CircleDashed.svelte.d.ts",
       "svelte": "./dist/CircleDashed.svelte"
     },
+    "./CircleDashedNumber0.svelte": {
+      "types": "./dist/CircleDashedNumber0.svelte.d.ts",
+      "svelte": "./dist/CircleDashedNumber0.svelte"
+    },
+    "./CircleDashedNumber1.svelte": {
+      "types": "./dist/CircleDashedNumber1.svelte.d.ts",
+      "svelte": "./dist/CircleDashedNumber1.svelte"
+    },
+    "./CircleDashedNumber2.svelte": {
+      "types": "./dist/CircleDashedNumber2.svelte.d.ts",
+      "svelte": "./dist/CircleDashedNumber2.svelte"
+    },
+    "./CircleDashedNumber3.svelte": {
+      "types": "./dist/CircleDashedNumber3.svelte.d.ts",
+      "svelte": "./dist/CircleDashedNumber3.svelte"
+    },
+    "./CircleDashedNumber4.svelte": {
+      "types": "./dist/CircleDashedNumber4.svelte.d.ts",
+      "svelte": "./dist/CircleDashedNumber4.svelte"
+    },
+    "./CircleDashedNumber5.svelte": {
+      "types": "./dist/CircleDashedNumber5.svelte.d.ts",
+      "svelte": "./dist/CircleDashedNumber5.svelte"
+    },
+    "./CircleDashedNumber6.svelte": {
+      "types": "./dist/CircleDashedNumber6.svelte.d.ts",
+      "svelte": "./dist/CircleDashedNumber6.svelte"
+    },
+    "./CircleDashedNumber7.svelte": {
+      "types": "./dist/CircleDashedNumber7.svelte.d.ts",
+      "svelte": "./dist/CircleDashedNumber7.svelte"
+    },
+    "./CircleDashedNumber8.svelte": {
+      "types": "./dist/CircleDashedNumber8.svelte.d.ts",
+      "svelte": "./dist/CircleDashedNumber8.svelte"
+    },
+    "./CircleDashedNumber9.svelte": {
+      "types": "./dist/CircleDashedNumber9.svelte.d.ts",
+      "svelte": "./dist/CircleDashedNumber9.svelte"
+    },
+    "./CircleDashedX.svelte": {
+      "types": "./dist/CircleDashedX.svelte.d.ts",
+      "svelte": "./dist/CircleDashedX.svelte"
+    },
     "./CircleDot.svelte": {
       "types": "./dist/CircleDot.svelte.d.ts",
       "svelte": "./dist/CircleDot.svelte"
@@ -5918,6 +5990,10 @@
     "./CloudMinus.svelte": {
       "types": "./dist/CloudMinus.svelte.d.ts",
       "svelte": "./dist/CloudMinus.svelte"
+    },
+    "./CloudNetwork.svelte": {
+      "types": "./dist/CloudNetwork.svelte.d.ts",
+      "svelte": "./dist/CloudNetwork.svelte"
     },
     "./CloudOff.svelte": {
       "types": "./dist/CloudOff.svelte.d.ts",
@@ -11635,6 +11711,10 @@
       "types": "./dist/Login.svelte.d.ts",
       "svelte": "./dist/Login.svelte"
     },
+    "./Login2.svelte": {
+      "types": "./dist/Login2.svelte.d.ts",
+      "svelte": "./dist/Login2.svelte"
+    },
     "./Logout.svelte": {
       "types": "./dist/Logout.svelte.d.ts",
       "svelte": "./dist/Logout.svelte"
@@ -11979,6 +12059,10 @@
       "types": "./dist/MapQuestion.svelte.d.ts",
       "svelte": "./dist/MapQuestion.svelte"
     },
+    "./MapRoute.svelte": {
+      "types": "./dist/MapRoute.svelte.d.ts",
+      "svelte": "./dist/MapRoute.svelte"
+    },
     "./MapSearch.svelte": {
       "types": "./dist/MapSearch.svelte.d.ts",
       "svelte": "./dist/MapSearch.svelte"
@@ -12226,6 +12310,10 @@
     "./Meeple.svelte": {
       "types": "./dist/Meeple.svelte.d.ts",
       "svelte": "./dist/Meeple.svelte"
+    },
+    "./Melon.svelte": {
+      "types": "./dist/Melon.svelte.d.ts",
+      "svelte": "./dist/Melon.svelte"
     },
     "./Menorah.svelte": {
       "types": "./dist/Menorah.svelte.d.ts",
@@ -13463,6 +13551,18 @@
       "types": "./dist/Password.svelte.d.ts",
       "svelte": "./dist/Password.svelte"
     },
+    "./PasswordFingerprint.svelte": {
+      "types": "./dist/PasswordFingerprint.svelte.d.ts",
+      "svelte": "./dist/PasswordFingerprint.svelte"
+    },
+    "./PasswordMobilePhone.svelte": {
+      "types": "./dist/PasswordMobilePhone.svelte.d.ts",
+      "svelte": "./dist/PasswordMobilePhone.svelte"
+    },
+    "./PasswordUser.svelte": {
+      "types": "./dist/PasswordUser.svelte.d.ts",
+      "svelte": "./dist/PasswordUser.svelte"
+    },
     "./Paw.svelte": {
       "types": "./dist/Paw.svelte.d.ts",
       "svelte": "./dist/Paw.svelte"
@@ -13599,6 +13699,46 @@
       "types": "./dist/PentagonFilled.svelte.d.ts",
       "svelte": "./dist/PentagonFilled.svelte"
     },
+    "./PentagonNumber0.svelte": {
+      "types": "./dist/PentagonNumber0.svelte.d.ts",
+      "svelte": "./dist/PentagonNumber0.svelte"
+    },
+    "./PentagonNumber1.svelte": {
+      "types": "./dist/PentagonNumber1.svelte.d.ts",
+      "svelte": "./dist/PentagonNumber1.svelte"
+    },
+    "./PentagonNumber2.svelte": {
+      "types": "./dist/PentagonNumber2.svelte.d.ts",
+      "svelte": "./dist/PentagonNumber2.svelte"
+    },
+    "./PentagonNumber3.svelte": {
+      "types": "./dist/PentagonNumber3.svelte.d.ts",
+      "svelte": "./dist/PentagonNumber3.svelte"
+    },
+    "./PentagonNumber4.svelte": {
+      "types": "./dist/PentagonNumber4.svelte.d.ts",
+      "svelte": "./dist/PentagonNumber4.svelte"
+    },
+    "./PentagonNumber5.svelte": {
+      "types": "./dist/PentagonNumber5.svelte.d.ts",
+      "svelte": "./dist/PentagonNumber5.svelte"
+    },
+    "./PentagonNumber6.svelte": {
+      "types": "./dist/PentagonNumber6.svelte.d.ts",
+      "svelte": "./dist/PentagonNumber6.svelte"
+    },
+    "./PentagonNumber7.svelte": {
+      "types": "./dist/PentagonNumber7.svelte.d.ts",
+      "svelte": "./dist/PentagonNumber7.svelte"
+    },
+    "./PentagonNumber8.svelte": {
+      "types": "./dist/PentagonNumber8.svelte.d.ts",
+      "svelte": "./dist/PentagonNumber8.svelte"
+    },
+    "./PentagonNumber9.svelte": {
+      "types": "./dist/PentagonNumber9.svelte.d.ts",
+      "svelte": "./dist/PentagonNumber9.svelte"
+    },
     "./PentagonOff.svelte": {
       "types": "./dist/PentagonOff.svelte.d.ts",
       "svelte": "./dist/PentagonOff.svelte"
@@ -13606,6 +13746,10 @@
     "./PentagonPlus.svelte": {
       "types": "./dist/PentagonPlus.svelte.d.ts",
       "svelte": "./dist/PentagonPlus.svelte"
+    },
+    "./PentagonX.svelte": {
+      "types": "./dist/PentagonX.svelte.d.ts",
+      "svelte": "./dist/PentagonX.svelte"
     },
     "./Pentagram.svelte": {
       "types": "./dist/Pentagram.svelte.d.ts",
