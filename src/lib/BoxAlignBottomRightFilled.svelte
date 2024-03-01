@@ -87,7 +87,7 @@
 
 <!--
 @component
-[Go to docs](https://svelte-tabler.vercel.app/)
+[Go to docs](https://svelte-tabler.codewithshin.com/)
 ## Props
 @prop export let size = ctx.size || '16';
 @prop export let role = ctx.role || 'img';

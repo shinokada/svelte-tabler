@@ -18779,6 +18779,7 @@
     "./ZzzOff.svelte": {
       "types": "./dist/ZzzOff.svelte.d.ts",
       "svelte": "./dist/ZzzOff.svelte"
-    }
+    },
+    "./package.json": "./package.json"
   }
 }
