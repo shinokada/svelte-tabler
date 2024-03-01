@@ -20,16 +20,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub Repo](https://github.com/shinokada/svelte-tabler)
 
-## Original source
-
-[tabler/tabler-icons](https://github.com/tabler/tabler-icons)
-
-## License
-
-[Svelte-Tabler License](https://github.com/shinokada/svelte-tabler/blob/main/LICENSE)
-
-[tabler/tabler-icons LICENSE](https://github.com/tabler/tabler-icons/blob/master/LICENSE)
-
 ## Installation
 
 ```sh
@@ -343,6 +333,16 @@ Use `import * as Icon from 'svelte-tabler`.
 <Icon.GitMerge class="text-pink-700" />
 ```
 
+## Original source
+
+[tabler/tabler-icons](https://github.com/tabler/tabler-icons)
+
+## License
+
+[Svelte-Tabler License](https://github.com/shinokada/svelte-tabler/blob/main/LICENSE)
+
+[tabler/tabler-icons LICENSE](https://github.com/tabler/tabler-icons/blob/master/LICENSE)
+
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
