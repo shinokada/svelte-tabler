@@ -1,5 +1,11 @@
 # svelte-icon-webkit
 
+## 2.0.0-next.4
+
+### Patch Changes
+
+- fix: DeviceGamePad to DeviceGamepad ([`f55074d959ce309833884eda5a65a5bf2841934a`](https://github.com/shinokada/svelte-tabler/commit/f55074d959ce309833884eda5a65a5bf2841934a))
+
 ## 2.0.0-next.3
 
 ### Patch Changes

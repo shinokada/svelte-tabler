@@ -5,6 +5,7 @@
     "svelte-tabler": "2.0.0-next.2"
   },
   "changesets": [
+    "angry-walls-march",
     "clever-kings-press"
   ]
 }
