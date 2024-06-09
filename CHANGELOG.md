@@ -1,5 +1,11 @@
 # svelte-icon-webkit
 
+## 2.0.0-next.3
+
+### Patch Changes
+
+- fix: update for runes ([`7ab20f82191ba14fb6e1801e42db881b657e5c78`](https://github.com/shinokada/svelte-tabler/commit/7ab20f82191ba14fb6e1801e42db881b657e5c78))
+
 ## 0.4.23
 
 ### Patch Changes
