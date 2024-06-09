@@ -1,0 +1,1 @@
+<AccessibleOutline withEvents onclick="{handleClick}" />

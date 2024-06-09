@@ -1,160 +1,267 @@
-# Changelog
+# svelte-icon-webkit
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+## 0.4.23
 
-### [1.0.3](https://github.com/shinokada/svelte-tabler/compare/v1.0.2...v1.0.3) (2024-03-01)
+### Patch Changes
 
+- fix: add onclick to SidebarItem in Sidebar compo ([`e91eb6d5e37f23562a3f19831231bfd757f0eea9`](https://github.com/shinokada/runes-webkit/commit/e91eb6d5e37f23562a3f19831231bfd757f0eea9))
 
-### Bug Fixes
+## 0.4.22
 
-* layout update add class to NavHamburger ([ed209aa](https://github.com/shinokada/svelte-tabler/commit/ed209aa0b58e389384d72bd2e760ac8fbb93eb52))
+### Patch Changes
 
-### [1.0.2](https://github.com/shinokada/svelte-tabler/compare/v1.0.1...v1.0.2) (2024-01-27)
+- fix: OnThisPage dropdown ([`0915555342da3970331ce6efd43bd69544389228`](https://github.com/shinokada/runes-webkit/commit/0915555342da3970331ce6efd43bd69544389228))
 
-### [1.0.1](https://github.com/shinokada/svelte-tabler/compare/v0.6.3...v1.0.1) (2024-01-27)
+## 0.4.21
 
-### Bug Fixes
+### Patch Changes
 
-- Nav links ([5cfb3fa](https://github.com/shinokada/svelte-tabler/commit/5cfb3fabb7aa3eb454cb276507230b455be20467))
+- fix: add runeswebkitVersion prop to TechInfo ([`63b22babef095545f8c90d7eaf76d1f854eb4e0c`](https://github.com/shinokada/runes-webkit/commit/63b22babef095545f8c90d7eaf76d1f854eb4e0c))
 
-### [0.6.3](https://github.com/shinokada/svelte-tabler/compare/v0.6.2...v0.6.3) (2023-09-21)
+## 0.4.20
 
-### Features
+### Patch Changes
 
-- add context ([1b26fc6](https://github.com/shinokada/svelte-tabler/commit/1b26fc63d69c40a8ad16a72c4bb3d3b7ff84d35b))
-- add sidebar menu ([13fb325](https://github.com/shinokada/svelte-tabler/commit/13fb3253ab3bb6cdadcbdc5e698ecd451277d84c))
+- fix: index page TechInfo update
+  fix: class name update
 
-### [0.6.2](https://github.com/shinokada/svelte-tabler/compare/v0.6.1...v0.6.2) (2023-09-01)
+## 0.4.19
 
-### Features
+### Patch Changes
 
-- smaller compiled size and Icon component ([2765e94](https://github.com/shinokada/svelte-tabler/commit/2765e940553fe4c8f8f206ad4dca508d409523fe))
+- fix: remove runaticsVersion and runesMetaTagsVersion from helpers
 
-### [0.6.1](https://github.com/shinokada/svelte-tabler/compare/v0.5.4...v0.6.1) (2023-09-01)
+## 0.4.18
 
-### [0.5.4](https://github.com/shinokada/svelte-tabler/compare/v0.5.3...v0.5.4) (2023-08-03)
+### Patch Changes
 
-### [0.5.3](https://github.com/shinokada/svelte-tabler/compare/v0.5.2...v0.5.3) (2023-07-31)
+- fix: update vite.config and TechInfo ([`a27288581c1bbdba04cf9f20e10960e973b136cd`](https://github.com/shinokada/runes-webkit/commit/a27288581c1bbdba04cf9f20e10960e973b136cd))
 
-### Bug Fixes
+- fix: add runes-meta-tags ([`89f8c8fc0e52f3d9f9da32d92b691d74161554b0`](https://github.com/shinokada/runes-webkit/commit/89f8c8fc0e52f3d9f9da32d92b691d74161554b0))
 
-- component doc update ([a55b21d](https://github.com/shinokada/svelte-tabler/commit/a55b21debe48974b302dc77febc2002bb2ce5f2b))
+## 0.4.17
 
-### [0.5.2](https://github.com/shinokada/svelte-tabler/compare/v0.5.1...v0.5.2) (2023-07-30)
+### Patch Changes
 
-### Bug Fixes
+- feat: add copy and success badge to HighlightCompo ([`96606292ae69a3b14e81a2fcbe0b50fc20cba4e7`](https://github.com/shinokada/runes-webkit/commit/96606292ae69a3b14e81a2fcbe0b50fc20cba4e7))
 
-- update add-exports-to-package-json ([f0edf3d](https://github.com/shinokada/svelte-tabler/commit/f0edf3d95299bc7c73f8502ee9b0baefaaaaee03))
+## 0.4.16
 
-### [0.5.1](https://github.com/shinokada/svelte-tabler/compare/v0.4.7...v0.5.1) (2023-07-30)
+### Patch Changes
 
-### [0.4.7](https://github.com/shinokada/svelte-tabler/compare/v0.4.6...v0.4.7) (2023-07-20)
+- fix: use direct import for all icons in helpers.ts ([`5705acc00b17e9b65de6f366cc0e7d198e7c30f3`](https://github.com/shinokada/runes-webkit/commit/5705acc00b17e9b65de6f366cc0e7d198e7c30f3))
 
-### Bug Fixes
+## 0.4.15
 
-- homepage update ([4bb69b7](https://github.com/shinokada/svelte-tabler/commit/4bb69b7de19ade595436a93a74f49edc97217fc1))
-- image sizes ([3e1931a](https://github.com/shinokada/svelte-tabler/commit/3e1931a3f4f562971c7e4cd2406f965b99c91225))
-- update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([661bcca](https://github.com/shinokada/svelte-tabler/commit/661bcca99947126ebc00f4b077a0f8081e777b4c))
+### Patch Changes
 
-### [0.4.6](https://github.com/shinokada/svelte-tabler/compare/v0.4.5...v0.4.6) (2023-07-16)
+- fix: remove MetaTag component ([`49a89ba04b32efca9a76d631ec179339df202e8b`](https://github.com/shinokada/runes-webkit/commit/49a89ba04b32efca9a76d631ec179339df202e8b))
 
-### Features
+## 0.4.14
 
-- layout update ([1430c00](https://github.com/shinokada/svelte-tabler/commit/1430c00014894713365eea05cffbfad788393ccf))
+### Patch Changes
 
-### Bug Fixes
+- fix: toUpperSnakeCase replace spaces and - to \_ and convert to uppercase ([`f2e5deb13ebda8158170fdcb54bfc4d5cc584e35`](https://github.com/shinokada/runes-webkit/commit/f2e5deb13ebda8158170fdcb54bfc4d5cc584e35))
 
-- BarndAmongUs ([b0dd639](https://github.com/shinokada/svelte-tabler/commit/b0dd63939d5ddaa0f813a1bd7511e555898bd73b))
+## 0.4.13
 
-### [0.4.5](https://github.com/shinokada/svelte-tabler/compare/v0.4.4...v0.4.5) (2023-06-15)
+### Patch Changes
 
-### [0.4.4](https://github.com/shinokada/svelte-tabler/compare/v0.4.3...v0.4.4) (2023-06-01)
+- feat: add toUpperSnakeCase ([`4c20d21d91eb2ce18430d8c6593304cbb6a9f316`](https://github.com/shinokada/runes-webkit/commit/4c20d21d91eb2ce18430d8c6593304cbb6a9f316))
 
-### Features
+## 0.4.12
 
-- add prop role="img" ([d5298d7](https://github.com/shinokada/svelte-tabler/commit/d5298d7e2d05d4317a4eabf26c2293bbd00cafd4))
+### Patch Changes
 
-### [0.4.3](https://github.com/shinokada/svelte-tabler/compare/v0.4.2...v0.4.3) (2023-06-01)
+- feat: add toDashCaseLower function ([`b39b03b39f55f64aff0897a852956ec0f226713b`](https://github.com/shinokada/runes-webkit/commit/b39b03b39f55f64aff0897a852956ec0f226713b))
 
-### Features
+## 0.4.11
 
-- add || ^4.0.0 to peerDependencies ([6c9e90d](https://github.com/shinokada/svelte-tabler/commit/6c9e90def11f9c1cc5a7b4d62b1fc5c7bd706de0))
+### Patch Changes
 
-### [0.4.2](https://github.com/shinokada/svelte-tabler/compare/v0.4.1...v0.4.2) (2023-05-31)
+- fix: make lis optional in Nav and Footer ([`8f34b416bdcd5d66f9bc81f2044e298d4d6a092d`](https://github.com/shinokada/runes-webkit/commit/8f34b416bdcd5d66f9bc81f2044e298d4d6a092d))
 
-### Features
+## 0.4.10
 
-- add component docs ([49d9e59](https://github.com/shinokada/svelte-tabler/commit/49d9e59ff7a78508a98edfa52a7e34526818d10a))
+### Patch Changes
 
-### [0.4.1](https://github.com/shinokada/svelte-tabler/compare/v0.3.2...v0.4.1) (2023-05-12)
+- fix: change to export \* from individual functions and consts in index.ts ([`626597ac3e721e3e33e5cc3dabd86bf6e60c0a4b`](https://github.com/shinokada/runes-webkit/commit/626597ac3e721e3e33e5cc3dabd86bf6e60c0a4b))
 
-### Features
+## 0.4.9
 
-- add events ([8be4e59](https://github.com/shinokada/svelte-tabler/commit/8be4e59245590ded0f4b971c0d9cda08204dd6e4))
-- packag.json update ([04e9801](https://github.com/shinokada/svelte-tabler/commit/04e980175002aeb69d5e8c60ede762bd43d7a031))
+### Patch Changes
 
-### [0.3.2](https://github.com/shinokada/svelte-tabler/compare/v0.3.1...v0.3.2) (2023-03-07)
+- fix: remove all export functions and const from index.ts ([`88e3dd9ecd7f3510eb93732fb0f0930cc07aae81`](https://github.com/shinokada/runes-webkit/commit/88e3dd9ecd7f3510eb93732fb0f0930cc07aae81))
 
-### Features
+## 0.4.8
 
-- add script add-exports and update README ([95d1386](https://github.com/shinokada/svelte-tabler/commit/95d13866eb27e7955c12814d73cf3198b5dbaae2))
+### Patch Changes
 
-### [0.3.1](https://github.com/shinokada/svelte-tabler/compare/v0.2.1...v0.3.1) (2023-02-22)
+- fix: add names in index.ts for all functions and const exports ([`7fbcf689676fde31dbc8df74755255144fff6206`](https://github.com/shinokada/runes-webkit/commit/7fbcf689676fde31dbc8df74755255144fff6206))
 
-### Features
+## 0.4.7
 
-- add microsoft webmaster tools meta tag ([312841a](https://github.com/shinokada/svelte-tabler/commit/312841a810c70a839d3db4404610bc8aa63b8a94))
-- new svelte packaging system ([a0c4a6d](https://github.com/shinokada/svelte-tabler/commit/a0c4a6dd887b9a8fd54bc23702911f803cb3680d))
-- new svelte packaging system 2 ([b7f1f6b](https://github.com/shinokada/svelte-tabler/commit/b7f1f6b84cc4775d49849d48977c6a1c3656b283))
+### Patch Changes
 
-### Bug Fixes
+- fix: change index.js to .ts since exporting types ([`46b7b6b74933dab9e3a0ae67529fd82015bde70a`](https://github.com/shinokada/runes-webkit/commit/46b7b6b74933dab9e3a0ae67529fd82015bde70a))
 
-- update index.html ([0535729](https://github.com/shinokada/svelte-tabler/commit/05357292fcf5a3589f79ba29bae4405c64c8ec17))
+## 0.4.6
 
-### [0.2.1](https://github.com/shinokada/svelte-tabler/compare/v0.2.0...v0.2.1) (2023-02-03)
+### Patch Changes
 
-## [0.2.0](https://github.com/shinokada/svelte-tabler/compare/v0.1.9...v0.2.0) (2023-02-03)
+- fix: remove Sidebar component from package.json exports ([`17e19fb7bee4036f2e3f03d48330427667ce8c82`](https://github.com/shinokada/runes-webkit/commit/17e19fb7bee4036f2e3f03d48330427667ce8c82))
 
-### Features
+## 0.4.5
 
-- new icons and update pages ([ffd862e](https://github.com/shinokada/svelte-tabler/commit/ffd862e507298517525f7af57e00851d1903cfc4))
+### Patch Changes
 
-### [0.1.9](https://github.com/shinokada/svelte-tabler/compare/v0.1.8...v0.1.9) (2023-02-01)
+- fix: add exports to package.json by running gen:exports ([`16d19e5a935e91ef6ed809ac57ecf7573024d2b2`](https://github.com/shinokada/runes-webkit/commit/16d19e5a935e91ef6ed809ac57ecf7573024d2b2))
 
-### Bug Fixes
+## 0.4.4
 
-- badges target, height, and add links to crossOriginLinks ([b52c94f](https://github.com/shinokada/svelte-tabler/commit/b52c94f38bf174928eaa1bdcbd2a94d0db687607))
+### Patch Changes
 
-### [0.1.8](https://github.com/shinokada/svelte-tabler/compare/v0.1.7...v0.1.8) (2023-02-01)
+- fix: export types from MetaTag ([`84566b767dc8788188a311551b9192f62159cd22`](https://github.com/shinokada/runes-webkit/commit/84566b767dc8788188a311551b9192f62159cd22))
 
-### Features
+## 0.4.3
 
-- add pwa ([b946df7](https://github.com/shinokada/svelte-tabler/commit/b946df7800c96a183f608ef0b0d2766e3199c87f))
+### Patch Changes
 
-### [0.1.7](https://github.com/shinokada/svelte-tabler/compare/v0.1.6...v0.1.7) (2022-12-25)
+- fix: MetaTag component ([`0e4b87f6c9f9a0d70cf25bd829908572f21d520b`](https://github.com/shinokada/runes-webkit/commit/0e4b87f6c9f9a0d70cf25bd829908572f21d520b))
 
-### Bug Fixes
+## 0.4.2
 
-- url updates ([24016b6](https://github.com/shinokada/svelte-tabler/commit/24016b6ef4df905af1eee330355076079daccaf7))
+### Patch Changes
 
-### [0.1.6](https://github.com/shinokada/svelte-tabler/compare/v0.1.5...v0.1.6) (2022-12-16)
+- feat: update Sidebar component ([`5fcfc5d9e9caef0e40713cac7bc03f36dd0bbfec`](https://github.com/shinokada/svelte-icon-webkit/commit/5fcfc5d9e9caef0e40713cac7bc03f36dd0bbfec))
 
-### Bug Fixes
+## 0.4.1
 
-- update homepage in package.json ([de3aa62](https://github.com/shinokada/svelte-tabler/commit/de3aa62414b401874aec6222442db87d8c39b902))
+### Patch Changes
 
-### [0.1.5](https://github.com/shinokada/svelte-tabler/compare/v0.1.4...v0.1.5) (2022-12-16)
+- fix: remove svelte:head from MetaTag component ([`97618bddcb5b4047c520951efbfc5307db1e9222`](https://github.com/shinokada/svelte-icon-webkit/commit/97618bddcb5b4047c520951efbfc5307db1e9222))
 
-### Features
+## 0.4.0
 
-- add docsify ([b521d63](https://github.com/shinokada/svelte-tabler/commit/b521d63ab23b1204d3e8f39f105987b020e015be))
+### Minor Changes
 
-### [0.1.4](https://github.com/shinokada/svelte-tabler/compare/v0.1.3...v0.1.4) (2022-06-01)
+- - d40fbee test: update ([`409f75019f347f20e8653167001cb24bb8c8edf8`](https://github.com/shinokada/svelte-icon-webkit/commit/409f75019f347f20e8653167001cb24bb8c8edf8))
+  - eb84301 fix: remove files
+  - 872c4cc fix: move DynamicCodeBlockStyle and Nav to utils dir
+  - e6a7e0d docs: add how to use page
+  - 872c4cc fix: move DynamicCodeBlockStyle and Nav to utils dir
+  - e6a7e0d docs: add how to use page
+  - c2b0da6 chore: changeset publish
 
-### [0.1.3](https://github.com/shinokada/svelte-tabler/compare/v0.1.2...v0.1.3) (2022-05-30)
+## 0.3.7
 
-### [0.1.2](https://github.com/shinokada/svelte-tabler/compare/v0.1.1...v0.1.2) (2022-05-30)
+### Patch Changes
 
-### [0.1.1](https://github.com/shinokada/svelte-tabler/compare/v0.1.0...v0.1.1) (2022-05-30)
+- feat: MetaTag needs only keywords and description and other fields have default values ([`896775bb2a2149a42a3b8da34271323bc0f613f7`](https://github.com/shinokada/svelte-icon-webkit/commit/896775bb2a2149a42a3b8da34271323bc0f613f7))
 
-## 0.1.0 (2022-05-30)
+## 0.3.6
+
+### Patch Changes
+
+- feat: excludeByTitle, insertObjectToArray, cards, info, pkg in helpers.ts ([`f921289bfece47afd0ba5ff58b13169a3dc1d2cb`](https://github.com/shinokada/svelte-icon-webkit/commit/f921289bfece47afd0ba5ff58b13169a3dc1d2cb))
+  fix: update src/+page.svelte
+
+## 0.3.5
+
+### Patch Changes
+
+- fix: remove div and h1 from HomeCards ([`65608772d4f3cb6c21a059236d4da6806215856a`](https://github.com/shinokada/svelte-icon-webkit/commit/65608772d4f3cb6c21a059236d4da6806215856a))
+
+## 0.3.4
+
+### Patch Changes
+
+- feat: add filterStringKeys helper ([`6f0ad8ddb5827e7c69c68eeff052cc511e168378`](https://github.com/shinokada/svelte-icon-webkit/commit/6f0ad8ddb5827e7c69c68eeff052cc511e168378))
+  feat: add JSDoc to helpers
+  feat: add svelte ComponentType to IconPage and +page.svelte
+
+## 0.3.3
+
+### Patch Changes
+
+- docs: add docs page to explain how to use components ([`30455003502f26a69b09b92f01f42bb28384b057`](https://github.com/shinokada/svelte-icon-webkit/commit/30455003502f26a69b09b92f01f42bb28384b057))
+
+## 0.3.2
+
+### Patch Changes
+
+- fix: use dir to import all css in DynamicCodeBlockStyle ([`66a615534fbebba22470e85094bf88f7a58bc7b8`](https://github.com/shinokada/svelte-icon-webkit/commit/66a615534fbebba22470e85094bf88f7a58bc7b8))
+
+## 0.3.1
+
+### Patch Changes
+
+- feat: update DocPage, Toc, OnThisPage components ([`40894f641e0d6f9ce56239a9ecdc7989d44fe3d4`](https://github.com/shinokada/svelte-icon-webkit/commit/40894f641e0d6f9ce56239a9ecdc7989d44fe3d4))
+  feat: add guide/+layout with DocPage
+  feat: add guide2/+layout without DocPage
+
+## 0.3.0
+
+### Minor Changes
+
+- feat: Sidebar, Anchor, H2, H3, Code, Toc are added ([`ddfb17f16e878b0b3a82676c567742872abd51a5`](https://github.com/shinokada/svelte-icon-webkit/commit/ddfb17f16e878b0b3a82676c567742872abd51a5))
+  docs: udpate guide/svelte-4/getting-started page
+
+## 0.2.8
+
+### Patch Changes
+
+- fix: logos style update in Nav dropdown ([`92e4941a5e87e8562ff7d38c8fd016d7508bf7f7`](https://github.com/shinokada/svelte-icon-webkit/commit/92e4941a5e87e8562ff7d38c8fd016d7508bf7f7))
+
+## 0.2.7
+
+### Patch Changes
+
+- fix: remove CodeBlockSwitcher ([`55f3cfc07af8fb5f348abe093a2a5022c3fafcd5`](https://github.com/shinokada/svelte-icon-webkit/commit/55f3cfc07af8fb5f348abe093a2a5022c3fafcd5))
+  feat: add number icons
+
+## 0.2.6
+
+### Patch Changes
+
+- fix: add props to TechInfo component ([`f195c0cba692f7b79c94ddc1e2554a5cba6560b3`](https://github.com/shinokada/svelte-icon-webkit/commit/f195c0cba692f7b79c94ddc1e2554a5cba6560b3))
+
+## 0.2.5
+
+### Patch Changes
+
+- fix: remove svelte 4 icons ([`6655283dec62d4d64dcd84286cee0f36a5038bca`](https://github.com/shinokada/svelte-icon-webkit/commit/6655283dec62d4d64dcd84286cee0f36a5038bca))
+
+## 0.2.4
+
+### Patch Changes
+
+- feat: OnThisPage, Toc components ([`6f6bdec2d3b6d8da2267e36c36f29ac4c72c7bf8`](https://github.com/shinokada/svelte-icon-webkit/commit/6f6bdec2d3b6d8da2267e36c36f29ac4c72c7bf8))
+  tests: add new tests
+  fix: helper.ts to helper in index
+
+## 0.2.3
+
+### Patch Changes
+
+- feat: MetaTag ([`ac1a1195d4605212d80ef18d96a89666ef0a24c0`](https://github.com/shinokada/svelte-icon-webkit/commit/ac1a1195d4605212d80ef18d96a89666ef0a24c0))
+
+## 0.2.2
+
+### Patch Changes
+
+- fix: update Nav and DynamicCodeBlockStyle ([`d670da23b9c08225d143efd81bb2b38a4a055c77`](https://github.com/shinokada/svelte-icon-webkit/commit/d670da23b9c08225d143efd81bb2b38a4a055c77))
+
+## 0.2.1
+
+### Patch Changes
+
+- feat: add localStorage to DynamicCodeBlockStyle
+
+## 0.2.0
+
+### Minor Changes
+
+- feat: CodeWrapper, DynamicCodeBlockStyle, Footer, helpers.ts, HighlightCompo, HomeCards, IconPage, SupportBanner, Techinfo ([`1f3c49ae0d9d94a921d433f2939ca87848cd347c`](https://github.com/shinokada/svelte-icon-webkit/commit/1f3c49ae0d9d94a921d433f2939ca87848cd347c))
+
+- docs: guide/svelte-4, no-tabs, svelte-4, three-tabs, three-tabs-sizebytailwind

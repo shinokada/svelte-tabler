@@ -1,0 +1,13 @@
+- size = ctx.size || '24'
+- role = ctx.role || 'img'
+- color = ctx.color || 'currentColor'
+- strokeWidth = ctx.strokeWidth || '2'
+- withEvents = ctx.withEvents || false
+- title
+- desc
+- class
+- ariaLabel =  "zoom money outline" 
+- onclick
+- onkeydown
+- onkeyup
+- ...restProps

@@ -1,0 +1,1 @@
+<AccessibleOutline on:click="{handleClick}" />
