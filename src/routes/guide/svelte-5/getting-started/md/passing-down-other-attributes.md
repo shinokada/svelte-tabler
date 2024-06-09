@@ -1,1 +1,1 @@
-<AccessibleOutline id="my-svg" transform="rotate(45)" />
+<Accessible id="my-svg" transform="rotate(45)" />

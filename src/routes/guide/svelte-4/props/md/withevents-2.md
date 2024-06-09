@@ -1,1 +1,1 @@
-<AccessibleOutline tabindex="0" withEvents />
+<Accessible tabindex="0" withEvents />

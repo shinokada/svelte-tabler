@@ -31,7 +31,7 @@
 <HighlightCompo codeLang="ts" code={modules['./md/implementation.md'] as string} />
 
 <p>
-  Here, we import the <Code>MyIcon</Code> component and the <Code>AccessibleOutline</Code> icon. By passing
-  the <Code>AccessibleOutline</Code> icon to the <Code>icon</Code> prop of MyIcon, you apply the default
+  Here, we import the <Code>MyIcon</Code> component and the <Code>Accessible</Code> icon. By passing
+  the <Code>Accessible</Code> icon to the <Code>icon</Code> prop of MyIcon, you apply the default
   configuration to the icon.
 </p>

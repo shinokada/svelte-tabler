@@ -1,5 +1,5 @@
 <script>
-  import { AccessibleOutline } from 'svelte-tabler';
+  import { Accessible } from 'svelte-tabler';
 </script>
 
-<svelte:component this="{AccessibleOutline}" />
+<svelte:component this="{Accessible}" />

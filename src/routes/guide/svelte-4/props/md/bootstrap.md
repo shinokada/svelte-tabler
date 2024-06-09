@@ -1,1 +1,1 @@
-<AccessibleOutline class="position-absolute top-0 px-1" />
+<Accessible class="position-absolute top-0 px-1" />

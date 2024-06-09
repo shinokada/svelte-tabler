@@ -1,6 +1,6 @@
 <script lang="ts">
   import { HighlightCompo, CodeWrapper, Code, H2, H3 } from 'runes-webkit';
-  import { AccessibleOutline } from '$lib';
+  import { Accessible } from '$lib';
 
   const modules = import.meta.glob('./md/*.md', {
     query: '?raw',
@@ -67,7 +67,7 @@
 <H2>A11y</H2>
 
 <p>
-  All icons have aria-label. For example <Code>AccessibleOutline</Code> has <Code
+  All icons have aria-label. For example <Code>Accessible</Code> has <Code
     >aria-label="accessible outline"</Code
   >. Use <Code>ariaLabel</Code> prop to modify the <Code>aria-label</Code> value.
 </p>
@@ -81,7 +81,7 @@
 <HighlightCompo codeLang="ts" code={modules['./md/a11y-2.md'] as string} />
 
 <CodeWrapper>
-  <AccessibleOutline
+  <Accessible
     title={{ id: 'my-title', title: 'A green accessibility' }}
     desc={{ id: 'my-descrip', desc: 'The shape of a green accessibility icon' }}
     ariaLabel="green accessibility"

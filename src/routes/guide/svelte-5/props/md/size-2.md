@@ -1,1 +1,1 @@
-<AccessibleOutline class="h-24 w-24" />
+<Accessible class="h-24 w-24" />

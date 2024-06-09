@@ -65,7 +65,7 @@
 <H2>aria-label</H2>
 
 <p>
-  All icons have aria-label. For example <Code>AccessibleOutline</Code> has <Code
+  All icons have aria-label. For example <Code>Accessible</Code> has <Code
     >aria-label="accessible outline"</Code
   >. Use <Code>ariaLabel</Code> prop to modify the <Code>aria-label</Code> value.
 </p>

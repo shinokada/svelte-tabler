@@ -1,2 +1,2 @@
-<AccessibleOutline color="#ff0000" />
-<AccessibleOutline color="green" />
+<Accessible color="#ff0000" />
+<Accessible color="green" />

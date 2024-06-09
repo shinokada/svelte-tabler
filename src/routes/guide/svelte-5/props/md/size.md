@@ -1,1 +1,1 @@
-<AccessibleOutline size="40" />
+<Accessible size="40" />
