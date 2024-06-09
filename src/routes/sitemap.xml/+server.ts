@@ -44,12 +44,7 @@ const pages: Page[] = [
 		priority: '0.5',
 	},
 	{
-		loc: 'outline',
-		changefreq: 'weekly',
-		priority: '0.5',
-	},
-	{
-		loc: 'filled',
+		loc: 'icon',
 		changefreq: 'weekly',
 		priority: '0.5',
 	}
