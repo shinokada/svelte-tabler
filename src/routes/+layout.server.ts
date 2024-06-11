@@ -1,14 +1,13 @@
 import type { MetaProps } from 'runes-meta-tags';
 import { ANALYTICS_ID_ICONS } from '$env/static/private';
-import { metaTitle, metaDescription, metaImg } from 'runes-meta-tags';
+
+const title = 'Svelte Tabler'
+const description = '5290+ Tabler outline SVG icon components for Svelte 4, 5, and Runes'
+const imgUrl = 'https://open-graph-vercel.vercel.app/api/svelte-tabler'
+const keywords = 'svelte, sveltekit, tabler icons, svg icons, icons'
 
 export const load = ({ url }) => {
-  const siteName = metaTitle('/', __NAME__);
-  const title = metaTitle(url.pathname, __NAME__);
-  const basicDesc = '5290+ Tabler outline SVG icon components for Svelte'
-  const description = metaDescription(url.pathname, basicDesc);
-  const image = metaImg(url.pathname, __NAME__);
-  const keywords = 'svelte, sveltekit, tabler icons, svg icons, icons';
+
   const layoutMetaTags: MetaProps = {
     title,
     description,
@@ -19,7 +18,7 @@ export const load = ({ url }) => {
       handle: '@shinokada',
       title,
       description,
-      image,
+      image: imgUrl,
       imageAlt: title,
     },
     og: {
@@ -27,9 +26,9 @@ export const load = ({ url }) => {
       title,
       description,
       url: url.href,
-      image,
+      image: imgUrl,
       imageAlt: title,
-      siteName,
+      siteName: title,
       imageWidth: '1200',
       imageHeight: '630'
     }
