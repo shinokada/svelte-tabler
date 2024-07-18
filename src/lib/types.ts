@@ -1,25 +1,25 @@
-export type TitleType = {
+import type { SVGAttributes } from 'svelte/elements';
+
+type TitleType = {
   id?: string;
   title?: string;
 };
-export type DescType = {
+
+type DescType = {
   id?: string;
   desc?: string;
 };
-export interface BaseProps {
+
+interface BaseProps extends SVGAttributes<SVGElement> {
   size?: string;
   role?: string;
-  color?: string; 
-strokeWidth?: string;
-  withEvents?: boolean;
-  onclick?: (event: MouseEvent) => void;
-  onkeydown?: (event: KeyboardEvent) => void;
-  onkeyup?: (event: KeyboardEvent) => void;
-  class?: string;
+  color?: string;
+  strokeWidth?: string;
 }
-export interface CtxType extends BaseProps { }
 
-export interface Props extends BaseProps{
+export interface CtxType extends BaseProps {}
+
+export interface Props extends BaseProps {
   title?: TitleType;
   desc?: DescType;
   ariaLabel?: string;

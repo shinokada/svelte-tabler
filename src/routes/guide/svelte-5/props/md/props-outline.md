@@ -2,12 +2,7 @@
 - role = ctx.role || 'img'
 - color = ctx.color || 'currentColor'
 - strokeWidth = ctx.strokeWidth || '2'
-- withEvents = ctx.withEvents || false
 - title
 - desc
-- class
-- ariaLabel =  "zoom money outline" 
-- onclick
-- onkeydown
-- onkeyup
-- ...restProps
+- ariaLabel = replace_ariaLabel
+- class, id, name, role, and all other props from SVGAttributes 

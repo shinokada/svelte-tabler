@@ -1,8 +1,8 @@
 import type { MetaProps } from 'runes-meta-tags';
 
-const title = 'Props - Svelte Tabler v1'
-const description = 'How to use Svelte Tabler v1 props'
-const imgUrl = 'https://open-graph-vercel.vercel.app/api/svelte-tabler'
+const title = 'Props - Svelte Tabler v1';
+const description = 'How to use Svelte Tabler v1 props';
+const imgUrl = 'https://open-graph-vercel.vercel.app/api/svelte-tabler';
 
 export const load = () => {
   const pageMetaTags: MetaProps = {
