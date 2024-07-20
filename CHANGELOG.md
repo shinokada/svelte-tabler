@@ -1,5 +1,11 @@
 # svelte-icon-webkit
 
+## 2.0.0-next.6
+
+### Patch Changes
+
+- fix: peerDependencies ([`9387eb95b7352b06c11b06e863f433be770ac9b7`](https://github.com/shinokada/svelte-tabler/commit/9387eb95b7352b06c11b06e863f433be770ac9b7))
+
 ## 2.0.0-next.5
 
 ### Patch Changes
