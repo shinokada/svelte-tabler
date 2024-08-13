@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import { getContext } from 'svelte';
   import type { CtxType, Props } from './types';
   const ctx: CtxType = getContext('iconCtx') ?? {};
@@ -9,8 +9,8 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel = 'chess bishop',
-    ...restProps
+    ariaLabel =  "chess bishop" ,
+    ...restProps 
   }: Props = $props();
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
@@ -25,22 +25,18 @@
   aria-label={ariaLabel}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
-  fill="none"
-  stroke={color}
-  stroke-width={strokeWidth}
-  stroke-linecap="round"
+  fill="none" 
+  stroke={color} 
+  stroke-width={strokeWidth} 
+  stroke-linecap="round" 
   stroke-linejoin="round"
 >
   {#if title?.id && title.title}
-    <title id={title.id}>{title.title}</title>
+  <title id="{title.id}">{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id={desc.id}>{desc.desc}</desc>
+  <desc id="{desc.id}">{desc.desc}</desc>
   {/if}
-  <path
-    d="M8 16l-1.447 .724a1 1 0 0 0 -.553 .894v2.382h12v-2.382a1 1 0 0 0 -.553 -.894l-1.447 -.724h-8z"
-  /> <path d="M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path
-    d="M9.5 16c-1.667 0 -2.5 -1.669 -2.5 -3c0 -3.667 1.667 -6 5 -7c3.333 1 5 3.427 5 7c0 1.284 -.775 2.881 -2.325 3l-.175 0h-5z"
-  /> <path d="M15 8l-3 3" /> <path d="M12 5v1" />
+     <path d="M8 16l-1.447 .724a1 1 0 0 0 -.553 .894v2.382h12v-2.382a1 1 0 0 0 -.553 -.894l-1.447 -.724h-8z" />   <path d="M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />   <path d="M9.5 16c-1.667 0 -2.5 -1.669 -2.5 -3c0 -3.667 1.667 -6 5 -7c3.333 1 5 3.427 5 7c0 1.284 -.775 2.881 -2.325 3l-.175 0h-5z" />   <path d="M15 8l-3 3" />   <path d="M12 5v1" />   
 </svg>
+

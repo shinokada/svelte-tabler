@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import { getContext } from 'svelte';
   import type { CtxType, Props } from './types';
   const ctx: CtxType = getContext('iconCtx') ?? {};
@@ -9,8 +9,8 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel = 'shield exclamation',
-    ...restProps
+    ariaLabel =  "shield exclamation" ,
+    ...restProps 
   }: Props = $props();
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
@@ -25,19 +25,18 @@
   aria-label={ariaLabel}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
-  fill="none"
-  stroke={color}
-  stroke-width={strokeWidth}
-  stroke-linecap="round"
+  fill="none" 
+  stroke={color} 
+  stroke-width={strokeWidth} 
+  stroke-linecap="round" 
   stroke-linejoin="round"
 >
   {#if title?.id && title.title}
-    <title id={title.id}>{title.title}</title>
+  <title id="{title.id}">{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id={desc.id}>{desc.desc}</desc>
+  <desc id="{desc.id}">{desc.desc}</desc>
   {/if}
-  <path
-    d="M15.04 19.745c-.942 .551 -1.964 .976 -3.04 1.255a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 .195 6.015"
-  /> <path d="M19 16v3" /> <path d="M19 22v.01" />
+     <path d="M15.04 19.745c-.942 .551 -1.964 .976 -3.04 1.255a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 .195 6.015" />   <path d="M19 16v3" />   <path d="M19 22v.01" />   
 </svg>
+

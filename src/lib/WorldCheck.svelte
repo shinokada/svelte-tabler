@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import { getContext } from 'svelte';
   import type { CtxType, Props } from './types';
   const ctx: CtxType = getContext('iconCtx') ?? {};
@@ -9,8 +9,8 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel = 'world check',
-    ...restProps
+    ariaLabel =  "world check" ,
+    ...restProps 
   }: Props = $props();
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
@@ -25,19 +25,18 @@
   aria-label={ariaLabel}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
-  fill="none"
-  stroke={color}
-  stroke-width={strokeWidth}
-  stroke-linecap="round"
+  fill="none" 
+  stroke={color} 
+  stroke-width={strokeWidth} 
+  stroke-linecap="round" 
   stroke-linejoin="round"
 >
   {#if title?.id && title.title}
-    <title id={title.id}>{title.title}</title>
+  <title id="{title.id}">{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-    <desc id={desc.id}>{desc.desc}</desc>
+  <desc id="{desc.id}">{desc.desc}</desc>
   {/if}
-  <path d="M20.946 12.99a9 9 0 1 0 -9.46 7.995" /> <path d="M3.6 9h16.8" />
-  <path d="M3.6 15h13.9" /> <path d="M11.5 3a17 17 0 0 0 0 18" />
-  <path d="M12.5 3a16.997 16.997 0 0 1 2.311 12.001" /> <path d="M15 19l2 2l4 -4" />
+     <path d="M20.946 12.99a9 9 0 1 0 -9.46 7.995" />   <path d="M3.6 9h16.8" />   <path d="M3.6 15h13.9" />   <path d="M11.5 3a17 17 0 0 0 0 18" />   <path d="M12.5 3a16.997 16.997 0 0 1 2.311 12.001" />   <path d="M15 19l2 2l4 -4" />   
 </svg>
+
