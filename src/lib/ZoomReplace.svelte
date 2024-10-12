@@ -1,7 +1,7 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types';
-  const ctx: CtxType = getContext('iconCtx') ?? {};
+  import type { BaseProps, Props } from './types';
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
   let {
     size = ctx.size || '24',
     role = ctx.role || 'img',
@@ -9,8 +9,8 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel =  "zoom replace" ,
-    ...restProps 
+    ariaLabel = 'zoom replace',
+    ...restProps
   }: Props = $props();
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
@@ -25,18 +25,20 @@
   aria-label={ariaLabel}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
-  fill="none" 
-  stroke={color} 
-  stroke-width={strokeWidth} 
-  stroke-linecap="round" 
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
   stroke-linejoin="round"
 >
   {#if title?.id && title.title}
-  <title id="{title.id}">{title.title}</title>
+    <title id={title.id}>{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-  <desc id="{desc.id}">{desc.desc}</desc>
+    <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-     <path d="M21 21l-6 -6" />   <path d="M3.291 8a7 7 0 0 1 5.077 -4.806a7.021 7.021 0 0 1 8.242 4.403" />   <path d="M17 4v4h-4" />   <path d="M16.705 12a7 7 0 0 1 -5.074 4.798a7.021 7.021 0 0 1 -8.241 -4.403" />   <path d="M3 16v-4h4" />   
+  <path d="M21 21l-6 -6" />
+  <path d="M3.291 8a7 7 0 0 1 5.077 -4.806a7.021 7.021 0 0 1 8.242 4.403" /> <path d="M17 4v4h-4" />
+  <path d="M16.705 12a7 7 0 0 1 -5.074 4.798a7.021 7.021 0 0 1 -8.241 -4.403" />
+  <path d="M3 16v-4h4" />
 </svg>
-

@@ -55,7 +55,11 @@
   <License {...license} />
   <NpmDownload {...downloads} />
 
-  <a href="https://www.npmjs.com/package/svelte-tabler" rel="nofollow" target="_blank" aria-label="npm svelte-tabler"
+  <a
+    href="https://www.npmjs.com/package/svelte-tabler"
+    rel="nofollow"
+    target="_blank"
+    aria-label="npm svelte-tabler"
     ><img src="https://img.shields.io/npm/dw/svelte-tabler.svg" alt="npm" /></a
   >
 </div>

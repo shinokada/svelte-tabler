@@ -10,19 +10,35 @@
 <h1>Getting Started - Svelte Tabler v2</h1>
 
 <div class="my-8 flex gap-2">
-  <a href="https://github.com/sponsors/shinokada" target="_blank" rel="nofollow" aria-label="Github sponsor"
+  <a
+    href="https://github.com/sponsors/shinokada"
+    target="_blank"
+    rel="nofollow"
+    aria-label="Github sponsor"
     ><img
       src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86"
       alt="sponsor"
     /></a
   >
-  <a href="https://www.npmjs.com/package/svelte-tabler" rel="nofollow" target="_blank" aria-label="npm svelte-tabler"
+  <a
+    href="https://www.npmjs.com/package/svelte-tabler"
+    rel="nofollow"
+    target="_blank"
+    aria-label="npm svelte-tabler"
     ><img src="https://img.shields.io/npm/v/svelte-tabler" alt="npm" /></a
   >
-  <a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank" aria-label="MIT License"
+  <a
+    href="https://opensource.org/licenses/MIT"
+    rel="nofollow"
+    target="_blank"
+    aria-label="MIT License"
     ><img src="https://img.shields.io/github/license/shinokada/svelte-tabler" alt="License" /></a
   >
-  <a href="https://www.npmjs.com/package/svelte-tabler" rel="nofollow" target="_blank" aria-label="npm svelte-tabler"
+  <a
+    href="https://www.npmjs.com/package/svelte-tabler"
+    rel="nofollow"
+    target="_blank"
+    aria-label="npm svelte-tabler"
     ><img src="https://img.shields.io/npm/dw/svelte-tabler.svg" alt="npm" /></a
   >
 </div>

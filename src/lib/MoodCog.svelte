@@ -1,7 +1,7 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types';
-  const ctx: CtxType = getContext('iconCtx') ?? {};
+  import type { BaseProps, Props } from './types';
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
   let {
     size = ctx.size || '24',
     role = ctx.role || 'img',
@@ -9,8 +9,8 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel =  "mood cog" ,
-    ...restProps 
+    ariaLabel = 'mood cog',
+    ...restProps
   }: Props = $props();
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
@@ -25,18 +25,20 @@
   aria-label={ariaLabel}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
-  fill="none" 
-  stroke={color} 
-  stroke-width={strokeWidth} 
-  stroke-linecap="round" 
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
   stroke-linejoin="round"
 >
   {#if title?.id && title.title}
-  <title id="{title.id}">{title.title}</title>
+    <title id={title.id}>{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-  <desc id="{desc.id}">{desc.desc}</desc>
+    <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-     <path d="M21 12a9 9 0 1 0 -8.983 9" />   <path d="M18.001 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />   <path d="M18.001 14.5v1.5" />   <path d="M18.001 20v1.5" />   <path d="M21.032 16.25l-1.299 .75" />   <path d="M16.27 19l-1.3 .75" />   <path d="M14.97 16.25l1.3 .75" />   <path d="M19.733 19l1.3 .75" />   <path d="M9 10h.01" />   <path d="M15 10h.01" />   <path d="M9.5 15c.658 .64 1.56 1 2.5 1" />   
+  <path d="M21 12a9 9 0 1 0 -8.983 9" /> <path d="M18.001 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M18.001 14.5v1.5" /> <path d="M18.001 20v1.5" /> <path d="M21.032 16.25l-1.299 .75" />
+  <path d="M16.27 19l-1.3 .75" /> <path d="M14.97 16.25l1.3 .75" /> <path d="M19.733 19l1.3 .75" />
+  <path d="M9 10h.01" /> <path d="M15 10h.01" /> <path d="M9.5 15c.658 .64 1.56 1 2.5 1" />
 </svg>
-

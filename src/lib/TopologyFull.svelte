@@ -1,7 +1,7 @@
-<script lang='ts'>
+<script lang="ts">
   import { getContext } from 'svelte';
-  import type { CtxType, Props } from './types';
-  const ctx: CtxType = getContext('iconCtx') ?? {};
+  import type { BaseProps, Props } from './types';
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
   let {
     size = ctx.size || '24',
     role = ctx.role || 'img',
@@ -9,8 +9,8 @@
     strokeWidth = ctx.strokeWidth || '2',
     title,
     desc,
-    ariaLabel =  "topology full" ,
-    ...restProps 
+    ariaLabel = 'topology full',
+    ...restProps
   }: Props = $props();
   let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
   const hasDescription = $derived(!!(title?.id || desc?.id));
@@ -25,18 +25,20 @@
   aria-label={ariaLabel}
   aria-describedby={hasDescription ? ariaDescribedby : undefined}
   viewBox="0 0 24 24"
-  fill="none" 
-  stroke={color} 
-  stroke-width={strokeWidth} 
-  stroke-linecap="round" 
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
   stroke-linejoin="round"
 >
   {#if title?.id && title.title}
-  <title id="{title.id}">{title.title}</title>
+    <title id={title.id}>{title.title}</title>
   {/if}
   {#if desc?.id && desc.desc}
-  <desc id="{desc.id}">{desc.desc}</desc>
+    <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-     <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />   <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />   <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />   <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />   <path d="M6 8v8" />   <path d="M18 16v-8" />   <path d="M8 6h8" />   <path d="M16 18h-8" />   <path d="M7.5 7.5l9 9" />   <path d="M7.5 16.5l9 -9" />   
+  <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" /> <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" /> <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M6 8v8" /> <path d="M18 16v-8" /> <path d="M8 6h8" /> <path d="M16 18h-8" />
+  <path d="M7.5 7.5l9 9" /> <path d="M7.5 16.5l9 -9" />
 </svg>
-
