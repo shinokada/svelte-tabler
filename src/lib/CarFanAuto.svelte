@@ -43,3 +43,17 @@
   <path d="M12 12v9l-4.912 -1.914a1.7 1.7 0 0 1 -.428 -2.925z" />
   <path d="M17 21v-4a2 2 0 1 1 4 0v4" /> <path d="M17 19h4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'car fan auto'
+@prop ...restProps
+-->

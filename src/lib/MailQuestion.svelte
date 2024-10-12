@@ -42,3 +42,17 @@
   <path d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
   <path d="M3 7l9 6l9 -6" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'mail question'
+@prop ...restProps
+-->

@@ -41,3 +41,17 @@
   <path d="M22 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" /> <path d="M2 16h20" /> <path d="M4 12v4" />
   <path d="M12 12v4" /> <path d="M20 12v4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'topology bus'
+@prop ...restProps
+-->

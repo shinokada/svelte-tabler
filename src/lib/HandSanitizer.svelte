@@ -41,3 +41,17 @@
   <path d="M15 3h-6a2 2 0 0 0 -2 2" /> <path d="M12 3v5" /> <path d="M12 11v4" />
   <path d="M10 13h4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'hand sanitizer'
+@prop ...restProps
+-->

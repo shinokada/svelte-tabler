@@ -39,3 +39,17 @@
   {/if}
   <path d="M14 4h4v16h-4" /> <path d="M5 16h.01" /> <path d="M9 16h.01" /> <path d="M13 16h.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brackets contain end'
+@prop ...restProps
+-->

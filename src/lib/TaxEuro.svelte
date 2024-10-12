@@ -42,3 +42,17 @@
   /> <path d="M15 3q -1 4 -3 4t -3 -4z" /> <path d="M12 14h-3" />
   <path d="M14 11.172a3 3 0 1 0 0 5.656" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'tax euro'
+@prop ...restProps
+-->

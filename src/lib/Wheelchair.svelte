@@ -41,3 +41,17 @@
   <path d="M19 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /> <path d="M19 17a3 3 0 0 0 -3 -3h-3.4" />
   <path d="M3 3h1a2 2 0 0 1 2 2v6" /> <path d="M6 8h11" /> <path d="M15 8v6" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'wheelchair'
+@prop ...restProps
+-->

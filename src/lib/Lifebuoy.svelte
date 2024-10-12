@@ -42,3 +42,17 @@
   <path d="M9 15l-3.35 3.35" /> <path d="M5.65 5.65l3.35 3.35" />
   <path d="M18.35 5.65l-3.35 3.35" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'lifebuoy'
+@prop ...restProps
+-->

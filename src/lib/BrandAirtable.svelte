@@ -40,3 +40,17 @@
   <path d="M3 10v8l7 -3v-2.6z" /> <path d="M3 6l9 3l9 -3l-9 -3z" />
   <path d="M14 12.3v8.7l7 -3v-8z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand airtable'
+@prop ...restProps
+-->

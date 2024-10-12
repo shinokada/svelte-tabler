@@ -40,3 +40,17 @@
   <path d="M9 3h6l3 7l-6 2l-6 -2z" /> <path d="M12 12l-3 -9" /> <path d="M15 11l-3 -8" />
   <path d="M12 19.5l-3 1.5l.5 -3.5l-2 -2l3 -.5l1.5 -3l1.5 3l3 .5l-2 2l.5 3.5z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'medal 2'
+@prop ...restProps
+-->

@@ -44,3 +44,17 @@
   <path d="M3 6h1m4 0h13" /> <path d="M3 18h1m4 0h8m4 0h1" /> <path d="M6 3v1m0 4v8m0 4v1" />
   <path d="M12 3v7m0 4v7" /> <path d="M18 3v13m0 4v1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'go game'
+@prop ...restProps
+-->

@@ -41,3 +41,17 @@
   <path d="M4 20l5 -1l1.5 -2" /> <path d="M15 7a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
   <path d="M9.5 5a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'play handball'
+@prop ...restProps
+-->

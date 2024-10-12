@@ -40,3 +40,17 @@
   <path d="M20 7l-3 5h4l-3 5" /> <path d="M3 16h4a2 2 0 1 1 0 4" />
   <path d="M3 12h8a2 2 0 1 0 0 -4" /> <path d="M3 8h3a2 2 0 1 0 0 -4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'wind electricity'
+@prop ...restProps
+-->

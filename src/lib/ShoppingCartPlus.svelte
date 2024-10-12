@@ -40,3 +40,17 @@
   <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /> <path d="M12.5 17h-6.5v-14h-2" />
   <path d="M6 5l14 1l-.86 6.017m-2.64 .983h-10.5" /> <path d="M16 19h6" /> <path d="M19 16v6" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'shopping cart plus'
+@prop ...restProps
+-->

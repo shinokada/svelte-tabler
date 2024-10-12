@@ -40,3 +40,17 @@
   <path d="M20 4v8" /> <path d="M16 4.5v7" /> <path d="M12 5v16" /> <path d="M8 5.5v5" />
   <path d="M4 6v4" /> <path d="M20 8h-16" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'antenna'
+@prop ...restProps
+-->

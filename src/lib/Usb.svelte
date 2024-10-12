@@ -41,3 +41,17 @@
   <path d="M7 10v3l5 3" /> <path d="M12 14.5l5 -2v-2.5" /> <path d="M16 10h2v-2h-2z" />
   <path d="M7 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /> <path d="M10 5.5h4l-2 -2.5z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'usb'
+@prop ...restProps
+-->

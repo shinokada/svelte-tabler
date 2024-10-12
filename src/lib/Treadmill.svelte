@@ -41,3 +41,17 @@
   <path d="M12 18v-3l-3 -2.923l.75 -5.077" /> <path d="M6 10v-2l4 -1l2.5 2.5l2.5 .5" />
   <path d="M21 22a1 1 0 0 0 -1 -1h-16a1 1 0 0 0 -1 1" /> <path d="M18 21l1 -11l2 -1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'treadmill'
+@prop ...restProps
+-->

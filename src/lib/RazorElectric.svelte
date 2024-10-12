@@ -40,3 +40,17 @@
   <path d="M8 3v2" /> <path d="M12 3v2" /> <path d="M16 3v2" />
   <path d="M9 12v6a3 3 0 0 0 6 0v-6h-6z" /> <path d="M8 5h8l-1 4h-6z" /> <path d="M12 17v1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'razor electric'
+@prop ...restProps
+-->

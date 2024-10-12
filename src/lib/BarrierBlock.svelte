@@ -42,3 +42,17 @@
   <path d="M4 13.5l6.5 -6.5" /> <path d="M17 16v4" /> <path d="M5 20h4" /> <path d="M15 20h4" />
   <path d="M17 7v-2" /> <path d="M7 7v-2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'barrier block'
+@prop ...restProps
+-->

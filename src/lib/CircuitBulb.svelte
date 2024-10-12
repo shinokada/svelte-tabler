@@ -40,3 +40,17 @@
   <path d="M2 12h5" /> <path d="M17 12h5" /> <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
   <path d="M8.5 8.5l7 7" /> <path d="M15.5 8.5l-7 7" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'circuit bulb'
+@prop ...restProps
+-->

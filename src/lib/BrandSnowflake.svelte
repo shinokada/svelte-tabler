@@ -42,3 +42,17 @@
   <path d="M10 3v5.5l-4.5 -2.5" /> <path d="M14 3v5.5l4.5 -2.5" />
   <path d="M12 11l1 1l-1 1l-1 -1z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand snowflake'
+@prop ...restProps
+-->

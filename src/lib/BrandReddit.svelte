@@ -43,3 +43,17 @@
   <circle cx="9" cy="13" r=".5" /> <circle cx="15" cy="13" r=".5" />
   <path d="M10 17c.667 .333 1.333 .5 2 .5s1.333 -.167 2 -.5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand reddit'
+@prop ...restProps
+-->

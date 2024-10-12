@@ -40,3 +40,17 @@
   <path d="M7 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /> <path d="M7 3v6" /> <path d="M7 15v6" />
   <path d="M13 7h2.5l1.5 5l-1.5 5h-2.5" /> <path d="M17 12h3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'git cherry pick'
+@prop ...restProps
+-->

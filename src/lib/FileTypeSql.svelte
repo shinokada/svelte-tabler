@@ -43,3 +43,17 @@
   /> <path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4" /> <path d="M18 15v6h2" />
   <path d="M13 15a2 2 0 0 1 2 2v2a2 2 0 1 1 -4 0v-2a2 2 0 0 1 2 -2z" /> <path d="M14 20l1.5 1.5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'file type sql'
+@prop ...restProps
+-->

@@ -43,3 +43,17 @@
   <path d="M19 15v-1.5" /> <path d="M19 22.5v-1.5" /> <path d="M17 18h3" />
   <path d="M19 18h.5a1.5 1.5 0 0 1 0 3h-3.5" /> <path d="M19 18h.5a1.5 1.5 0 0 0 0 -3h-3.5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'camera bitcoin'
+@prop ...restProps
+-->

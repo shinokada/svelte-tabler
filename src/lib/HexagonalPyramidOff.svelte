@@ -42,3 +42,17 @@
   /> <path d="M12 2l-1.254 4.742m-.841 3.177l-2.905 10.981" />
   <path d="M12 2l2.153 8.14m1.444 5.457l1.403 5.303" /> <path d="M3 3l18 18" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'hexagonal pyramid off'
+@prop ...restProps
+-->

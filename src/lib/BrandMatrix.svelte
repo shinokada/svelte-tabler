@@ -40,3 +40,17 @@
   <path d="M4 3h-1v18h1" /> <path d="M20 21h1v-18h-1" /> <path d="M7 9v6" />
   <path d="M12 15v-3.5a2.5 2.5 0 1 0 -5 0v.5" /> <path d="M17 15v-3.5a2.5 2.5 0 1 0 -5 0v.5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand matrix'
+@prop ...restProps
+-->

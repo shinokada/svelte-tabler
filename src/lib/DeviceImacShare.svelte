@@ -41,3 +41,17 @@
   <path d="M3 13h18" /> <path d="M8 21h4" /> <path d="M10 17l-.5 4" /> <path d="M16 22l5 -5" />
   <path d="M21 21.5v-4.5h-4.5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'device imac share'
+@prop ...restProps
+-->

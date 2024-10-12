@@ -39,3 +39,17 @@
   {/if}
   <path d="M6 12l6 -9l6 9l-6 9z" /> <path d="M6 12l6 -3l6 3l-6 2z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'currency ethereum'
+@prop ...restProps
+-->

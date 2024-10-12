@@ -1,5 +1,11 @@
 # svelte-icon-webkit
 
+## 2.0.0-next.8
+
+### Patch Changes
+
+- types: update ([`d4a561d63ced92f89f85f9605e6886c12959d6e8`](https://github.com/shinokada/svelte-tabler/commit/d4a561d63ced92f89f85f9605e6886c12959d6e8))
+
 ## 2.0.0-next.7
 
 ### Patch Changes

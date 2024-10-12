@@ -40,3 +40,17 @@
   <path d="M7 16h-4l3.47 -4.66a2 2 0 1 0 -3.47 -1.54" /> <path d="M10 16v-8h4" />
   <path d="M10 12l3 0" /> <path d="M17 16v-6a2 2 0 0 1 4 0v6" /> <path d="M17 13l4 0" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'auth 2fa'
+@prop ...restProps
+-->

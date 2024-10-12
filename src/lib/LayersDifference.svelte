@@ -42,3 +42,17 @@
   /> <path d="M10 8l-2 0l0 2" /> <path d="M8 14l0 2l2 0" /> <path d="M14 8l2 0l0 2" />
   <path d="M16 14l0 2l-2 0" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'layers difference'
+@prop ...restProps
+-->

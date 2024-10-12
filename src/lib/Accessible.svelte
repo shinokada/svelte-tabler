@@ -40,3 +40,17 @@
   <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M10 16.5l2 -3l2 3m-2 -3v-2l3 -1m-6 0l3 1" /> <circle cx="12" cy="7.5" r=".5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'accessible'
+@prop ...restProps
+-->

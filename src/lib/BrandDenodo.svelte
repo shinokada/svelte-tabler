@@ -42,3 +42,17 @@
   <path d="M17.634 7.634l1.732 -1l1 1.732l-1.732 1z" /> <path d="M11 3h2v2h-2z" />
   <path d="M3.634 8.366l1 -1.732l1.732 1l-1 1.732z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand denodo'
+@prop ...restProps
+-->

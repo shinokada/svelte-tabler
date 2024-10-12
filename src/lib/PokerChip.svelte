@@ -43,3 +43,17 @@
   <path d="M8.464 15.536l-2.828 2.828" /> <path d="M5.636 5.636l2.828 2.828" />
   <path d="M15.536 15.536l2.828 2.828" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'poker chip'
+@prop ...restProps
+-->

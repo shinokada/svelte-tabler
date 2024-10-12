@@ -39,3 +39,17 @@
   {/if}
   <circle cx="12" cy="6" r="1" /> <circle cx="12" cy="18" r="1" /> <path d="M5 12l14 0" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'divide'
+@prop ...restProps
+-->

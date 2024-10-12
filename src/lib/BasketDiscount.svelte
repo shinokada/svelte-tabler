@@ -43,3 +43,17 @@
   /> <path d="M13.856 13.254a2 2 0 1 0 -1.856 2.746" /> <path d="M16 21l5 -5" />
   <path d="M21 21v.01" /> <path d="M16 16v.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'basket discount'
+@prop ...restProps
+-->

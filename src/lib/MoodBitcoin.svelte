@@ -42,3 +42,17 @@
   /> <path d="M20.87 10.48a9 9 0 1 0 -7.876 10.465" /> <path d="M9 10h.01" />
   <path d="M15 10h.01" /> <path d="M9.5 15c.658 .64 1.56 1 2.5 1c.357 0 .709 -.052 1.043 -.151" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'mood bitcoin'
+@prop ...restProps
+-->

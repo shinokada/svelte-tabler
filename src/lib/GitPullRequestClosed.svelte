@@ -42,3 +42,17 @@
   <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /> <path d="M6 8v8" /> <path d="M18 11v5" />
   <path d="M16 4l4 4m0 -4l-4 4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'git pull request closed'
+@prop ...restProps
+-->

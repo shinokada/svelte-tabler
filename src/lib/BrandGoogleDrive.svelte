@@ -40,3 +40,17 @@
   <path d="M12 10l-6 10l-3 -5l6 -10z" /> <path d="M9 15h12l-3 5h-12" />
   <path d="M15 15l-6 -10h6l6 10z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand google drive'
+@prop ...restProps
+-->

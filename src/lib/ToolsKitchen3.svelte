@@ -40,3 +40,17 @@
   <path d="M7 4v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
   <path d="M17 8m-3 0a3 4 0 1 0 6 0a3 4 0 1 0 -6 0" /> <path d="M17 12v9" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'tools kitchen 3'
+@prop ...restProps
+-->

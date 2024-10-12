@@ -41,3 +41,17 @@
   <path d="M8.998 20.003h.01" /> <path d="M3.997 20.003h.011" /> <path d="M3.997 15.002h.011" />
   <path d="M3.997 9.002h.011" /> <path d="M3.997 4.002h.011" /> <path d="M8.998 4.002h.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'box align right'
+@prop ...restProps
+-->

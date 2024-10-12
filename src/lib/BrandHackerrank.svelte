@@ -42,3 +42,17 @@
   /> <path d="M9 8v7" /> <path d="M9 12h6" /> <path d="M16 16h-2l1 1z" /> <path d="M8 8h2l-1 -1z" />
   <path d="M15 9v7" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand hackerrank'
+@prop ...restProps
+-->

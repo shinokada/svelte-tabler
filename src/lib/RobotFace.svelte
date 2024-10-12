@@ -41,3 +41,17 @@
   <path d="M9 16c1 .667 2 1 3 1s2 -.333 3 -1" /> <path d="M9 7l-1 -4" /> <path d="M15 7l1 -4" />
   <path d="M9 12v-1" /> <path d="M15 12v-1" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'robot face'
+@prop ...restProps
+-->

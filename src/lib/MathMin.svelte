@@ -41,3 +41,17 @@
   <path d="M3 13s1 -9 4 -9c2.48 0 5.643 9.565 8.36 12.883" />
   <path d="M18.748 17.038c.702 -.88 1.452 -3.56 2.252 -8.038" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'math min'
+@prop ...restProps
+-->

@@ -42,3 +42,17 @@
   <path d="M21 14v1.096a5 5 0 0 1 -3.787 4.85l-.213 .054" /> <path d="M11 18h.01" />
   <path d="M14 18h.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'currency iranian rial'
+@prop ...restProps
+-->

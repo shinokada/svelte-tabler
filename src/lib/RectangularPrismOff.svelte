@@ -42,3 +42,17 @@
   /> <path d="M9 21v-7.5" /> <path d="M9 13.5l3.048 -1.458m2.71 -1.296l5.742 -2.746" />
   <path d="M3.5 11l5.5 2.5" /> <path d="M3 3l18 18" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'rectangular prism off'
+@prop ...restProps
+-->

@@ -41,3 +41,17 @@
   <path d="M16 3v4" /> <path d="M8 3v4" /> <path d="M4 11h16" /> <path d="M20 21l2 -2l-2 -2" />
   <path d="M17 17l-2 2l2 2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'calendar code'
+@prop ...restProps
+-->

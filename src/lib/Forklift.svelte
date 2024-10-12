@@ -42,3 +42,17 @@
   <path d="M3 17v-6h13v6" /> <path d="M5 11v-4h4" /> <path d="M9 11v-6h4l3 6" />
   <path d="M22 15h-3v-10" /> <path d="M16 13l3 0" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'forklift'
+@prop ...restProps
+-->

@@ -41,3 +41,17 @@
   <path d="M3 17l4 -3h10l4 3" /> <circle cx="7.5" cy="9.5" r=".5" />
   <circle cx="16.5" cy="9.5" r=".5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'device audio tape'
+@prop ...restProps
+-->

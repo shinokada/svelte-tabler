@@ -42,3 +42,17 @@
   <path d="M20.003 15.002h-.011" /> <path d="M20.003 9.002h-.011" />
   <path d="M20.003 4.002h-.011" /> <path d="M15.002 4.002h-.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'box align left'
+@prop ...restProps
+-->

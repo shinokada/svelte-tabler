@@ -41,3 +41,17 @@
   <path d="M19 19a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2" /> <path d="M5 16h.01" />
   <path d="M5 13h.01" /> <path d="M5 10h.01" /> <path d="M19 13h.01" /> <path d="M19 16h.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'file broken'
+@prop ...restProps
+-->

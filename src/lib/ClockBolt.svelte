@@ -40,3 +40,17 @@
   <path d="M20.984 12.53a9 9 0 1 0 -7.552 8.355" /> <path d="M12 7v5l3 3" />
   <path d="M19 16l-2 3h4l-2 3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'clock bolt'
+@prop ...restProps
+-->

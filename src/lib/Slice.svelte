@@ -39,3 +39,17 @@
   {/if}
   <path d="M3 19l15 -15l3 3l-6 6l2 2a14 14 0 0 1 -14 4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'slice'
+@prop ...restProps
+-->

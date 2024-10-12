@@ -41,3 +41,17 @@
   <path d="M17 17l-4 -2.5l4 -2.5l4 2.5v4.5l-4 2.5z" /> <path d="M13 14.5v4.5l4 2.5" />
   <path d="M17 17l4 -2.5" /> <path d="M11 4h2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'augmented reality 2'
+@prop ...restProps
+-->

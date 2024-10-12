@@ -40,3 +40,17 @@
   <path d="M4 12a8 8 0 1 0 16 0a8 8 0 0 0 -16 0" /> <path d="M9 15v.01" />
   <path d="M15 15a6 6 0 0 0 -6 -6" /> <path d="M12 15a3 3 0 0 0 -3 -3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'device airtag'
+@prop ...restProps
+-->

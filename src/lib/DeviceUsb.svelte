@@ -39,3 +39,17 @@
   {/if}
   <path d="M7 8h10v8a5 5 0 0 1 -10 0z" /> <path d="M9 8v-5h6v5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'device usb'
+@prop ...restProps
+-->

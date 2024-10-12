@@ -41,3 +41,17 @@
   <path d="M12.573 17.58l-1.573 -6.58l6.13 2.179" />
   <path d="M9.527 4.893l1.473 6.107l-6.31 -1.564z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand threejs'
+@prop ...restProps
+-->

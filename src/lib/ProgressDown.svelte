@@ -44,3 +44,17 @@
   <path d="M6.907 4.579a8.954 8.954 0 0 1 3.093 -1.356" /> <path d="M12 9v6" />
   <path d="M15 12l-3 3l-3 -3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'progress down'
+@prop ...restProps
+-->

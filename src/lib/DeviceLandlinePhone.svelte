@@ -42,3 +42,17 @@
   <path d="M12 14v.01" /> <path d="M9 14v.01" /> <path d="M6 14v.01" /> <path d="M12 17v.01" />
   <path d="M9 17v.01" /> <path d="M6 17v.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'device landline phone'
+@prop ...restProps
+-->

@@ -40,3 +40,17 @@
   <path d="M7 4h-4v16h4" /> <path d="M17 4h4v16h-4" /> <path d="M8 16h.01" />
   <path d="M12 16h.01" /> <path d="M16 16h.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brackets contain'
+@prop ...restProps
+-->

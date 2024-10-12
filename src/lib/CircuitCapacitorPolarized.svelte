@@ -40,3 +40,17 @@
   <path d="M22 12h-8" /> <path d="M2 12h8" /> <path d="M10 7v10" /> <path d="M14 7v10" />
   <path d="M17 5h4" /> <path d="M19 3v4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'circuit capacitor polarized'
+@prop ...restProps
+-->

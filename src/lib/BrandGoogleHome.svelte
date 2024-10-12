@@ -42,3 +42,17 @@
   /> <path d="M7 13v4h10v-4l-5 -5" /> <path d="M14.8 5.2l-11.8 11.8" /> <path d="M7 17v4" />
   <path d="M17 17v4" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand google home'
+@prop ...restProps
+-->

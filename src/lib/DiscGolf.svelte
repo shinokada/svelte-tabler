@@ -42,3 +42,17 @@
   <path d="M14 5c0 4.915 -.552 7.082 -2 10" /> <path d="M12 15v6" /> <path d="M12 3v2" />
   <path d="M7 16c.64 .64 1.509 1 2.414 1h5.172c.905 0 1.774 -.36 2.414 -1" /> <path d="M11 21h2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'disc golf'
+@prop ...restProps
+-->

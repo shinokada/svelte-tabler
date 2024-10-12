@@ -42,3 +42,17 @@
   /> <path d="M11.179 11.176a2 2 0 1 0 2.635 2.667" /> <path d="M10 6h4" /> <path d="M9 18h6" />
   <path d="M3 3l18 18" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'id badge off'
+@prop ...restProps
+-->

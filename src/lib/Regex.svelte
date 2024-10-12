@@ -41,3 +41,17 @@
   <path d="M17 7.875v3.375" /> <path d="M17 7.875l-3 -1.687" /> <path d="M17 7.875l3 1.688" />
   <path d="M17 4.5v3.375" /> <path d="M17 7.875l-3 1.688" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'regex'
+@prop ...restProps
+-->

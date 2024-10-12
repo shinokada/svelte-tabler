@@ -40,3 +40,17 @@
   <path d="M7 9h7a3 3 0 0 1 0 6h-4l2 -2" /> <path d="M12 17l-2 -2" /> <path d="M3 3v18" />
   <path d="M21 3v18" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'text wrap column'
+@prop ...restProps
+-->

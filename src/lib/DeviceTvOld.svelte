@@ -41,3 +41,17 @@
   <path d="M16 3l-4 4l-4 -4" /> <path d="M15 7v13" /> <path d="M18 15v.01" />
   <path d="M18 12v.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'device tv old'
+@prop ...restProps
+-->

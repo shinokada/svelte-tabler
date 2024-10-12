@@ -41,3 +41,17 @@
   <path d="M7 9v2a1 1 0 0 0 1 1h1" /> <path d="M10 9v6" /> <path d="M7.5 4.2v.01" />
   <path d="M4.2 7.5v.01" /> <path d="M3 12a9 9 0 1 0 9 -9" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'time duration 45'
+@prop ...restProps
+-->

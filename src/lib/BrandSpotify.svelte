@@ -41,3 +41,17 @@
   <path d="M8 11.973c2.5 -1.473 5.5 -.973 7.5 .527" /> <path d="M9 15c1.5 -1 4 -1 5 .5" />
   <path d="M7 9c2 -1 6 -2 10 .5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand spotify'
+@prop ...restProps
+-->

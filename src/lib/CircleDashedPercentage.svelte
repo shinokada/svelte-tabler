@@ -44,3 +44,17 @@
   <path d="M15.44 3.69a9 9 0 0 0 -3.44 -.69" /> <path d="M9 9.03v.015" />
   <path d="M15 15.045v.015" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'circle dashed percentage'
+@prop ...restProps
+-->

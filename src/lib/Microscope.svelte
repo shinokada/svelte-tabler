@@ -41,3 +41,17 @@
   <path d="M10.5 12.5l-1.5 1.5" /> <path d="M17 3l3 3" />
   <path d="M12 21a6 6 0 0 0 3.715 -10.712" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'microscope'
+@prop ...restProps
+-->

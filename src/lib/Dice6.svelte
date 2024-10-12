@@ -42,3 +42,17 @@
   <circle cx="8.5" cy="12" r=".5" /> <circle cx="15.5" cy="12" r=".5" />
   <circle cx="15.5" cy="16.5" r=".5" /> <circle cx="8.5" cy="16.5" r=".5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'dice 6'
+@prop ...restProps
+-->

@@ -40,3 +40,17 @@
   <path d="M18 4v16" /> <path d="M14 4v16" /> <path d="M6 4v5" /> <path d="M6 15v5" />
   <path d="M10 4v5" /> <path d="M11 9h-6v6h6z" /> <path d="M10 15v5" /> <path d="M8 12h-.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'prison'
+@prop ...restProps
+-->

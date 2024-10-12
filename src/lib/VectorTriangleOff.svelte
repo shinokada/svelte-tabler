@@ -43,3 +43,17 @@
   <path d="M6.5 17.1l3.749 -6.823" /> <path d="M13.158 9.197l-.658 -1.197" /> <path d="M7 19h10" />
   <path d="M3 3l18 18" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'vector triangle off'
+@prop ...restProps
+-->

@@ -42,3 +42,17 @@
   <path d="M14 9l-3 -3l3 -3" /> <path d="M13 18h-5a2 2 0 0 1 -2 -2v-8" />
   <path d="M10 15l3 3l-3 3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'git compare'
+@prop ...restProps
+-->

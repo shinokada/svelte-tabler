@@ -43,3 +43,17 @@
   <path d="M12 6a4 4 0 0 0 -.4 -1.8" /> <path d="M12 6a4 4 0 0 1 .4 -1.8" />
   <path d="M15 2.1a4 4 0 0 1 2 0" /> <path d="M20 6a4 4 0 0 0 -.4 -1.8" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'wiper wash'
+@prop ...restProps
+-->

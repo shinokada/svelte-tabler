@@ -43,3 +43,17 @@
   <path d="M8 6h8" /> <path d="M16 18h-8" /> <path d="M7.5 7.5l3 3" /> <path d="M13.5 13.5l3 3" />
   <path d="M16.5 7.5l-3 3" /> <path d="M10.5 13.5l-3 3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'topology full hierarchy'
+@prop ...restProps
+-->

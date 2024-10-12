@@ -40,3 +40,17 @@
   <path d="M5 6v12" /> <path d="M5 12c3.5 0 6 -3 6 -6" /> <path d="M5 12c3.5 0 6 3 6 6" />
   <path d="M15 10v8" /> <path d="M19 10a4 4 0 0 0 -4 4" /> <path d="M20 18.01v-.01" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'currency krone danish'
+@prop ...restProps
+-->

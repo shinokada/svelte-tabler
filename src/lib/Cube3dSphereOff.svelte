@@ -42,3 +42,17 @@
   <path d="M18 8.6l2 -1.1" /> <path d="M12 12v2.5" /> <path d="M12 18.5v2.5" />
   <path d="M12 12l-2 -1.12" /> <path d="M6 8.6l-2 -1.1" /> <path d="M3 3l18 18" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'cube 3d sphere off'
+@prop ...restProps
+-->

@@ -40,3 +40,17 @@
   <path d="M4 20l16 0" /> <path d="M9.4 10l5.2 0" /> <path d="M7.8 15l8.4 0" />
   <path d="M6 20l5 -15h2l5 15" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'traffic cone'
+@prop ...restProps
+-->

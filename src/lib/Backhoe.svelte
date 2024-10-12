@@ -43,3 +43,17 @@
   <path d="M5 15v-2a1 1 0 0 1 1 -1h7" /> <path d="M21.12 9.88l-3.12 -4.88l-5 5" />
   <path d="M21.12 9.88a3 3 0 0 1 -2.12 5.12a3 3 0 0 1 -2.12 -.88l4.24 -4.24z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'backhoe'
+@prop ...restProps
+-->

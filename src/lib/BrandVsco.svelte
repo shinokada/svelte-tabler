@@ -43,3 +43,17 @@
   <path d="M18.364 18.364l-2.828 -2.828" /> <path d="M5.636 18.364l2.828 -2.828" />
   <path d="M5.636 5.636l2.828 2.828" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand vsco'
+@prop ...restProps
+-->

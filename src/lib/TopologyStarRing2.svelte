@@ -43,3 +43,17 @@
   <path d="M12 6v4" /> <path d="M12 14v4" /> <path d="M5.5 10.5l5 -5" /> <path d="M13.5 5.5l5 5" />
   <path d="M18.5 13.5l-5 5" /> <path d="M10.5 18.5l-5 -5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'topology star ring 2'
+@prop ...restProps
+-->

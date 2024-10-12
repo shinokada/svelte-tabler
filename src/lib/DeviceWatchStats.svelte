@@ -41,3 +41,17 @@
   <path d="M9 18v3h6v-3" /> <path d="M9 6v-3h6v3" /> <path d="M9 14v-4" /> <path d="M12 14v-1" />
   <path d="M15 14v-3" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'device watch stats'
+@prop ...restProps
+-->

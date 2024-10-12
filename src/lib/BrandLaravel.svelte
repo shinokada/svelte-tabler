@@ -41,3 +41,17 @@
   <path d="M11 18v4" /> <path d="M7 15.5l7 -4" /> <path d="M14 7.5v4" /> <path d="M14 11.5l4 2.5" />
   <path d="M11 13v-7.5l-4 -2.5l-4 2.5" /> <path d="M7 8l4 -2.5" /> <path d="M18 10l4 -2.5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand laravel'
+@prop ...restProps
+-->

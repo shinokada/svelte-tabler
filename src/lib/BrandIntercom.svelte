@@ -41,3 +41,17 @@
   <path d="M7 8v3" /> <path d="M10 7v6" /> <path d="M14 7v6" /> <path d="M17 8v3" />
   <path d="M7 15c4 2.667 6 2.667 10 0" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand intercom'
+@prop ...restProps
+-->

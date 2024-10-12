@@ -39,3 +39,17 @@
   {/if}
   <path d="M3 7v10l7 4v-18z" /> <path d="M21 7v10l-7 4v-18z" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand metabrainz'
+@prop ...restProps
+-->

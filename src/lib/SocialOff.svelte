@@ -43,3 +43,17 @@
   <path d="M12 7v1" /> <path d="M6.7 17.8l2.8 -2" /> <path d="M17.3 17.8l-2.8 -2" />
   <path d="M3 3l18 18" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'social off'
+@prop ...restProps
+-->

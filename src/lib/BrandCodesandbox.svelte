@@ -41,3 +41,17 @@
   <path d="M12 12l4 -2.25l4 -2.25" /> <path d="M12 12l0 9" /> <path d="M12 12l-4 -2.25l-4 -2.25" />
   <path d="M20 12l-4 2v4.75" /> <path d="M4 12l4 2l0 4.75" /> <path d="M8 5.25l4 2.25l4 -2.25" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand codesandbox'
+@prop ...restProps
+-->

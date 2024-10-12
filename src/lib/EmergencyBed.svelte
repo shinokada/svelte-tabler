@@ -42,3 +42,17 @@
   <path d="M4 8l2.1 2.8a3 3 0 0 0 2.4 1.2h11.5" /> <path d="M10 6h4" /> <path d="M12 4v4" />
   <path d="M12 12v2l-2.5 2.5" /> <path d="M14.5 16.5l-2.5 -2.5" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'emergency bed'
+@prop ...restProps
+-->

@@ -45,3 +45,17 @@
   /> <path d="M12 21v-9l-7.5 -4.5" /> <path d="M12 12l7.5 -4.5" /> <path d="M12 3v4.5" />
   <path d="M19.5 16l-3.5 -2" /> <path d="M8 14l-3.5 2" />
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop ariaLabel = 'brand netbeans'
+@prop ...restProps
+-->
