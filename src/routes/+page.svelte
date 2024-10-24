@@ -1,4 +1,5 @@
 <script lang="ts">
+  import type { PageData } from './$types';
   import {
     removeHyphensAndCapitalize,
     HomeCards,

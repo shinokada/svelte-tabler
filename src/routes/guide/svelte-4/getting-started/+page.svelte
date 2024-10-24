@@ -1,4 +1,5 @@
 <script lang="ts">
+  import type { PageData } from './$types';
   import { HighlightCompo, Code, H2 } from 'runes-webkit';
   import { License, StaticBadge, NpmVersion, NpmDownload } from 'svelte-shields';
   import type {
@@ -7,6 +8,7 @@
     LicensePropsType,
     NpmDownloadPropsType
   } from 'svelte-shields';
+  import { replacev1xx } from 'runes-webkit';
 
   const sponsor: StaticBadgePropsType = {
     badgeContent: 'Sponsor-❤-blue',
@@ -45,6 +47,8 @@
     import: 'default',
     eager: true
   });
+
+  export let data: PageData;
 </script>
 
 <h1>Getting Started - Svelte Tabler v1</h1>
@@ -71,9 +75,9 @@
 
 <H2>Installation</H2>
 
-<p>Install Svelte and TailwindCSS:</p>
+<p>Install Svelte 4 and Svelte Tabler:</p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/installation.md'] as string} />
+<HighlightCompo codeLang="ts" code={replacev1xx(modules['./md/installation.md'] as string, data.versions.v1 as string)} />
 
 <H2>Basic Usage</H2>
 

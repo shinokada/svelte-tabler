@@ -1,5 +1,31 @@
 # svelte-icon-webkit
 
+## 2.0.0
+
+### Major Changes
+
+- feat: publish 2.0.0
+
+### Patch Changes
+
+- fix: DeviceGamePad to DeviceGamepad ([`f55074d`](https://github.com/shinokada/svelte-tabler/commit/f55074d959ce309833884eda5a65a5bf2841934a))
+
+- fix: update for runes ([`7ab20f8`](https://github.com/shinokada/svelte-tabler/commit/7ab20f82191ba14fb6e1801e42db881b657e5c78))
+
+- fix: remove svelte:component from Icon.svelte ([`f39ad9d`](https://github.com/shinokada/svelte-tabler/commit/f39ad9d762384d2dfa9fb6d656f788ec4d10ad4a))
+
+- fix: peerDependencies ([`9387eb9`](https://github.com/shinokada/svelte-tabler/commit/9387eb95b7352b06c11b06e863f433be770ac9b7))
+
+- types: update ([`d4a561d`](https://github.com/shinokada/svelte-tabler/commit/d4a561d63ced92f89f85f9605e6886c12959d6e8))
+
+- feat: extends extends SVGAttributes<SVGElement> ([`f10225c`](https://github.com/shinokada/svelte-tabler/commit/f10225c6bddfdbd5baf4ccad8c43381191be25b9))
+
+## 2.0.0-next.9
+
+### Minor Changes
+
+- feat: publish 2.0.0
+
 ## 2.0.0-next.8
 
 ### Patch Changes

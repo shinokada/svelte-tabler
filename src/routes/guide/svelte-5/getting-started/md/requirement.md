@@ -1,1 +1,1 @@
-- Svelte 5 Runes
+- Svelte 5 and later
