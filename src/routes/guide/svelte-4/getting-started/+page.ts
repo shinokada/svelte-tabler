@@ -30,13 +30,13 @@ export const load = (async () => {
     const response = await fetch('https://registry.npmjs.org/svelte-tabler');
     const data = await response.json();
     const allVersions = Object.keys(data.versions);
-    
+
     const sortedVersions = allVersions.sort((a, b) => {
       return -a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
     });
-    
-    const latestV1 = sortedVersions.find(v => v.startsWith('1'));
-    const latestV2 = sortedVersions.find(v => v.startsWith('2'));
+
+    const latestV1 = sortedVersions.find((v) => v.startsWith('1'));
+    const latestV2 = sortedVersions.find((v) => v.startsWith('2'));
 
     return {
       pageMetaTags,

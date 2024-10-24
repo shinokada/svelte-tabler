@@ -77,7 +77,10 @@
 
 <p>Install Svelte 4 and Svelte Tabler:</p>
 
-<HighlightCompo codeLang="ts" code={replacev1xx(modules['./md/installation.md'] as string, data.versions.v1 as string)} />
+<HighlightCompo
+  codeLang="ts"
+  code={replacev1xx(modules['./md/installation.md'] as string, data.versions.v1 as string)}
+/>
 
 <H2>Basic Usage</H2>
 
