@@ -71,8 +71,6 @@
 
 <H2>Installation</H2>
 
-<p>Install Svelte 4 and Svelte Tabler:</p>
-
 <HighlightCompo
   codeLang="ts"
   code={modules['./md/installation.md'] as string}
