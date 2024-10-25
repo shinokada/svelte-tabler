@@ -48,13 +48,8 @@
 <HighlightCompo codeLang="ts" code={modules['./md/requirement.md'] as string} />
 
 <H2>Installation</H2>
-<p>Install Svelte:</p>
 
 <HighlightCompo codeLang="ts" code={modules['./md/installation.md'] as string} />
-
-<p>Install <Code>svelte-tabler v2</Code>:</p>
-
-<HighlightCompo codeLang="ts" code={modules['./md/installation-2.md'] as string} />
 
 <H2>Basic Usage</H2>
 

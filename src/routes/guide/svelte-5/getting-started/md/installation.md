@@ -1,4 +1,3 @@
 npx sv create myapp
 cd myapp
-pnpm install
-pnpm run dev
+pnpm i -D svelte-tabler

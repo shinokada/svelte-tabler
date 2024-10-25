@@ -79,7 +79,7 @@
 
 <HighlightCompo
   codeLang="ts"
-  code={replacev1xx(modules['./md/installation.md'] as string, data.versions.v1 as string)}
+  code={modules['./md/installation.md'] as string}
 />
 
 <H2>Basic Usage</H2>
