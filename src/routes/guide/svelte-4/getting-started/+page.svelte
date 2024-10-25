@@ -1,5 +1,4 @@
 <script lang="ts">
-  import type { PageData } from './$types';
   import { HighlightCompo, Code, H2 } from 'runes-webkit';
   import { License, StaticBadge, NpmVersion, NpmDownload } from 'svelte-shields';
   import type {
@@ -8,7 +7,6 @@
     LicensePropsType,
     NpmDownloadPropsType
   } from 'svelte-shields';
-  import { replacev1xx } from 'runes-webkit';
 
   const sponsor: StaticBadgePropsType = {
     badgeContent: 'Sponsor-❤-blue',
@@ -47,8 +45,6 @@
     import: 'default',
     eager: true
   });
-
-  export let data: PageData;
 </script>
 
 <h1>Getting Started - Svelte Tabler v1</h1>
