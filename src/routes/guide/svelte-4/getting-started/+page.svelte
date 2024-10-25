@@ -71,10 +71,7 @@
 
 <H2>Installation</H2>
 
-<HighlightCompo
-  codeLang="ts"
-  code={modules['./md/installation.md'] as string}
-/>
+<HighlightCompo codeLang="ts" code={modules['./md/installation.md'] as string} />
 
 <H2>Basic Usage</H2>
 

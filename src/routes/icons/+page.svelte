@@ -4,4 +4,8 @@
   const keyIcons = filterStringKeys(icons);
 </script>
 
-<IconPage icons={keyIcons} title="Icons - Svelte Tabler" tab1Class="sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3"/>
+<IconPage
+  icons={keyIcons}
+  title="Icons - Svelte Tabler"
+  tab1Class="sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3"
+/>
