@@ -52,7 +52,7 @@ export const load = (async () => {
         v1: undefined,
         v2: undefined
       } satisfies Versions,
-      error: 'Failed to fetch versions'
+      error: `Failed to fetch versions. ${error}`
     };
   }
 }) satisfies PageLoad;
