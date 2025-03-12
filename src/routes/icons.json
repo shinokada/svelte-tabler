@@ -4,7 +4,7 @@
     "badges": ["Svelte 4/5/Runes", "A11y"],
     "features": ["510+ mono and color SVG icons", "v1: 4/5, v2: 5:Runes"],
     "source": ["flowbite-icons", "https://github.com/themesberg/flowbite-icons"],
-    "repo": "https://github.com/themesberg/flowbite-svelte"
+    "repo": "https://github.com/themesberg/svelte-5-ui-lib"
   },
   {
     "iconName": "Svelte Ant Design Icons",
