@@ -1,48 +1,48 @@
 <script lang="ts">
-  import { getContext } from 'svelte';
-  import type { BaseProps, Props } from './types';
-  const ctx: BaseProps = getContext('iconCtx') ?? {};
-  let {
-    size = ctx.size || '24',
-    role = ctx.role || 'img',
-    color = ctx.color || 'currentColor',
-    strokeWidth = ctx.strokeWidth || '2',
-    title,
-    desc,
-    ariaLabel = 'password fingerprint',
-    ...restProps
-  }: Props = $props();
-  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
-  const hasDescription = $derived(!!(title?.id || desc?.id));
+	import { getContext } from 'svelte';
+	import type { BaseProps, Props } from './types';
+	const ctx: BaseProps = getContext('iconCtx') ?? {};
+	let {
+		size = ctx.size || '24',
+		role = ctx.role || 'img',
+		color = ctx.color || 'currentColor',
+		strokeWidth = ctx.strokeWidth || '2',
+		title,
+		desc,
+		ariaLabel = 'password fingerprint',
+		...restProps
+	}: Props = $props();
+	let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+	const hasDescription = $derived(!!(title?.id || desc?.id));
 </script>
 
 <svg
-  xmlns="http://www.w3.org/2000/svg"
-  {...restProps}
-  {role}
-  width={size}
-  height={size}
-  aria-label={ariaLabel}
-  aria-describedby={hasDescription ? ariaDescribedby : undefined}
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke={color}
-  stroke-width={strokeWidth}
-  stroke-linecap="round"
-  stroke-linejoin="round"
+	xmlns="http://www.w3.org/2000/svg"
+	{...restProps}
+	{role}
+	width={size}
+	height={size}
+	aria-label={ariaLabel}
+	aria-describedby={hasDescription ? ariaDescribedby : undefined}
+	viewBox="0 0 24 24"
+	fill="none"
+	stroke={color}
+	stroke-width={strokeWidth}
+	stroke-linecap="round"
+	stroke-linejoin="round"
 >
-  {#if title?.id && title.title}
-    <title id={title.id}>{title.title}</title>
-  {/if}
-  {#if desc?.id && desc.desc}
-    <desc id={desc.id}>{desc.desc}</desc>
-  {/if}
-  <path d="M17 8c.788 1 1 2 1 3v1" /> <path d="M9 11c0 -1.578 1.343 -3 3 -3s3 1.422 3 3v2" />
-  <path d="M12 11v2" />
-  <path d="M6 12v-1.397c-.006 -1.999 1.136 -3.849 2.993 -4.85a6.385 6.385 0 0 1 6.007 -.005" />
-  <path d="M12 17v4" /> <path d="M10 20l4 -2" /> <path d="M10 18l4 2" /> <path d="M5 17v4" />
-  <path d="M3 20l4 -2" /> <path d="M3 18l4 2" /> <path d="M19 17v4" /> <path d="M17 20l4 -2" />
-  <path d="M17 18l4 2" />
+	{#if title?.id && title.title}
+		<title id={title.id}>{title.title}</title>
+	{/if}
+	{#if desc?.id && desc.desc}
+		<desc id={desc.id}>{desc.desc}</desc>
+	{/if}
+	<path d="M17 8c.788 1 1 2 1 3v1" /> <path d="M9 11c0 -1.578 1.343 -3 3 -3s3 1.422 3 3v2" />
+	<path d="M12 11v2" />
+	<path d="M6 12v-1.397c-.006 -1.999 1.136 -3.849 2.993 -4.85a6.385 6.385 0 0 1 6.007 -.005" />
+	<path d="M12 17v4" /> <path d="M10 20l4 -2" /> <path d="M10 18l4 2" /> <path d="M5 17v4" />
+	<path d="M3 20l4 -2" /> <path d="M3 18l4 2" /> <path d="M19 17v4" /> <path d="M17 20l4 -2" />
+	<path d="M17 18l4 2" />
 </svg>
 
 <!--

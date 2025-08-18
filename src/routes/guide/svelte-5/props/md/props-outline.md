@@ -5,4 +5,4 @@
 - title
 - desc
 - ariaLabel = replace_ariaLabel
-- class, id, name, role, and all other props from SVGAttributes 
+- class, id, name, role, and all other props from SVGAttributes

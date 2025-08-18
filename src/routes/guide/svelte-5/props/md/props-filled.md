@@ -5,7 +5,7 @@
 - title
 - desc
 - class
-- ariaLabel =  "ad circle filled" 
+- ariaLabel = "ad circle filled"
 - onclick
 - onkeydown
 - onkeyup

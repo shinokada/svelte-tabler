@@ -1,47 +1,47 @@
 <script lang="ts">
-  import { getContext } from 'svelte';
-  import type { BaseProps, Props } from './types';
-  const ctx: BaseProps = getContext('iconCtx') ?? {};
-  let {
-    size = ctx.size || '24',
-    role = ctx.role || 'img',
-    color = ctx.color || 'currentColor',
-    strokeWidth = ctx.strokeWidth || '2',
-    title,
-    desc,
-    ariaLabel = 'brand deezer',
-    ...restProps
-  }: Props = $props();
-  let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
-  const hasDescription = $derived(!!(title?.id || desc?.id));
+	import { getContext } from 'svelte';
+	import type { BaseProps, Props } from './types';
+	const ctx: BaseProps = getContext('iconCtx') ?? {};
+	let {
+		size = ctx.size || '24',
+		role = ctx.role || 'img',
+		color = ctx.color || 'currentColor',
+		strokeWidth = ctx.strokeWidth || '2',
+		title,
+		desc,
+		ariaLabel = 'brand deezer',
+		...restProps
+	}: Props = $props();
+	let ariaDescribedby = `${title?.id || ''} ${desc?.id || ''}`;
+	const hasDescription = $derived(!!(title?.id || desc?.id));
 </script>
 
 <svg
-  xmlns="http://www.w3.org/2000/svg"
-  {...restProps}
-  {role}
-  width={size}
-  height={size}
-  aria-label={ariaLabel}
-  aria-describedby={hasDescription ? ariaDescribedby : undefined}
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke={color}
-  stroke-width={strokeWidth}
-  stroke-linecap="round"
-  stroke-linejoin="round"
+	xmlns="http://www.w3.org/2000/svg"
+	{...restProps}
+	{role}
+	width={size}
+	height={size}
+	aria-label={ariaLabel}
+	aria-describedby={hasDescription ? ariaDescribedby : undefined}
+	viewBox="0 0 24 24"
+	fill="none"
+	stroke={color}
+	stroke-width={strokeWidth}
+	stroke-linecap="round"
+	stroke-linejoin="round"
 >
-  {#if title?.id && title.title}
-    <title id={title.id}>{title.title}</title>
-  {/if}
-  {#if desc?.id && desc.desc}
-    <desc id={desc.id}>{desc.desc}</desc>
-  {/if}
-  <path d="M3 16.5h2v.5h-2z" /> <path d="M8 16.5h2.5v.5h-2.5z" /> <path d="M16 17h-2.5v-.5h2.5z" />
-  <path d="M21.5 17h-2.5v-.5h2.5z" /> <path d="M21.5 13h-2.5v.5h2.5z" />
-  <path d="M21.5 9.5h-2.5v.5h2.5z" /> <path d="M21.5 6h-2.5v.5h2.5z" />
-  <path d="M16 13h-2.5v.5h2.5z" /> <path d="M8 13.5h2.5v-.5h-2.5z" />
-  <path d="M8 9.5h2.5v.5h-2.5z" />
+	{#if title?.id && title.title}
+		<title id={title.id}>{title.title}</title>
+	{/if}
+	{#if desc?.id && desc.desc}
+		<desc id={desc.id}>{desc.desc}</desc>
+	{/if}
+	<path d="M3 16.5h2v.5h-2z" /> <path d="M8 16.5h2.5v.5h-2.5z" /> <path d="M16 17h-2.5v-.5h2.5z" />
+	<path d="M21.5 17h-2.5v-.5h2.5z" /> <path d="M21.5 13h-2.5v.5h2.5z" />
+	<path d="M21.5 9.5h-2.5v.5h2.5z" /> <path d="M21.5 6h-2.5v.5h2.5z" />
+	<path d="M16 13h-2.5v.5h2.5z" /> <path d="M8 13.5h2.5v-.5h-2.5z" />
+	<path d="M8 9.5h2.5v.5h-2.5z" />
 </svg>
 
 <!--
