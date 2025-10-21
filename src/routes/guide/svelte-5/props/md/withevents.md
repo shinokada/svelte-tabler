@@ -1,1 +1,0 @@
-<Accessible withEvents onclick={handleClick}/>

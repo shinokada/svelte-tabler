@@ -4,5 +4,6 @@
 - strokeWidth = ctx.strokeWidth || '2'
 - title
 - desc
-- ariaLabel = replace_ariaLabel
-- class, id, name, role, and all other props from SVGAttributes
+- focusable = 'false'
+- ariaLabel,
+- ...restProps

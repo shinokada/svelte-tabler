@@ -1,1 +1,0 @@
-<Accessible tabindex="0" withEvents />

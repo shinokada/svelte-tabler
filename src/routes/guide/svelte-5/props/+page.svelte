@@ -1,139 +1,141 @@
 <script lang="ts">
-	import { HighlightCompo, CodeWrapper, Code, H2, H3 } from 'runes-webkit';
-	import { Accessible } from '$lib';
-	import { A, P } from 'flowbite-svelte';
-	const modules = import.meta.glob('./md/*.md', {
-		query: '?raw',
-		import: 'default',
-		eager: true
-	});
+  import { HighlightCompo, CodeWrapper, Code, H2, H3 } from 'runes-webkit';
+  import { Accessible } from '$lib';
+  import { A, P } from 'flowbite-svelte';
+  const modules = import.meta.glob('./md/*.md', {
+    query: '?raw',
+    import: 'default',
+    eager: true
+  });
 </script>
 
-<h1>Props - Svelte Tabler v2</h1>
+<h1>Props - Svelte Tabler v3</h1>
 
 <H2>Props</H2>
 
-<HighlightCompo
-	codeLang="ts"
-	code={modules['./md/props-outline.md'] as string}
-	
-/>
+<HighlightCompo codeLang="ts" code={modules['./md/props-outline.md'] as string} />
 
 <H2>Types</H2>
 <P>
-	All icons are extended <A
-		href="https://github.com/sveltejs/svelte/blob/main/packages/svelte/elements.d.ts"
-		>SVGAttributes from svelte/elements</A
-	>.
+  All icons are extended <A
+    href="https://github.com/sveltejs/svelte/blob/main/packages/svelte/elements.d.ts"
+    >SVGAttributes from svelte/elements</A
+  >.
 </P>
-<HighlightCompo codeLang="ts" code={modules['./md/types.md'] as string}  />
+<HighlightCompo codeLang="ts" code={modules['./md/types.md'] as string} />
 
 <H2>Size</H2>
 
 <p>
-	To change the size of an icon, use the <Code>size</Code> prop and specify the desired size. For example:
+  To change the size of an icon, use the <Code>size</Code> prop and specify the desired size. For example:
 </p>
-<HighlightCompo codeLang="ts" code={modules['./md/size.md'] as string}  />
+<HighlightCompo codeLang="ts" code={modules['./md/size.md'] as string} />
 
 <p>
-	You can add a custom size using Tailwind CSS by including the desired classes in the <Code
-		>class</Code
-	> prop. For example:
+  You can add a custom size using Tailwind CSS by including the desired classes in the <Code
+    >class</Code
+  > prop. For example:
 </p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/size-2.md'] as string}  />
+<HighlightCompo codeLang="ts" code={modules['./md/size-2.md'] as string} />
 
 <H2>Colors</H2>
 
 <p>Use the color props to change colors with HEX color code or HTML color names:</p>
 
-<HighlightCompo
-	codeLang="ts"
-	code={modules['./md/css-hex-color.md'] as string}
-	
-/>
+<HighlightCompo codeLang="ts" code={modules['./md/css-hex-color.md'] as string} />
 
 <H2>CSS framework</H2>
 
 <p>
-	You can apply CSS framework color and other attributes directly to the icon component or its
-	parent tag using the <Code>class</Code> prop.
+  You can apply CSS framework color and other attributes directly to the icon component or its
+  parent tag using the <Code>class</Code> prop.
 </p>
 
 <H3>Tailwind CSS</H3>
 
-<HighlightCompo
-	codeLang="ts"
-	code={modules['./md/tailwind-css.md'] as string}
-	
-/>
+<HighlightCompo codeLang="ts" code={modules['./md/tailwind-css.md'] as string} />
 
 <H3>Bootstrap</H3>
 
-<HighlightCompo
-	codeLang="ts"
-	code={modules['./md/bootstrap.md'] as string}
-	
-/>
+<HighlightCompo codeLang="ts" code={modules['./md/bootstrap.md'] as string} />
 
 <H2>Dark mode</H2>
 
 <p>
-	If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the <Code
-		>class</Code
-	> prop.
+  If you are using the dark mode on your website with Tailwind CSS, add your dark mode class to the <Code
+    >class</Code
+  > prop.
 </p>
 
-<HighlightCompo
-	codeLang="ts"
-	code={modules['./md/dark-mode.md'] as string}
-	
-/>
+<HighlightCompo codeLang="ts" code={modules['./md/dark-mode.md'] as string} />
 
 <H2>A11y</H2>
 
-<p>
-	All icons have aria-label. For example <Code>Accessible</Code> has <Code
-		>aria-label="accessible outline"</Code
-	>. Use <Code>ariaLabel</Code> prop to modify the <Code>aria-label</Code> value.
-</p>
-
-<HighlightCompo codeLang="ts" code={modules['./md/a11y.md'] as string}  />
+<H3>Decorative Icons</H3>
 
 <p>
-	Use <Code>title</Code>, <Code>desc</Code>, and <Code>ariaLabel</Code> props to make your icons accessible.
+  By default, icons have no <Code>aria-label</Code>. This is intentional - when icons are used next
+  to text or as decorative elements, they don't need labels as screen readers will ignore them.
 </p>
 
-<HighlightCompo codeLang="ts" code={modules['./md/a11y-2.md'] as string}  />
+<HighlightCompo codeLang="ts" code={modules['./md/a11y-decorative.md'] as string} />
+
+<H3>Standalone Icons</H3>
+
+<p>
+  When icons are used without accompanying text (e.g., icon-only buttons), you should provide an
+  accessible label using the <Code>ariaLabel</Code> prop:
+</p>
+
+<HighlightCompo codeLang="ts" code={modules['./md/a11y.md'] as string} />
+
+<H3>Rich Descriptions</H3>
+
+<p>
+  For complex icons that need detailed descriptions, use <Code>title</Code> and <Code>desc</Code> props.
+  The <Code>title</Code> provides a short label, while <Code>desc</Code> offers a longer description:
+</p>
+
+<HighlightCompo codeLang="ts" code={modules['./md/a11y-2.md'] as string} />
 
 <CodeWrapper>
-	<Accessible
-		title={{ id: 'my-title', title: 'A green accessibility' }}
-		desc={{ id: 'my-descrip', desc: 'The shape of a green accessibility icon' }}
-		ariaLabel="green accessibility"
-		color="green"
-	/>
+  <Accessible
+    title={{ id: 'my-title', title: 'accessibility icon' }}
+    desc={{ id: 'my-descrip', desc: 'The shape of a green accessibility icon' }}
+    color="green"
+  />
 </CodeWrapper>
+
+<p class="mt-4">
+  <strong>Note:</strong> When using <Code>title</Code>, you don't need <Code>ariaLabel</Code> as the
+  title will be used automatically via <Code>aria-labelledby</Code>.
+</p>
+
+<H3>Focusable</H3>
+
+<p>
+  Icons are not keyboard-focusable by default (<Code>focusable="false"</Code>). If you need to
+  change this behavior, use the <Code>focusable</Code> prop:
+</p>
+
+<HighlightCompo codeLang="ts" code={modules['./md/a11y-focusable.md'] as string} />
 
 <H2>Passing down other attributes</H2>
 
 <P>
-	As default all icons are extend <A
-		href="https://github.com/sveltejs/svelte/blob/svelte%405.0.0-next.182/packages/svelte/elements.d.ts"
-		>SVGAttributes SVGElement</A
-	>. You can add all the events and other props described in the type.
+  As default all icons are extend <A
+    href="https://github.com/sveltejs/svelte/blob/svelte%405.0.0-next.182/packages/svelte/elements.d.ts"
+    >SVGAttributes SVGElement</A
+  >. You can add all the events and other props described in the type.
 </P>
 <CodeWrapper>
-	<Accessible
-		id="my-svg"
-		transform="rotate(45)"
-		size="50"
-		class="hover:cursor-pointer dark:text-white"
-		onclick={() => alert('hello')}
-	/>
+  <Accessible
+    id="my-svg"
+    transform="rotate(45)"
+    size="50"
+    class="hover:cursor-pointer dark:text-white"
+    onclick={() => alert('hello')}
+  />
 </CodeWrapper>
-<HighlightCompo
-	codeLang="ts"
-	code={modules['./md/passing-down-other-attributes.md'] as string}
-	
-/>
+<HighlightCompo codeLang="ts" code={modules['./md/passing-down-other-attributes.md'] as string} />
