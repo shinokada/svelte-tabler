@@ -38,7 +38,7 @@
   const downloads: NpmDownloadPropsType = {
     packageName: 'svelte-tabler',
     logo: 'npm',
-    link: ['https://www.npmjs.com/package/svelte-tabler']
+    link: ['https://www.npmjs.com/package/svelte-tabler', 'https://svelte-tabler.codewithshin.com/']
   };
 
   const modules = import.meta.glob('./md/*.md', {
