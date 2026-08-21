@@ -103,7 +103,7 @@
 >
   <NavBrand href="/">
     <span
-      class="text-primary-900 dark:text-primary-500 self-center text-xl font-semibold whitespace-nowrap lg:ml-8 lg:text-3xl"
+      class="text-primary-900 dark:text-primary-500 self-center text-xl font-semibold whitespace-nowrap ml-8 lg:text-3xl"
       >Svelte Tabler</span
     >
   </NavBrand>

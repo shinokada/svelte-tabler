@@ -1,7 +1,9 @@
 <script lang="ts">
   import { getContext } from 'svelte';
   import type { BaseProps, Props } from './types';
+
   const ctx: BaseProps = getContext('iconCtx') ?? {};
+
   let {
     size = ctx.size || '24',
     role = ctx.role || 'img',
@@ -14,7 +16,7 @@
     ...restProps
   }: Props = $props();
 
-  const ariaDescribedby = $derived([title?.id, desc?.id].filter(Boolean).join(' ') || undefined);
+  const ariaDescribedby = $derived(desc?.id && desc.desc ? desc.id : undefined);
 </script>
 
 <svg
@@ -41,9 +43,9 @@
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
   <path
-    d="M7 21h1a1 1 0 0 0 1 -1v-1h0a3 3 0 0 1 6 0m3 2h1a1 1 0 0 0 1 -1v-15l-3 -2l-3 2v6h-4v-6l-3 -2l-3 2v15a1 1 0 0 0 1 1h2m8 -2v1a1 1 0 0 0 1 1h2"
-  /> <path d="M7 7h0v.01" /> <path d="M7 10h0v.01" /> <path d="M7 13h0v.01" />
-  <path d="M17 7h0v.01" /> <path d="M17 10h0v.01" /> <path d="M17 13h0v.01" />
+    d="M7 21h1a1 1 0 0 0 1 -1v-1a3 3 0 0 1 6 0m3 2h1a1 1 0 0 0 1 -1v-15l-3 -2l-3 2v6h-4v-6l-3 -2l-3 2v15a1 1 0 0 0 1 1h2m8 -2v1a1 1 0 0 0 1 1h2"
+  /> <path d="M7 7v.01" /> <path d="M7 10v.01" /> <path d="M7 13v.01" /> <path d="M17 7v.01" />
+  <path d="M17 10v.01" /> <path d="M17 13v.01" />
 </svg>
 
 <!--

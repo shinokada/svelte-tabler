@@ -1,7 +1,9 @@
 <script lang="ts">
   import { getContext } from 'svelte';
   import type { BaseProps, Props } from './types';
+
   const ctx: BaseProps = getContext('iconCtx') ?? {};
+
   let {
     size = ctx.size || '24',
     role = ctx.role || 'img',
@@ -14,7 +16,7 @@
     ...restProps
   }: Props = $props();
 
-  const ariaDescribedby = $derived([title?.id, desc?.id].filter(Boolean).join(' ') || undefined);
+  const ariaDescribedby = $derived(desc?.id && desc.desc ? desc.id : undefined);
 </script>
 
 <svg
@@ -40,9 +42,9 @@
   {#if desc?.id && desc.desc}
     <desc id={desc.id}>{desc.desc}</desc>
   {/if}
-  <path d="M8 11a4 4 0 1 1 8 0v5h-8z" /> <path d="M8 16v3a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-3" />
-  <path d="M9 4h6" /> <path d="M12 7v-3" /> <path d="M8 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <circle cx="12" cy="4" r=".5" />
+  <path d="M8 11a4 4 0 1 1 8 0v5h-8l0 -5" /> <path d="M8 16v3a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-3" />
+  <path d="M9 4h6" /> <path d="M12 7v-3" /> <path d="M7 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11.5 4a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" />
 </svg>
 
 <!--

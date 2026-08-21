@@ -1,0 +1,65 @@
+<script lang="ts">
+  import { getContext } from 'svelte';
+  import type { BaseProps, Props } from './types';
+
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
+
+  let {
+    size = ctx.size || '24',
+    role = ctx.role || 'img',
+    color = ctx.color || 'currentColor',
+    strokeWidth = ctx.strokeWidth || '2',
+    title,
+    desc,
+    focusable = ctx.focusable || 'false',
+    ariaLabel,
+    ...restProps
+  }: Props = $props();
+
+  const ariaDescribedby = $derived(desc?.id && desc.desc ? desc.id : undefined);
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  {...restProps}
+  {role}
+  width={size}
+  height={size}
+  {focusable}
+  aria-label={ariaLabel || undefined}
+  aria-labelledby={title?.id || undefined}
+  aria-describedby={ariaDescribedby}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  {#if title?.id && title.title}
+    <title id={title.id}>{title.title}</title>
+  {/if}
+  {#if desc?.id && desc.desc}
+    <desc id={desc.id}>{desc.desc}</desc>
+  {/if}
+  <path d="M9 17h6" /> <path d="M9 17a2 2 0 1 1 -4 0a2 2 0 0 1 4 0" />
+  <path d="M19 17a2 2 0 1 1 -4 0a2 2 0 0 1 4 0" /> <path d="M17 10l-2 -3" />
+  <path
+    d="M19 17h2v-5a2 2 0 0 0 -2 -2h-5v2h-2.586a1 1 0 0 1 -.707 -.293l-1.121 -1.121a2 2 0 0 0 -1.414 -.586h-4.172a1 1 0 0 0 -1 1v6h2"
+  />
+</svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop focusable = ctx.focusable || 'false'
+@prop ariaLabel
+@prop ...restProps
+-->

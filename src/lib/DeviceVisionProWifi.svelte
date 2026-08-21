@@ -1,0 +1,63 @@
+<script lang="ts">
+  import { getContext } from 'svelte';
+  import type { BaseProps, Props } from './types';
+
+  const ctx: BaseProps = getContext('iconCtx') ?? {};
+
+  let {
+    size = ctx.size || '24',
+    role = ctx.role || 'img',
+    color = ctx.color || 'currentColor',
+    strokeWidth = ctx.strokeWidth || '2',
+    title,
+    desc,
+    focusable = ctx.focusable || 'false',
+    ariaLabel,
+    ...restProps
+  }: Props = $props();
+
+  const ariaDescribedby = $derived(desc?.id && desc.desc ? desc.id : undefined);
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  {...restProps}
+  {role}
+  width={size}
+  height={size}
+  {focusable}
+  aria-label={ariaLabel || undefined}
+  aria-labelledby={title?.id || undefined}
+  aria-describedby={ariaDescribedby}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  {#if title?.id && title.title}
+    <title id={title.id}>{title.title}</title>
+  {/if}
+  {#if desc?.id && desc.desc}
+    <desc id={desc.id}>{desc.desc}</desc>
+  {/if}
+  <path
+    d="M12 10q 1.715 0 3.275 .104q 1.526 .101 2.798 .42q 1.22 .304 2.119 .909a3.9 3.9 0 0 1 1.328 1.531c.326 .657 .48 1.48 .48 2.466q .002 1.51 -.574 2.707q -.562 1.17 -1.537 1.848a3.7 3.7 0 0 1 -2.16 .66q -.764 .002 -1.382 -.21a6 6 0 0 1 -1.17 -.548a19 19 0 0 1 -1.045 -.695a9 9 0 0 0 -1.001 -.63a2.4 2.4 0 0 0 -1.13 -.301c-.373 0 -.75 .097 -1.132 .3q -.475 .255 -1 .63q -.482 .345 -1.047 .695a5.8 5.8 0 0 1 -1.168 .548q -.62 .211 -1.378 .21a3.7 3.7 0 0 1 -2.165 -.659q -.976 -.68 -1.537 -1.848q -.576 -1.196 -.574 -2.709c-.004 -.98 .15 -1.802 .477 -2.46c.3 -.619 .76 -1.147 1.33 -1.531q .9 -.604 2.12 -.907q 1.382 -.335 2.8 -.423q 1.56 -.107 3.273 -.107"
+  /> <path d="M7 4.071a7.07 7.07 0 0 1 10 0" /> <path d="M9.5 6.572a3.535 3.535 0 0 1 5.001 0" />
+</svg>
+
+<!--
+@component
+[Go to docs](https://svelte-tabler.codewithshin.com/)
+## Props
+@prop size = ctx.size || '24'
+@prop role = ctx.role || 'img'
+@prop color = ctx.color || 'currentColor'
+@prop strokeWidth = ctx.strokeWidth || '2'
+@prop title
+@prop desc
+@prop focusable = ctx.focusable || 'false'
+@prop ariaLabel
+@prop ...restProps
+-->
